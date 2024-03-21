@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: align-environment
+# key: ;aln
+# --
+\begin{align}
+$0
+\end{align}
+# -*- mode: snippet -*-
+# name: align-at-environment
+# key: ;alna
+# --
+\begin{align}{$1}
+$0
+\end{align}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: flalign-environment
+# key: ;faln
+# --
+\begin{flalign}
+$0
+\end{flalign}

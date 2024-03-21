@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: subequations
+# key: ;seqn
+# --
+\begin{subequations}\label{$1}
+  $0
+\end{subequations}
