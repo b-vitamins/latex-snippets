@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: varsigma
+# key: ;vs
+# --
+\varsigma $0

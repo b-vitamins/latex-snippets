@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: gimel
+# key: ;gim
+# --
+\gimel $0

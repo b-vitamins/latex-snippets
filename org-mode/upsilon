@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: upsilon
+# key: ;u
+# --
+\upsilon $0

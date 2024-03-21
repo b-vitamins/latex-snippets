@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Iota
+# key: ;I
+# --
+\Iota $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: aleph
+# key: ;alp
+# --
+\aleph $0

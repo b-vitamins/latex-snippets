@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: omicron
+# key: ;o
+# --
+\omicron $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Game
+# key: ;Gam
+# --
+\Game $0

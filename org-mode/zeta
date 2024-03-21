@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: zeta
+# key: ;z
+# --
+\zeta $0

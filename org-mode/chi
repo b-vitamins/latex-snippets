@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: chi
+# key: ;c
+# --
+\chi $0

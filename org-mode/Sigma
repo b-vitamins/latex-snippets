@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Sigma
+# key: ;S
+# --
+\Sigma $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: digamma
+# key: ;dig
+# --
+\digamma $0

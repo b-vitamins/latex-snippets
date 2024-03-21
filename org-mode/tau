@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tau
+# key: ;T
+# --
+\tau $0

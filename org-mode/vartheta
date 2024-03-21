@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vartheta
+# key: ;vt
+# --
+\vartheta $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hslash
+# key: ;hsl
+# --
+\hslash $0

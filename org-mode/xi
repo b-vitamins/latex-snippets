@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xi
+# key: ;x
+# --
+\xi $0

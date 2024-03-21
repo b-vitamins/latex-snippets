@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: varkappa
+# key: ;vk
+# --
+\varkappa $0

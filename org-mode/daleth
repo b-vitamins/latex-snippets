@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: daleth
+# key: ;dal
+# --
+\daleth $0

@@ -31,7 +31,7 @@
     #+BEGIN_SRC yasnippet :tangle org-mode/equation-unnamed
    # -*- mode: snippet -*-
    # name: equation-unnamed-environment
-   # key: ;eu
+   # key: ;eqn
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
    \begin{equation*}
@@ -43,7 +43,7 @@
     #+BEGIN_SRC yasnippet :tangle org-mode/equation-numbered
    # -*- mode: snippet -*-
    # name: equation-numbered-environment
-   # key: ;en
+   # key: ;neqn
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
    \begin{equation}
@@ -112,25 +112,882 @@
   #+BEGIN_SRC yasnippet :tangle org-mode/flalign
   # -*- mode: snippet -*-
   # name: flalign-environment
-  # key: ;fla
+  # key: ;faln
   # --
   \begin{flalign}
   $0
   \end{flalign}
   #+END_SRC
 ** Automatic numbering and cross-referencing
+
+#+NAME: equation-label
+#+BEGIN_SRC yasnippet :tangle org-mode/equation-label
+# -*- mode: snippet -*-
+# name: equation-label
+# key: ;leqn
+# --
+\begin{equation}\label{$1}
+  $0
+\end{equation}
+#+END_SRC
+
+#+NAME: eqref
+#+BEGIN_SRC yasnippet :tangle org-mode/eqref
+# -*- mode: snippet -*-
+# name: eqref
+# key: ;reqn
+# --
+\eqref{$1}$0
+#+END_SRC
+
+#+NAME: tag
+#+BEGIN_SRC yasnippet :tangle org-mode/tag
+# -*- mode: snippet -*-
+# name: tag
+# key: ;tag
+# --
+\tag{$1}$0
+#+END_SRC
+
+#+NAME: subequations
+#+BEGIN_SRC yasnippet :tangle org-mode/subequations
+# -*- mode: snippet -*-
+# name: subequations
+# key: ;seqn
+# --
+\begin{subequations}\label{$1}
+  $0
+\end{subequations}
+#+END_SRC
+
 * Math symbols and math fonts
 ** Classes of math symbols
+| Class number | Mnemonic | Description (part of speech)  | Examples              |
+|--------------+----------+-------------------------------+-----------------------|
+|            0 | Ord      | simple/ordinary ("noun")      | =\(A 0 \Phi \infty\)= |
+|            1 | Op       | prefix operator               | =\(\sum \prod \int\)= |
+|            2 | Bin      | binary operator (conjunction) | =\(+\cup \wedge\)=    |
+|            3 | Rel      | relation/comparison (verb)    | =\(=<\subset\)=       |
+|            4 | Open     | left/opening delimiter        | =\(([\{\langle\)=     |
+|            5 | Close    | right/closing delimiter       | =)\(]\}\rangle\)=     |
+|            6 | Punct    | postfix/punctuation           | =.,\(; !\)=           |
+
 ** Some symbols intentionally omitted here
 ** Alphabets and digits
 *** Latin letters and Arabic numerals
+
+#+NAME: dotless-i
+#+begin_src yasnippet :tangle org-mode/dotless-i
+# -*- mode: snippet -*-
+# name: dotless-i
+# key: ;im
+# --
+\imath $0
+#+end_src
+
+#+NAME: dotless-j
+#+begin_src yasnippet :tangle org-mode/dotless-j
+# -*- mode: snippet -*-
+# name: dotless-j
+# key: ;jm
+# --
+\jmath $0
+#+end_src
+
+#+NAME: hat
+#+begin_src yasnippet :tangle org-mode/hat
+# -*- mode: snippet -*-
+# name: hatted character
+# key: ;hat
+# --
+\hat{$1} $0
+#+end_src
+
+#+NAME: widehat
+#+begin_src yasnippet :tangle org-mode/widehat
+# -*- mode: snippet -*-
+# name: wide hatted character
+# key: ;what
+# --
+\widehat{$1} $0
+#+end_src
+
 *** Greek letters
+
+#+NAME: alpha
+#+begin_src yasnippet :tangle org-mode/alpha
+# -*- mode: snippet -*-
+# name: alpha
+# key: ;a
+# --
+\alpha $0
+#+end_src
+
+#+NAME: beta
+#+begin_src yasnippet :tangle org-mode/beta
+# -*- mode: snippet -*-
+# name: beta
+# key: ;b
+# --
+\beta $0
+#+end_src
+
+#+NAME: gamma
+#+begin_src yasnippet :tangle org-mode/gamma
+# -*- mode: snippet -*-
+# name: gamma
+# key: ;g
+# --
+\gamma $0
+#+end_src
+
+#+NAME: delta
+#+begin_src yasnippet :tangle org-mode/delta
+# -*- mode: snippet -*-
+# name: delta
+# key: ;d
+# --
+\delta $0
+#+end_src
+
+#+NAME: epsilon
+#+begin_src yasnippet :tangle org-mode/epsilon
+# -*- mode: snippet -*-
+# name: epsilon
+# key: ;e
+# --
+\epsilon $0
+#+end_src
+
+#+NAME: zeta
+#+begin_src yasnippet :tangle org-mode/zeta
+# -*- mode: snippet -*-
+# name: zeta
+# key: ;z
+# --
+\zeta $0
+#+end_src
+
+#+NAME: eta
+#+begin_src yasnippet :tangle org-mode/eta
+# -*- mode: snippet -*-
+# name: eta
+# key: ;h
+# --
+\eta $0
+#+end_src
+
+#+NAME: theta
+#+begin_src yasnippet :tangle org-mode/theta
+# -*- mode: snippet -*-
+# name: theta
+# key: ;t
+# --
+\theta $0
+#+end_src
+
+#+NAME: iota
+#+begin_src yasnippet :tangle org-mode/iota
+# -*- mode: snippet -*-
+# name: iota
+# key: ;i
+# --
+\iota $0
+#+end_src
+
+#+NAME: kappa
+#+begin_src yasnippet :tangle org-mode/kappa
+# -*- mode: snippet -*-
+# name: kappa
+# key: ;k
+# --
+\kappa $0
+#+end_src
+
+#+NAME: lambda
+#+begin_src yasnippet :tangle org-mode/lambda
+# -*- mode: snippet -*-
+# name: lambda
+# key: ;l
+# --
+\lambda $0
+#+end_src
+
+#+NAME: mu
+#+begin_src yasnippet :tangle org-mode/mu
+# -*- mode: snippet -*-
+# name: mu
+# key: ;m
+# --
+\mu $0
+#+end_src
+
+#+NAME: nu
+#+begin_src yasnippet :tangle org-mode/nu
+# -*- mode: snippet -*-
+# name: nu
+# key: ;n
+# --
+\nu $0
+#+end_src
+
+#+NAME: xi
+#+begin_src yasnippet :tangle org-mode/xi
+# -*- mode: snippet -*-
+# name: xi
+# key: ;x
+# --
+\xi $0
+#+end_src
+
+#+NAME: omicron
+#+begin_src yasnippet :tangle org-mode/omicron
+# -*- mode: snippet -*-
+# name: omicron
+# key: ;o
+# --
+\omicron $0
+#+end_src
+
+#+NAME: pi
+#+begin_src yasnippet :tangle org-mode/pi
+# -*- mode: snippet -*-
+# name: pi
+# key: ;p
+# --
+\pi $0
+#+end_src
+
+#+NAME: rho
+#+begin_src yasnippet :tangle org-mode/rho
+# -*- mode: snippet -*-
+# name: rho
+# key: ;r
+# --
+\rho $0
+#+end_src
+
+#+NAME: sigma
+#+begin_src yasnippet :tangle org-mode/sigma
+# -*- mode: snippet -*-
+# name: sigma
+# key: ;s
+# --
+\sigma $0
+#+end_src
+
+#+NAME: tau
+#+begin_src yasnippet :tangle org-mode/tau
+# -*- mode: snippet -*-
+# name: tau
+# key: ;T
+# --
+\tau $0
+#+end_src
+
+#+NAME: upsilon
+#+begin_src yasnippet :tangle org-mode/upsilon
+# -*- mode: snippet -*-
+# name: upsilon
+# key: ;u
+# --
+\upsilon $0
+#+end_src
+
+#+NAME: phi
+#+begin_src yasnippet :tangle org-mode/phi
+# -*- mode: snippet -*-
+# name: phi
+# key: ;f
+# --
+\phi $0
+#+end_src
+
+#+NAME: chi
+#+begin_src yasnippet :tangle org-mode/chi
+# -*- mode: snippet -*-
+# name: chi
+# key: ;c
+# --
+\chi $0
+#+end_src
+
+#+NAME: psi
+#+begin_src yasnippet :tangle org-mode/psi
+# -*- mode: snippet -*-
+# name: psi
+# key: ;y
+# --
+\psi $0
+#+end_src
+
+#+NAME: omega
+#+begin_src yasnippet :tangle org-mode/omega
+# -*- mode: snippet -*-
+# name: omega
+# key: ;w
+# --
+\omega $0
+#+end_src
+
+#+NAME: Alpha
+#+begin_src yasnippet :tangle org-mode/Alpha
+# -*- mode: snippet -*-
+# name: Alpha
+# key: ;A
+# --
+\Alpha $0
+#+end_src
+
+#+NAME: Beta
+#+begin_src yasnippet :tangle org-mode/Beta
+# -*- mode: snippet -*-
+# name: Beta
+# key: ;B
+# --
+\Beta $0
+#+end_src
+
+#+NAME: Gamma
+#+begin_src yasnippet :tangle org-mode/Gamma
+# -*- mode: snippet -*-
+# name: Gamma
+# key: ;G
+# --
+\Gamma $0
+#+end_src
+
+#+NAME: Delta
+#+begin_src yasnippet :tangle org-mode/Delta
+# -*- mode: snippet -*-
+# name: Delta
+# key: ;D
+# --
+\Delta $0
+#+end_src
+
+#+NAME: Epsilon
+#+begin_src yasnippet :tangle org-mode/Epsilon
+# -*- mode: snippet -*-
+# name: Epsilon
+# key: ;E
+# --
+\Epsilon $0
+#+end_src
+
+#+NAME: Zeta
+#+begin_src yasnippet :tangle org-mode/Zeta
+# -*- mode: snippet -*-
+# name: Zeta
+# key: ;Z
+# --
+\Zeta $0
+#+end_src
+
+#+NAME: Eta
+#+begin_src yasnippet :tangle org-mode/Eta
+# -*- mode: snippet -*-
+# name: Eta
+# key: ;H
+# --
+\Eta $0
+#+end_src
+
+#+NAME: Theta
+#+begin_src yasnippet :tangle org-mode/Theta
+# -*- mode: snippet -*-
+# name: Theta
+# key: ;T
+# --
+\Theta $0
+#+end_src
+
+#+NAME: Iota
+#+begin_src yasnippet :tangle org-mode/Iota
+# -*- mode: snippet -*-
+# name: Iota
+# key: ;I
+# --
+\Iota $0
+#+end_src
+
+#+NAME: Kappa
+#+begin_src yasnippet :tangle org-mode/Kappa
+# -*- mode: snippet -*-
+# name: Kappa
+# key: ;K
+# --
+\Kappa $0
+#+end_src
+
+#+NAME: Lambda
+#+begin_src yasnippet :tangle org-mode/Lambda
+# -*- mode: snippet -*-
+# name: Lambda
+# key: ;L
+# --
+\Lambda $0
+#+end_src
+
+#+NAME: Mu
+#+begin_src yasnippet :tangle org-mode/Mu
+# -*- mode: snippet -*-
+# name: Mu
+# key: ;M
+# --
+\Mu $0
+#+end_src
+
+#+NAME: Nu
+#+begin_src yasnippet :tangle org-mode/Nu
+# -*- mode: snippet -*-
+# name: Nu
+# key: ;N
+# --
+\Nu $0
+#+end_src
+
+#+NAME: Xi
+#+begin_src yasnippet :tangle org-mode/Xi
+# -*- mode: snippet -*-
+# name: Xi
+# key: ;X
+# --
+\Xi $0
+#+end_src
+
+#+NAME: Omicron
+#+begin_src yasnippet :tangle org-mode/Omicron
+# -*- mode: snippet -*-
+# name: Omicron
+# key: ;O
+# --
+\Omicron $0
+#+end_src
+
+#+NAME: Pi
+#+begin_src yasnippet :tangle org-mode/Pi
+# -*- mode: snippet -*-
+# name: Pi
+# key: ;P
+# --
+\Pi $0
+#+end_src
+
+#+NAME: Rho
+#+begin_src yasnippet :tangle org-mode/Rho
+# -*- mode: snippet -*-
+# name: Rho
+# key: ;R
+# --
+\Rho $0
+#+end_src
+
+#+NAME: Sigma
+#+begin_src yasnippet :tangle org-mode/Sigma
+# -*- mode: snippet -*-
+# name: Sigma
+# key: ;S
+# --
+\Sigma $0
+#+end_src
+
+#+NAME: Tau
+#+begin_src yasnippet :tangle org-mode/Tau
+# -*- mode: snippet -*-
+# name: Tau
+# key: ;T
+# --
+\Tau $0
+#+end_src
+
+#+NAME: Upsilon
+#+begin_src yasnippet :tangle org-mode/Upsilon
+# -*- mode: snippet -*-
+# name: Upsilon
+# key: ;U
+# --
+\Upsilon $0
+#+end_src
+
+#+NAME: Phi
+#+begin_src yasnippet :tangle org-mode/Phi
+# -*- mode: snippet -*-
+# name: Phi
+# key: ;F
+# --
+\Phi $0
+#+end_src
+
+#+NAME: Chi
+#+begin_src yasnippet :tangle org-mode/Chi
+# -*- mode: snippet -*-
+# name: Chi
+# key: ;C
+# --
+\Chi $0
+#+end_src
+
+#+NAME: Psi
+#+begin_src yasnippet :tangle org-mode/Psi
+# -*- mode: snippet -*-
+# name: Psi
+# key: ;Y
+# --
+\Psi $0
+#+end_src
+
+#+NAME: Omega
+#+begin_src yasnippet :tangle org-mode/Omega
+# -*- mode: snippet -*-
+# name: Omega
+# key: ;W
+# --
+\Omega $0
+#+end_src
+
+#+NAME: digamma
+#+begin_src yasnippet :tangle org-mode/digamma
+# -*- mode: snippet -*-
+# name: digamma
+# key: ;dig
+# --
+\digamma $0
+#+end_src
+
+#+NAME: varepsilon
+#+begin_src yasnippet :tangle org-mode/varepsilon
+# -*- mode: snippet -*-
+# name: varepsilon
+# key: ;vep
+# --
+\varepsilon $0
+#+end_src
+
+#+NAME: varkappa
+#+begin_src yasnippet :tangle org-mode/varkappa
+# -*- mode: snippet -*-
+# name: varkappa
+# key: ;vk
+# --
+\varkappa $0
+#+end_src
+
+#+NAME: varphi
+#+begin_src yasnippet :tangle org-mode/varphi
+# -*- mode: snippet -*-
+# name: varphi
+# key: ;vph
+# --
+\varphi $0
+#+end_src
+
+#+NAME: varpi
+#+begin_src yasnippet :tangle org-mode/varpi
+# -*- mode: snippet -*-
+# name: varpi
+# key: ;vp
+# --
+\varpi $0
+#+end_src
+
+#+NAME: varrho
+#+begin_src yasnippet :tangle org-mode/varrho
+# -*- mode: snippet -*-
+# name: varrho
+# key: ;vrh
+# --
+\varrho $0
+#+end_src
+
+#+NAME: varsigma
+#+begin_src yasnippet :tangle org-mode/varsigma
+# -*- mode: snippet -*-
+# name: varsigma
+# key: ;vs
+# --
+\varsigma $0
+#+end_src
+
+#+NAME: vartheta
+#+begin_src yasnippet :tangle org-mode/vartheta
+# -*- mode: snippet -*-
+# name: vartheta
+# key: ;vt
+# --
+\vartheta $0
+#+end_src
+
 *** Other “basic” alphabetic symbols
+
+#+NAME: aleph
+#+BEGIN_SRC yasnippet :tangle org-mode/aleph
+# -*- mode: snippet -*-
+# name: aleph
+# key: ;alp
+# --
+\aleph $0
+#+END_SRC
+
+#+NAME: beth
+#+BEGIN_SRC yasnippet :tangle org-mode/beth
+# -*- mode: snippet -*-
+# name: beth
+# key: ;bet
+# --
+\beth $0
+#+END_SRC
+
+#+NAME: daleth
+#+BEGIN_SRC yasnippet :tangle org-mode/daleth
+# -*- mode: snippet -*-
+# name: daleth
+# key: ;dal
+# --
+\daleth $0
+#+END_SRC
+
+#+NAME: gimel
+#+BEGIN_SRC yasnippet :tangle org-mode/gimel
+# -*- mode: snippet -*-
+# name: gimel
+# key: ;gim
+# --
+\gimel $0
+#+END_SRC
+
+#+NAME: complement
+#+BEGIN_SRC yasnippet :tangle org-mode/complement
+# -*- mode: snippet -*-
+# name: complement
+# key: ;com
+# --
+\complement $0
+#+END_SRC
+
+#+NAME: ell
+#+BEGIN_SRC yasnippet :tangle org-mode/ell
+# -*- mode: snippet -*-
+# name: ell
+# key: ;el
+# --
+\ell $0
+#+END_SRC
+
+#+NAME: eth
+#+BEGIN_SRC yasnippet :tangle org-mode/eth
+# -*- mode: snippet -*-
+# name: eth
+# key: ;eth
+# --
+\eth $0
+#+END_SRC
+
+#+NAME: hbar
+#+BEGIN_SRC yasnippet :tangle org-mode/hbar
+# -*- mode: snippet -*-
+# name: hbar
+# key: ;hb
+# --
+\hbar $0
+#+END_SRC
+
+#+NAME: hslash
+#+BEGIN_SRC yasnippet :tangle org-mode/hslash
+# -*- mode: snippet -*-
+# name: hslash
+# key: ;hsl
+# --
+\hslash $0
+#+END_SRC
+
+#+NAME: mho
+#+BEGIN_SRC yasnippet :tangle org-mode/mho
+# -*- mode: snippet -*-
+# name: mho
+# key: ;mh
+# --
+\mho $0
+#+END_SRC
+
+#+NAME: partial
+#+BEGIN_SRC yasnippet :tangle org-mode/partial
+# -*- mode: snippet -*-
+# name: partial
+# key: ;par
+# --
+\partial $0
+#+END_SRC
+
+#+NAME: wp
+#+BEGIN_SRC yasnippet :tangle org-mode/wp
+# -*- mode: snippet -*-
+# name: wp
+# key: ;wp
+# --
+\wp $0
+#+END_SRC
+
+#+NAME: circledS
+#+BEGIN_SRC yasnippet :tangle org-mode/circledS
+# -*- mode: snippet -*-
+# name: circledS
+# key: ;oS
+# --
+\circledS $0
+#+END_SRC
+
+#+NAME: Bbbk
+#+BEGIN_SRC yasnippet :tangle org-mode/Bbbk
+# -*- mode: snippet -*-
+# name: Bbbk
+# key: ;bk
+# --
+\Bbbk $0
+#+END_SRC
+
+#+NAME: Finv
+#+BEGIN_SRC yasnippet :tangle org-mode/Finv
+# -*- mode: snippet -*-
+# name: Finv
+# key: ;Fin
+# --
+\Finv $0
+#+END_SRC
+
+#+NAME: Game
+#+BEGIN_SRC yasnippet :tangle org-mode/Game
+# -*- mode: snippet -*-
+# name: Game
+# key: ;Gam
+# --
+\Game $0
+#+END_SRC
+
+#+NAME: Im
+#+BEGIN_SRC yasnippet :tangle org-mode/Im
+# -*- mode: snippet -*-
+# name: Im
+# key: ;Im
+# --
+\Im $0
+#+END_SRC
+
+#+NAME: Re
+#+BEGIN_SRC yasnippet :tangle org-mode/Re
+# -*- mode: snippet -*-
+# name: Re
+# key: ;Re
+# --
+\Re $0
+#+END_SRC
+
 *** Math font switches
+
+#+NAME: mathbf
+#+BEGIN_SRC yasnippet :tangle org-mode/mathbf
+# -*- mode: snippet -*-
+# name: mathbf
+# key: ;mbf
+# --
+\mathbf{$1} $0
+#+END_SRC
+
+#+NAME: mathrm
+#+BEGIN_SRC yasnippet :tangle org-mode/mathrm
+# -*- mode: snippet -*-
+# name: mathrm
+# key: ;mrm
+# --
+\mathrm{$1} $0
+#+END_SRC
+
+#+NAME: mathsf
+#+BEGIN_SRC yasnippet :tangle org-mode/mathsf
+# -*- mode: snippet -*-
+# name: mathsf
+# key: ;msf
+# --
+\mathsf{$1} $0
+#+END_SRC
+
+#+NAME: mathit
+#+BEGIN_SRC yasnippet :tangle org-mode/mathit
+# -*- mode: snippet -*-
+# name: mathit
+# key: ;mit
+# --
+\mathit{$1} $0
+#+END_SRC
+
+#+NAME: boldsymbol
+#+BEGIN_SRC yasnippet :tangle org-mode/boldsymbol
+# -*- mode: snippet -*-
+# name: boldsymbol
+# key: ;bs
+# --
+\boldsymbol{$1} $0
+#+END_SRC
+
+#+NAME: pmb
+#+BEGIN_SRC yasnippet :tangle org-mode/pmb
+# -*- mode: snippet -*-
+# name: pmb
+# key: ;pmb
+# --
+\pmb{$1} $0
+#+END_SRC
+
 *** Blackboard Bold letters (msbm; no lowercase)
+
+#+NAME: mathbb
+#+BEGIN_SRC yasnippet :tangle org-mode/mathbb
+# -*- mode: snippet -*-
+# name: mathbb
+# key: ;mbb
+# --
+\mathbb{$1} $0
+#+END_SRC
+
+=\mathbb= requires ~\usepackage{amsfonts}~
+
 *** Calligraphic letters (cmsy; no lowercase)
+
+#+NAME: mathcal
+#+BEGIN_SRC yasnippet :tangle org-mode/mathcal
+# -*- mode: snippet -*-
+# name: mathcal
+# key: ;mcal
+# --
+\mathcal{$1} $0
+#+END_SRC
+
 *** Non-CM calligraphic and script letters
+
+#+NAME: mathscr
+#+BEGIN_SRC yasnippet :tangle org-mode/mathscr
+# -*- mode: snippet -*-
+# name: mathscr
+# key: ;mscr
+# --
+\mathscr{$1} $0
+#+END_SRC
+
+Different switches depending on: (=rsfs=; no lowercase) ~\usepackage{mathrsfs}~ or (=eusm=; no lowercase) ~\usepackage{euscript}~.
+
 *** Fraktur letters (eufm)
+
+#+NAME: mathfrak
+#+BEGIN_SRC yasnippet :tangle org-mode/mathfrak
+# -*- mode: snippet -*-
+# name: mathfrak
+# key: ;mfr
+# --
+\mathfrak{$1} $0
+#+END_SRC
+
+=\mathfrak= requires ~\usepackage{amsfonts}~
+
 ** Miscellaneous simple symbols
 ** Binary operator symbols
 ** Relation symbols: < = > ≈ ∼ and variants

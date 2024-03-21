@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: varpi
+# key: ;vp
+# --
+\varpi $0

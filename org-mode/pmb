@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pmb
+# key: ;pmb
+# --
+\pmb{$1} $0

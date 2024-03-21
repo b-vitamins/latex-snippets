@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dotless-j
+# key: ;jm
+# --
+\jmath $0
