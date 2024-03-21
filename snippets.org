@@ -1,0 +1,113 @@
+#+TITLE: LaTeX YASnippet collection based on the 'Short Math Guide for LaTeX' by Michael Downes, and Barbara Beeton
+#+AUTHOR: ChatGPT and Ayan
+#+STARTUP: overview
+#+PROPERTY: header-args:yasnippet :mkdirp yes :padline no
+* Introduction
+* Inline math formulas and displayed equations
+** The fundamentals
+LaTeX offers various ways to enter math mode for typesetting mathematics. For inline math, the typical approach is to enclose the math in \( ... \) or $ ... $, while displayed equations are usually enclosed in \[ ... \] or using the equation environments.
+
+- *LaTeX Hygiene*:
+  - Do not leave a blank line between text and a displayed equation, as it introduces improper spacing and allows for a page break at that location.
+  - For visual separation in the source without affecting output, use a % on an otherwise empty line.
+  - Avoid grouping multiple display structures directly in the source; use appropriate multiline structures like split or align.
+  - The use of \eqnarray is discouraged due to inconsistent spacing issues.
+    
+    #+NAME: inline-math
+    #+BEGIN_SRC yasnippet :tangle org-mode/inline-math
+   # -*- mode: snippet -*-
+   # name: inline-math
+   # key: ;im
+   # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+   # --
+   \($1\)$0
+    #+END_SRC
+
+    #+NAME: display-math
+    #+BEGIN_SRC yasnippet :tangle org-mode/display-math
+   # -*- mode: snippet -*-
+   # name: display-math
+   # key: ;dm
+   # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+   # --
+   \[
+   $1
+   \]$0
+    #+END_SRC
+
+    #+NAME: equation-unnamed
+    #+BEGIN_SRC yasnippet :tangle org-mode/equation-unnamed
+   # -*- mode: snippet -*-
+   # name: equation-unnamed-environment
+   # key: ;eu
+   # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+   # --
+   \begin{equation*}
+     $1
+   \end{equation*}$0
+    #+END_SRC
+
+    #+NAME: equation-numbered
+    #+BEGIN_SRC yasnippet :tangle org-mode/equation-numbered
+   # -*- mode: snippet -*-
+   # name: equation-numbered-environment
+   # key: ;en
+   # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+   # --
+   \begin{equation}
+     $1
+   \end{equation}$0
+    #+END_SRC
+** Automatic numbering and cross-referencing
+* Math symbols and math fonts
+** Classes of math symbols
+** Some symbols intentionally omitted here
+** Alphabets and digits
+*** Latin letters and Arabic numerals
+*** Greek letters
+*** Other “basic” alphabetic symbols
+*** Math font switches
+*** Blackboard Bold letters (msbm; no lowercase)
+*** Calligraphic letters (cmsy; no lowercase)
+*** Non-CM calligraphic and script letters
+*** Fraktur letters (eufm)
+** Miscellaneous simple symbols
+** Binary operator symbols
+** Relation symbols: < = > ≈ ∼ and variants
+** Relation symbols: arrows
+** Relation symbols: miscellaneous
+** Cumulative (variable-size) operators
+** Punctuation
+** Pairing delimiters (extensible)
+** Nonpairing extensible symbols
+** Extensible vertical arrows
+** Math accents
+** Named operators
+* Notations
+** Top and bottom embellishments
+** Extensible arrows
+** Affixing symbols to other symbols
+** Matrices
+** Math spacing commands
+** Dots
+** Nonbreaking dashes
+** Roots
+** Boxed formulas
+* Fractions and related constructions
+** The \frac, \dfrac, and \tfrac commands
+** The \binom, \dbinom, and \tbinom commands
+** The \genfrac command
+** Continued fractions
+* Delimiters
+** Delimiter sizes
+** Vertical bar notations
+* The \text command
+** \mod and its relatives
+* Integrals and sums
+** Altering the placement of limits
+** Multiple integral signs
+** Multiline subscripts and superscripts
+** The \sideset command
+* Changing the size of elements in a formula
+* Other packages of interest
+* Other documentation of interest
