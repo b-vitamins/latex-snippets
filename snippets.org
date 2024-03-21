@@ -5,14 +5,6 @@
 * Introduction
 * Inline math formulas and displayed equations
 ** The fundamentals
-LaTeX offers various ways to enter math mode for typesetting mathematics. For inline math, the typical approach is to enclose the math in \( ... \) or $ ... $, while displayed equations are usually enclosed in \[ ... \] or using the equation environments.
-
-- *LaTeX Hygiene*:
-  - Do not leave a blank line between text and a displayed equation, as it introduces improper spacing and allows for a page break at that location.
-  - For visual separation in the source without affecting output, use a % on an otherwise empty line.
-  - Avoid grouping multiple display structures directly in the source; use appropriate multiline structures like split or align.
-  - The use of \eqnarray is discouraged due to inconsistent spacing issues.
-    
     #+NAME: inline-math
     #+BEGIN_SRC yasnippet :tangle org-mode/inline-math
    # -*- mode: snippet -*-
@@ -58,6 +50,74 @@ LaTeX offers various ways to enter math mode for typesetting mathematics. For in
      $1
    \end{equation}$0
     #+END_SRC
+
+  #+NAME: split-environment
+  #+BEGIN_SRC yasnippet :tangle org-mode/split
+  # -*- mode: snippet -*-
+  # name: split-environment
+  # key: ;spl
+  # --
+  \begin{equation}$1
+  \begin{split}
+  $0
+  \end{split}
+  \end{equation}
+  #+END_SRC
+
+  #+NAME: multline-environment
+  #+BEGIN_SRC yasnippet :tangle org-mode/multline
+  # -*- mode: snippet -*-
+  # name: multline-environment
+  # key: ;mul
+  # --
+  \begin{multline}
+  $0
+  \end{multline}
+  #+END_SRC
+
+  #+NAME: gather-environment
+  #+BEGIN_SRC yasnippet :tangle org-mode/gather
+  # -*- mode: snippet -*-
+  # name: gather-environment
+  # key: ;gat
+  # --
+  \begin{gather}
+  $0
+  \end{gather}
+  #+END_SRC
+
+  #+NAME: align-environment
+  #+BEGIN_SRC yasnippet :tangle org-mode/align
+  # -*- mode: snippet -*-
+  # name: align-environment
+  # key: ;aln
+  # --
+  \begin{align}
+  $0
+  \end{align}
+  #+END_SRC
+
+  #+NAME: align-at-environment
+  #+BEGIN_SRC yasnippet :tangle org-mode/align
+  # -*- mode: snippet -*-
+  # name: align-at-environment
+  # key: ;alna
+  # --
+  \begin{align}{$1}
+  $0
+  \end{align}
+  #+END_SRC
+
+  #+NAME: flalign-environment
+  #+BEGIN_SRC yasnippet :tangle org-mode/flalign
+  # -*- mode: snippet -*-
+  # name: flalign-environment
+  # key: ;fla
+  # --
+  \begin{flalign}
+  $0
+  \end{flalign}
+  #+END_SRC
 ** Automatic numbering and cross-referencing
 * Math symbols and math fonts
 ** Classes of math symbols
