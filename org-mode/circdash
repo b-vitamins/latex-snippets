@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Circled Dash
+# key: ;cds
+# --
+\circledash$0

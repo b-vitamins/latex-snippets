@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Double Dagger
+# key: ;ddag
+# --
+\ddagger$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Curly Wedge
+# key: ;cw
+# --
+\curlywedge$0

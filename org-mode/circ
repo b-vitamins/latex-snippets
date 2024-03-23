@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Circ
+# key: ;crc
+# --
+\circ$0

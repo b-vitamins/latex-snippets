@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Cap
+# key: ;Cp
+# --
+\Cap$0
+# -*- mode: snippet -*-
+# name: Cap
+# key: ;Cap
+# --
+\Cap$0

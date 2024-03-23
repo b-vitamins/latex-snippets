@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Bigcirc
+# key: ;bgc
+# --
+\bigcirc$0

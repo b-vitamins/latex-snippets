@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Dot Plus
+# key: ;dpl
+# --
+\dotplus$0

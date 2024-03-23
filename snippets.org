@@ -1337,7 +1337,601 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Binary operator symbols
+
+#+NAME: times
+#+BEGIN_SRC yasnippet :tangle org-mode/times
+# -*- mode: snippet -*-
+# name: Times
+# key: ;tms
+# --
+\times$0
+#+END_SRC
+
+#+NAME: plus
+#+BEGIN_SRC yasnippet :tangle org-mode/plus
+# -*- mode: snippet -*-
+# name: Plus
+# key: ;pls
+# --
+\+$0
+#+END_SRC
+
+#+NAME: minus
+#+BEGIN_SRC yasnippet :tangle org-mode/minus
+# -*- mode: snippet -*-
+# name: Minus
+# key: ;mns
+# --
+\-$0
+#+END_SRC
+
+#+NAME: amalg
+#+BEGIN_SRC yasnippet :tangle org-mode/amalg
+# -*- mode: snippet -*-
+# name: Amalg
+# key: ;amg
+# --
+\amalg$0
+#+END_SRC
+
+#+NAME: ast
+#+BEGIN_SRC yasnippet :tangle org-mode/ast
+# -*- mode: snippet -*-
+# name: Ast
+# key: ;ast
+# --
+\ast$0
+#+END_SRC
+
+#+NAME: barwedge
+#+BEGIN_SRC yasnippet :tangle org-mode/barwedge
+# -*- mode: snippet -*-
+# name: Barwedge
+# key: ;bwd
+# --
+\barwedge$0
+#+END_SRC
+
+=\barwedge= requires font =msam= from ~amssymb~
+
+#+NAME: bigcirc
+#+BEGIN_SRC yasnippet :tangle org-mode/bigcirc
+# -*- mode: snippet -*-
+# name: Bigcirc
+# key: ;bgc
+# --
+\bigcirc$0
+#+END_SRC
+
+#+NAME: bigtriangledown
+#+BEGIN_SRC yasnippet :tangle org-mode/bigtriangledown
+# -*- mode: snippet -*-
+# name: Bigtriangledown
+# key: ;btd
+# --
+\bigtriangledown$0
+#+END_SRC
+
+#+NAME: bigtriangleup
+#+BEGIN_SRC yasnippet :tangle org-mode/bigtriangleup
+# -*- mode: snippet -*-
+# name: Bigtriangleup
+# key: ;btu
+# --
+\bigtriangleup$0
+#+END_SRC
+
+#+NAME: boxdot
+#+BEGIN_SRC yasnippet :tangle org-mode/boxdot
+# -*- mode: snippet -*-
+# name: Boxdot
+# key: ;bxd
+# --
+\boxdot$0
+#+END_SRC
+
+=\boxdot= requires font =msam= from ~amssymb~
+
+#+NAME: boxminus
+#+BEGIN_SRC yasnippet :tangle org-mode/boxminus
+# -*- mode: snippet -*-
+# name: Boxminus
+# key: ;bxm
+# --
+\boxminus$0
+#+END_SRC
+
+=\boxminus= requires font =msam= from ~amssymb~
+
+#+NAME: boxplus
+#+BEGIN_SRC yasnippet :tangle org-mode/boxplus
+# -*- mode: snippet -*-
+# name: Boxplus
+# key: ;bxp
+# --
+\boxplus$0
+#+END_SRC
+
+=\boxplus= requires font =msam= from ~amssymb~
+
+#+NAME: boxtimes
+#+BEGIN_SRC yasnippet :tangle org-mode/boxtimes
+# -*- mode: snippet -*-
+# name: Boxtimes
+# key: ;bxt
+# --
+\boxtimes$0
+#+END_SRC
+
+=\boxtimes= requires font =msam= from ~amssymb~
+
+#+NAME: bullet
+#+BEGIN_SRC yasnippet :tangle org-mode/bullet
+# -*- mode: snippet -*-
+# name: Bullet
+# key: ;bul
+# --
+\bullet$0
+#+END_SRC
+
+#+NAME: cap
+#+BEGIN_SRC yasnippet :tangle org-mode/cap
+# -*- mode: snippet -*-
+# name: Cap
+# key: ;cap
+# --
+\cap$0
+#+END_SRC
+
+#+NAME: Cap
+#+BEGIN_SRC yasnippet :tangle org-mode/Cap
+# -*- mode: snippet -*-
+# name: Cap
+# key: ;Cp
+# --
+\Cap$0
+#+END_SRC
+
+=\Cap= requires font =msam= from ~amssymb~
+
+#+NAME: cdot
+#+BEGIN_SRC yasnippet :tangle org-mode/cdot
+# -*- mode: snippet -*-
+# name: Cdot
+# key: ;cdt
+# --
+\cdot$0
+#+END_SRC
+
+#+NAME: centerdot
+#+BEGIN_SRC yasnippet :tangle org-mode/centerdot
+# -*- mode: snippet -*-
+# name: Centerdot
+# key: ;cdt
+# --
+\centerdot$0
+#+END_SRC
+
+=\centerdot= requires font =msam= from ~amssymb~
+
+#+NAME: circ
+#+BEGIN_SRC yasnippet :tangle org-mode/circ
+# -*- mode: snippet -*-
+# name: Circ
+# key: ;crc
+# --
+\circ$0
+#+END_SRC
+
+#+NAME: circledast
+#+BEGIN_SRC yasnippet :tangle org-mode/circledast
+# -*- mode: snippet -*-
+# name: Circledast
+# key: ;cst
+# --
+\circledast$0
+#+END_SRC
+
+=\circledast= requires font =msam= from ~amssymb~
+
+#+NAME: circledcirc
+#+BEGIN_SRC yasnippet :tangle org-mode/circledcirc
+# -*- mode: snippet -*-
+# name: Circledcirc
+# key: ;ccc
+# --
+\circledcirc$0
+#+END_SRC
+
+=\circledcirc= requires font =msam= from ~amssymb~
+
+#+NAME: circled dash
+#+BEGIN_SRC yasnippet :tangle org-mode/circdash
+# -*- mode: snippet -*-
+# name: Circled Dash
+# key: ;cds
+# --
+\circledash$0
+#+END_SRC
+
+=\circledash= requires font =msam= from ~amssymb~
+
+#+NAME: cup
+#+BEGIN_SRC yasnippet :tangle org-mode/cup
+# -*- mode: snippet -*-
+# name: Cup
+# key: ;cup
+# --
+\cup$0
+#+END_SRC
+
+#+NAME: Cap (intersection)
+#+BEGIN_SRC yasnippet :tangle org-mode/Cap
+# -*- mode: snippet -*-
+# name: Cap
+# key: ;Cap
+# --
+\Cap$0
+#+END_SRC
+
+=\Cap= requires font =msam= from ~amssymb~
+
+#+NAME: curly vee
+#+BEGIN_SRC yasnippet :tangle org-mode/curlyvee
+# -*- mode: snippet -*-
+# name: Curly Vee
+# key: ;cv
+# --
+\curlyvee$0
+#+END_SRC
+
+=\curlyvee= requires font =msam= from ~amssymb~
+
+#+NAME: curly wedge
+#+BEGIN_SRC yasnippet :tangle org-mode/curlywedge
+# -*- mode: snippet -*-
+# name: Curly Wedge
+# key: ;cw
+# --
+\curlywedge$0
+#+END_SRC
+
+=\curlywedge= requires font =msam= from ~amssymb~
+
+#+NAME: dagger
+#+BEGIN_SRC yasnippet :tangle org-mode/dagger
+# -*- mode: snippet -*-
+# name: Dagger
+# key: ;dag
+# --
+\dagger$0
+#+END_SRC
+
+#+NAME: ddagger
+#+BEGIN_SRC yasnippet :tangle org-mode/ddagger
+# -*- mode: snippet -*-
+# name: Double Dagger
+# key: ;ddag
+# --
+\ddagger$0
+#+END_SRC
+
+#+NAME: diamond
+#+BEGIN_SRC yasnippet :tangle org-mode/diamond
+# -*- mode: snippet -*-
+# name: Diamond
+# key: ;dmd
+# --
+\diamond$0
+#+END_SRC
+
+#+NAME: div
+#+BEGIN_SRC yasnippet :tangle org-mode/div
+# -*- mode: snippet -*-
+# name: Div
+# key: ;div
+# --
+\div$0
+#+END_SRC
+
+#+NAME: divideontimes
+#+BEGIN_SRC yasnippet :tangle org-mode/divontimes
+# -*- mode: snippet -*-
+# name: Divideontimes
+# key: ;doti
+# --
+\divideontimes$0
+#+END_SRC
+
+=\divideontimes= requires font =msbm= from ~amssymb~
+
+#+NAME: dot plus
+#+BEGIN_SRC yasnippet :tangle org-mode/dotplus
+# -*- mode: snippet -*-
+# name: Dot Plus
+# key: ;dpl
+# --
+\dotplus$0
+#+END_SRC
+
+=\dotplus= requires font =msbm= from ~amssymb~
+
+#+NAME: double barwedge
+#+BEGIN_SRC yasnippet :tangle org-mode/doublebarwedge
+# -*- mode: snippet -*-
+# name: Double Bar Wedge
+# key: ;dbw
+# --
+\doublebarwedge$0
+#+END_SRC
+
+=\doublebarwedge= requires font =msam= from ~amssymb~
+
+#+NAME: gtrdot
+#+BEGIN_SRC yasnippet :tangle org-mode/gtrdot
+# -*- mode: snippet -*-
+# name: Gtrdot
+# key: ;gtd
+# --
+\gtrdot$0
+#+END_SRC
+
+=\gtrdot= requires font =msbm= from ~amssymb~
+
+#+NAME: intercal
+#+BEGIN_SRC yasnippet :tangle org-mode/intercal
+# -*- mode: snippet -*-
+# name: Intercal
+# key: ;intc
+# --
+\intercal$0
+#+END_SRC
+
+=\intercal= requires font =msam= from ~amssymb~
+
+#+NAME: leftthreetimes
+#+BEGIN_SRC yasnippet :tangle org-mode/leftthreetimes
+# -*- mode: snippet -*-
+# name: Leftthreetimes
+# key: ;ltt
+# --
+\leftthreetimes$0
+#+END_SRC
+
+=\leftthreetimes= requires font =msam= from ~amssymb~
+
+#+NAME: lessdot
+#+BEGIN_SRC yasnippet :tangle org-mode/lessdot
+# -*- mode: snippet -*-
+# name: Lessdot
+# key: ;ltd
+# --
+\lessdot$0
+#+END_SRC
+
+=\lessdot= requires font =msbm= from ~amssymb~
+
+#+NAME: ltimes
+#+BEGIN_SRC yasnippet :tangle org-mode/ltimes
+# -*- mode: snippet -*-
+# name: Ltimes
+# key: ;ltm
+# --
+\ltimes$0
+#+END_SRC
+
+=\ltimes= requires font =msbm= from ~amssymb~
+
+#+NAME: mp
+#+BEGIN_SRC yasnippet :tangle org-mode/mp
+# -*- mode: snippet -*-
+# name: Mp
+# key: ;mp
+# --
+\mp$0
+#+END_SRC
+
+#+NAME: odot
+#+BEGIN_SRC yasnippet :tangle org-mode/odot
+# -*- mode: snippet -*-
+# name: Odot
+# key: ;odt
+# --
+\odot$0
+#+END_SRC
+
+#+NAME: ominus
+#+BEGIN_SRC yasnippet :tangle org-mode/ominus
+# -*- mode: snippet -*-
+# name: Ominus
+# key: ;omn
+# --
+\ominus$0
+#+END_SRC
+
+#+NAME: oplus
+#+BEGIN_SRC yasnippet :tangle org-mode/oplus
+# -*- mode: snippet -*-
+# name: Oplus
+# key: ;o+
+# --
+\oplus$0
+#+END_SRC
+
+#+NAME: oslash
+#+BEGIN_SRC yasnippet :tangle org-mode/oslash
+# -*- mode: snippet -*-
+# name: Oslash
+# key: ;o/
+# --
+\oslash$0
+#+END_SRC
+
+#+NAME: otimes
+#+BEGIN_SRC yasnippet :tangle org-mode/otimes
+# -*- mode: snippet -*-
+# name: Otimes
+# key: ;o*
+# --
+\otimes$0
+#+END_SRC
+
+#+NAME: pm
+#+BEGIN_SRC yasnippet :tangle org-mode/pm
+# -*- mode: snippet -*-
+# name: Pm
+# key: ;pm
+# --
+\pm$0
+#+END_SRC
+
+#+NAME: righththreetimes
+#+BEGIN_SRC yasnippet :tangle org-mode/rthreetimes
+# -*- mode: snippet -*-
+# name: Righthreetimes
+# key: ;r3t
+# --
+\righthreetimes$0
+#+END_SRC
+
+=\righththreetimes= requires font =msam= from ~amssymb~
+
+#+NAME: rtimes
+#+BEGIN_SRC yasnippet :tangle org-mode/rtimes
+# -*- mode: snippet -*-
+# name: Rtimes
+# key: ;r*
+# --
+\rtimes$0
+#+END_SRC
+
+=\rtimes= requires font =msbm= from ~amssymb~
+
+#+NAME: setminus
+#+BEGIN_SRC yasnippet :tangle org-mode/setminus
+# -*- mode: snippet -*-
+# name: Setminus
+# key: ;set-
+# --
+\setminus$0
+#+END_SRC
+
+#+NAME: smallsetminus
+#+BEGIN_SRC yasnippet :tangle org-mode/smallsetminus
+# -*- mode: snippet -*-
+# name: Smallsetminus
+# key: ;sset-
+# --
+\smallsetminus$0
+#+END_SRC
+
+=\smallsetminus= requires font =msbm= from ~amssymb~
+
+#+NAME: sqcap
+#+BEGIN_SRC yasnippet :tangle org-mode/sqcap
+# -*- mode: snippet -*-
+# name: Sqcap
+# key: ;sqcap
+# --
+\sqcap$0
+#+END_SRC
+
+#+NAME: sqcup
+#+BEGIN_SRC yasnippet :tangle org-mode/sqcup
+# -*- mode: snippet -*-
+# name: Sqcup
+# key: ;sqcup
+# --
+\sqcup$0
+#+END_SRC
+
+#+NAME: star
+#+BEGIN_SRC yasnippet :tangle org-mode/star
+# -*- mode: snippet -*-
+# name: Star
+# key: ;star
+# --
+\star$0
+#+END_SRC
+
+#+NAME: times
+#+BEGIN_SRC yasnippet :tangle org-mode/times
+# -*- mode: snippet -*-
+# name: Times
+# key: ;*
+# --
+\times$0
+#+END_SRC
+
+#+NAME: triangleleft
+#+BEGIN_SRC yasnippet :tangle org-mode/triangleleft
+# -*- mode: snippet -*-
+# name: Triangleleft
+# key: ;ltg
+# --
+\triangleleft$0
+#+END_SRC
+
+#+NAME: triangleright
+#+BEGIN_SRC yasnippet :tangle org-mode/triangleright
+# -*- mode: snippet -*-
+# name: Triangleright
+# key: ;rtg
+# --
+\triangleright$0
+#+END_SRC
+
+#+NAME: uplus
+#+BEGIN_SRC yasnippet :tangle org-mode/uplus
+# -*- mode: snippet -*-
+# name: Uplus
+# key: ;u+
+# --
+\uplus$0
+#+END_SRC
+
+#+NAME: vee
+#+BEGIN_SRC yasnippet :tangle org-mode/vee
+# -*- mode: snippet -*-
+# name: Vee
+# key: ;vee
+# --
+\vee$0
+#+END_SRC
+
+#+NAME: veebar
+#+BEGIN_SRC yasnippet :tangle org-mode/veebar
+# -*- mode: snippet -*-
+# name: Veebar
+# key: ;vbar
+# --
+\veebar$0
+#+END_SRC
+
+=\veebar= requires font =msam= from ~amssymb~
+
+#+NAME: wedge
+#+BEGIN_SRC yasnippet :tangle org-mode/wedge
+# -*- mode: snippet -*-
+# name: Wedge
+# key: ;wdg
+# --
+\wedge$0
+#+END_SRC
+
+#+NAME: wr
+#+BEGIN_SRC yasnippet :tangle org-mode/wr
+# -*- mode: snippet -*-
+# name: Wr
+# key: ;wr
+# --
+\wr$0
+#+END_SRC
+
 ** Relation symbols: < = > ≈ ∼ and variants
+
+
+
 ** Relation symbols: arrows
 ** Relation symbols: miscellaneous
 ** Cumulative (variable-size) operators

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Bigtriangledown
+# key: ;btd
+# --
+\bigtriangledown$0

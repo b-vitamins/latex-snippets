@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Smallsetminus
+# key: ;sset-
+# --
+\smallsetminus$0

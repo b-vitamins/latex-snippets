@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Rtimes
+# key: ;r*
+# --
+\rtimes$0

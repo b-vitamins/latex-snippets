@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Lessdot
+# key: ;ltd
+# --
+\lessdot$0

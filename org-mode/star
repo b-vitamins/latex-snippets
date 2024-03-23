@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Star
+# key: ;star
+# --
+\star$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Diamond
+# key: ;dmd
+# --
+\diamond$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Veebar
+# key: ;vbar
+# --
+\veebar$0

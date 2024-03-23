@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Ast
+# key: ;ast
+# --
+\ast$0

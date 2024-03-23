@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Div
+# key: ;div
+# --
+\div$0

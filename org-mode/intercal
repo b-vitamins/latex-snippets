@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Intercal
+# key: ;intc
+# --
+\intercal$0

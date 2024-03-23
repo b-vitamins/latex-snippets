@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Curly Vee
+# key: ;cv
+# --
+\curlyvee$0

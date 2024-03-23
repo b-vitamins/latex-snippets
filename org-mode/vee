@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Vee
+# key: ;vee
+# --
+\vee$0

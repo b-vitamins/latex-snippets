@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Times
+# key: ;tms
+# --
+\times$0
+# -*- mode: snippet -*-
+# name: Times
+# key: ;*
+# --
+\times$0

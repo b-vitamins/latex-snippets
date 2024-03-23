@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Centerdot
+# key: ;cdt
+# --
+\centerdot$0

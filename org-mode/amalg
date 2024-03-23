@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Amalg
+# key: ;amg
+# --
+\amalg$0

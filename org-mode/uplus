@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Uplus
+# key: ;u+
+# --
+\uplus$0
