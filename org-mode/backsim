@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Backsim
+# key: ;bks
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\backsim$0

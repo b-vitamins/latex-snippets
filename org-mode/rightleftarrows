@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Rightleftarrows
+# key: ;rlarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightleftarrows$0

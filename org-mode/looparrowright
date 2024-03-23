@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Looparrowright
+# key: ;lar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\looparrowright$0

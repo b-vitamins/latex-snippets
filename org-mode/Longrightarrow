@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Longrightarrow (double line)
+# key: ;LRarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Longrightarrow$0

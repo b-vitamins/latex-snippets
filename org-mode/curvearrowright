@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Curvearrowright
+# key: ;cuar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\curvearrowright$0

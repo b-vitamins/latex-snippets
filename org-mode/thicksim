@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Thicksim
+# key: ;thksm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\thicksim$0

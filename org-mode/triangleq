@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Triangleq
+# key: ;tgq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\triangleq$0

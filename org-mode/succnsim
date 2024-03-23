@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Succnsim
+# key: ;sucns
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succnsim$0

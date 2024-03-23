@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Gtreqless
+# key: ;grql
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gtreqless$0

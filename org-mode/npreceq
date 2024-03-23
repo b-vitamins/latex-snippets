@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: npreceq
+# key: ;npreceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\npreceq$0

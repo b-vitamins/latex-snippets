@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: nsim
+# key: ;nsim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nsim$0

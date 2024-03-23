@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: nsucceq
+# key: ;nsucceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nsucceq$0

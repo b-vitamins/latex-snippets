@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Equal
+# key: ;eq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\=$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Precnapprox
+# key: ;pnapx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precnapprox$0

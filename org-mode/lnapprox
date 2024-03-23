@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: LNapprox
+# key: ;nap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lnapprox$0

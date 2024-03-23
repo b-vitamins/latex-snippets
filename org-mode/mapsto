@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Mapsto
+# key: ;map
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\mapsto$0

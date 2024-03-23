@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Lesseqqgtr
+# key: ;leeqg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lesseqqgtr$0

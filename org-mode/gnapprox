@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Gnapprox
+# key: ;gnap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gnapprox$0

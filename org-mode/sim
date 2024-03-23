@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Sim
+# key: ;sim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\sim$0

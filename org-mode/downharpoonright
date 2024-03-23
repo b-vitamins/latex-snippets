@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Downharpoonright
+# key: ;dhpr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\downharpoonright$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Preccurlyeq
+# key: ;pceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\preccurlyeq$0

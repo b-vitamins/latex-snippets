@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Succcurlyeq
+# key: ;succeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succcurlyeq$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: precapprox
+# key: ;precapx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precapprox$0

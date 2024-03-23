@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: nLeftrightarrow
+# key: ;nLRarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nLeftrightarrow$0

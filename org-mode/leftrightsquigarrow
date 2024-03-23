@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Leftrightsquigarrow
+# key: ;lrsq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftrightsquigarrow$0

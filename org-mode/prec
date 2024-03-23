@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: prec
+# key: ;prec
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\prec$0

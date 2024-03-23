@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Twoheadleftarrow
+# key: ;thla
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\twoheadleftarrow$0

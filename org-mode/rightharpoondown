@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Rightharpoondown
+# key: ;rhpd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightharpoondown$0

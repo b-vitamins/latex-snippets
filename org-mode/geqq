@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Geqq
+# key: ;geqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\geqq$0

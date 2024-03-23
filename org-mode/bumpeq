@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Bumpeq
+# key: ;bpeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bumpeq$0

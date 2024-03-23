@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Rightarrowtail
+# key: ;rartl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightarrowtail$0

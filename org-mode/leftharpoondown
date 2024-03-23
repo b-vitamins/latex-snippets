@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Leftharpoondown
+# key: ;lhd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftharpoondown$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: LNeqq
+# key: ;lneqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lneqq$0

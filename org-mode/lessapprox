@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Lessapprox
+# key: ;lapp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lessapprox$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Curlyeqprec
+# key: ;ceqp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\curlyeqprec$0

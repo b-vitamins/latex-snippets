@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Leftarrow (double line)
+# key: ;Larr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Leftarrow$0

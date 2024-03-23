@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: nless
+# key: ;nless
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nless$0

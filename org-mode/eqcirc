@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Eqcirc
+# key: ;eqc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\eqcirc$0

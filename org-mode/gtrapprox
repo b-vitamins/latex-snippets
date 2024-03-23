@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Gtrapprox
+# key: ;gtra
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gtrapprox$0

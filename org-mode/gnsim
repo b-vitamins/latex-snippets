@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Gnsim
+# key: ;gns
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gnsim$0

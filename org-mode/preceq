@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Preceq
+# key: ;peq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\preceq$0

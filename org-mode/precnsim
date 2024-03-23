@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Precnsim
+# key: ;pnsim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precnsim$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Rrightarrow
+# key: ;Rrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Rrightarrow$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Ngeqslant
+# key: ;ngeqs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ngeqslant$0

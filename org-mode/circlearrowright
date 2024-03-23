@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Circlearrowright
+# key: ;carr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\circlearrowright$0

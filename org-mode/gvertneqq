@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Gvertneqq
+# key: ;gvnq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gvertneqq$0

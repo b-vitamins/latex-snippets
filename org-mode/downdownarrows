@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Downdownarrows
+# key: ;ddar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\downdownarrows$0

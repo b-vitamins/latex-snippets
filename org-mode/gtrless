@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Gtrless
+# key: ;grl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gtrless$0

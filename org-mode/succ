@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Succ
+# key: ;succ
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succ$0
