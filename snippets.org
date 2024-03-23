@@ -973,7 +973,7 @@
 \mathscr{$1} $0
 #+END_SRC
 
-Different switches depending on: (=rsfs=; no lowercase) ~\usepackage{mathrsfs}~ or (=eusm=; no lowercase) ~\usepackage{euscript}~.
+Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; no lowercase) ~euscript~.
 
 *** Fraktur letters (eufm)
 
@@ -986,9 +986,356 @@ Different switches depending on: (=rsfs=; no lowercase) ~\usepackage{mathrsfs}~ 
 \mathfrak{$1} $0
 #+END_SRC
 
-=\mathfrak= requires ~\usepackage{amsfonts}~
+=\mathfrak= requires ~amsfonts~
 
 ** Miscellaneous simple symbols
+
+#+NAME: hash
+#+BEGIN_SRC yasnippet :tangle org-mode/hash
+# -*- mode: snippet -*-
+# name: Hash
+# key: ;hash
+# --
+\#$0
+#+END_SRC
+
+#+NAME: ampersand
+#+BEGIN_SRC yasnippet :tangle org-mode/amp
+# -*- mode: snippet -*-
+# name: Ampersand
+# key: ;amp
+# --
+\&$0
+#+END_SRC
+
+#+NAME: angle
+#+BEGIN_SRC yasnippet :tangle org-mode/angl
+# -*- mode: snippet -*-
+# name: Angle
+# key: ;angle
+# --
+\angle$0
+#+END_SRC
+
+=\angle= requires =msbm= from ~amssymb~
+
+#+NAME: backprime
+#+BEGIN_SRC yasnippet :tangle org-mode/bkprm
+# -*- mode: snippet -*-
+# name: Backprime
+# key: ;bprime
+# --
+\backprime$0
+#+END_SRC
+
+#+NAME: bigstar
+#+BEGIN_SRC yasnippet :tangle org-mode/bigstr
+# -*- mode: snippet -*-
+# name: Bigstar
+# key: ;bstar
+# --
+\bigstar$0
+#+END_SRC
+
+=\bigstar= requires font =msam= from ~amssymb~
+
+#+NAME: blacklozenge
+#+BEGIN_SRC yasnippet :tangle org-mode/blkloz
+# -*- mode: snippet -*-
+# name: Blacklozenge
+# key: ;bloz
+# --
+\blacklozenge$0
+#+END_SRC
+
+#+NAME: blacksquare
+#+BEGIN_SRC yasnippet :tangle org-mode/blksqr
+# -*- mode: snippet -*-
+# name: Blacksquare
+# key: ;bsq
+# --
+\blacksquare$0
+#+END_SRC
+
+#+NAME: blacktriangle
+#+BEGIN_SRC yasnippet :tangle org-mode/blktri
+# -*- mode: snippet -*-
+# name: Blacktriangle
+# key: ;btg
+# --
+\blacktriangle$0
+#+END_SRC
+
+=\blacktriangle= requires font =msam= from ~amssymb~
+
+#+NAME: blacktriangledown
+#+BEGIN_SRC yasnippet :tangle org-mode/blktrid
+# -*- mode: snippet -*-
+# name: Blacktriangledown
+# key: ;btgd
+# --
+\blacktriangledown$0
+#+END_SRC
+
+=\blacktriangledown= requires font =msam= from ~amssymb~
+
+#+NAME: bot
+#+BEGIN_SRC yasnippet :tangle org-mode/bot
+# -*- mode: snippet -*-
+# name: Bot
+# key: ;bot
+# --
+\bot$0
+#+END_SRC
+
+#+NAME: clubsuit
+#+BEGIN_SRC yasnippet :tangle org-mode/clbs
+# -*- mode: snippet -*-
+# name: Clubsuit
+# key: ;club
+# --
+\clubsuit$0
+#+END_SRC
+
+#+NAME: diagdown
+#+BEGIN_SRC yasnippet :tangle org-mode/dgdn
+# -*- mode: snippet -*-
+# name: Diagdown
+# key: ;ddn
+# --
+\diagdown$0
+#+END_SRC
+
+#+NAME: diagup
+#+BEGIN_SRC yasnippet :tangle org-mode/dgup
+# -*- mode: snippet -*-
+# name: Diagup
+# key: ;dup
+# --
+\diagup$0
+#+END_SRC
+
+#+NAME: diamondsuit
+#+BEGIN_SRC yasnippet :tangle org-mode/dmds
+# -*- mode: snippet -*-
+# name: Diamondsuit
+# key: ;dmd
+# --
+\diamondsuit$0
+#+END_SRC
+
+#+NAME: emptyset
+#+BEGIN_SRC yasnippet :tangle org-mode/empt
+# -*- mode: snippet -*-
+# name: Emptyset
+# key: ;noset
+# --
+\emptyset$0
+#+END_SRC
+
+#+NAME: exists
+#+BEGIN_SRC yasnippet :tangle org-mode/exst
+# -*- mode: snippet -*-
+# name: Exists
+# key: ;exist
+# --
+\exists$0
+#+END_SRC
+
+#+NAME: flat
+#+BEGIN_SRC yasnippet :tangle org-mode/flt
+# -*- mode: snippet -*-
+# name: Flat
+# key: ;flat
+# --
+\flat$0
+#+END_SRC
+
+=\flat= requires font =msbm= from ~amssymb~
+
+#+NAME: forall
+#+BEGIN_SRC yasnippet :tangle org-mode/forall
+# -*- mode: snippet -*-
+# name: Forall
+# key: ;fall
+# --
+\forall$0
+#+END_SRC
+
+#+NAME: heartsuit
+#+BEGIN_SRC yasnippet :tangle org-mode/hrt
+# -*- mode: snippet -*-
+# name: Heartsuit
+# key: ;hrt
+# --
+\heartsuit$0
+#+END_SRC
+
+#+NAME: infinity
+#+BEGIN_SRC yasnippet :tangle org-mode/infty
+# -*- mode: snippet -*-
+# name: Infinity
+# key: ;inf
+# --
+\infty$0
+#+END_SRC
+
+#+NAME: lozenge
+#+BEGIN_SRC yasnippet :tangle org-mode/loz
+# -*- mode: snippet -*-
+# name: Lozenge
+# key: ;loz
+# --
+\lozenge$0
+#+END_SRC
+
+#+NAME: measuredangle
+#+BEGIN_SRC yasnippet :tangle org-mode/mang
+# -*- mode: snippet -*-
+# name: Measuredangle
+# key: ;mangle
+# --
+\measuredangle$0
+#+END_SRC
+
+=\measuredangle= requires font =msbm= from ~amssymb~
+
+#+NAME: nabla
+#+BEGIN_SRC yasnippet :tangle org-mode/nab
+# -*- mode: snippet -*-
+# name: Nabla
+# key: ;grad
+# --
+\nabla$0
+#+END_SRC
+
+#+NAME: natural
+#+BEGIN_SRC yasnippet :tangle org-mode/nat
+# -*- mode: snippet -*-
+# name: Natural
+# key: ;nat
+# --
+\natural$0
+#+END_SRC
+
+=\natural= requires font =msbm= from ~amssymb~
+
+#+NAME: neg
+#+BEGIN_SRC yasnippet :tangle org-mode/neg
+# -*- mode: snippet -*-
+# name: Negation
+# key: ;neg
+# --
+\neg$0
+#+END_SRC
+
+#+NAME: nexists
+#+BEGIN_SRC yasnippet :tangle org-mode/nex
+# -*- mode: snippet -*-
+# name: Nexists
+# key: ;nexist
+# --
+\nexists$0
+#+END_SRC
+
+=\nexists= requires font =msam= from ~amssymb~
+
+#+NAME: prime
+#+BEGIN_SRC yasnippet :tangle org-mode/prim
+# -*- mode: snippet -*-
+# name: Prime
+# key: ;prime
+# --
+\prime$0
+#+END_SRC
+
+#+NAME: sharp
+#+BEGIN_SRC yasnippet :tangle org-mode/shrp
+# -*- mode: snippet -*-
+# name: Sharp
+# key: ;sharp
+# --
+\sharp$0
+#+END_SRC
+
+=\sharp= requires font =msbm= from ~amssymb~
+
+#+NAME: spadesuit
+#+BEGIN_SRC yasnippet :tangle org-mode/spds
+# -*- mode: snippet -*-
+# name: Spadesuit
+# key: ;spd
+# --
+\spadesuit$0
+#+END_SRC
+
+#+NAME: sphericalangle
+#+BEGIN_SRC yasnippet :tangle org-mode/sang
+# -*- mode: snippet -*-
+# name: Sphericalangle
+# key: ;sangle
+# --
+\sphericalangle$0
+#+END_SRC
+
+=\sphericalangle= requires font =msbm= from ~amssymb~
+
+#+NAME: square
+#+BEGIN_SRC yasnippet :tangle org-mode/sqr
+# -*- mode: snippet -*-
+# name: Square
+# key: ;sqr
+# --
+\square$0
+#+END_SRC
+
+#+NAME: surd
+#+BEGIN_SRC yasnippet :tangle org-mode/surd
+# -*- mode: snippet -*-
+# name: Surd
+# key: ;surd
+# --
+\surd$0
+#+END_SRC
+
+#+NAME: top
+#+BEGIN_SRC yasnippet :tangle org-mode/top
+# -*- mode: snippet -*-
+# name: Top
+# key: ;top
+# --
+\top$0
+#+END_SRC
+
+#+NAME: triangle
+#+BEGIN_SRC yasnippet :tangle org-mode/tri
+# -*- mode: snippet -*-
+# name: Triangle
+# key: ;tg
+# --
+\triangle$0
+#+END_SRC
+
+#+NAME: triangledown
+#+BEGIN_SRC yasnippet :tangle org-mode/trid
+# -*- mode: snippet -*-
+# name: Triangledown
+# key: ;tgd
+# --
+\triangledown$0
+#+END_SRC
+
+=\triangledown= requires font =msam= from ~amssymb~
+
+#+NAME: varnothing
+#+BEGIN_SRC yasnippet :tangle org-mode/vnoth
+# -*- mode: snippet -*-
+# name: Varnothing
+# key: ;nothing
+# --
+\varnothing$0
+#+END_SRC
+
 ** Binary operator symbols
 ** Relation symbols: < = > ≈ ∼ and variants
 ** Relation symbols: arrows
