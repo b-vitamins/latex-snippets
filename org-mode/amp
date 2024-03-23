@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Ampersand
+# key: ;amp
+# --
+\&$0

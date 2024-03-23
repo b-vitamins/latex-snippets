@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Square
+# key: ;sqr
+# --
+\square$0

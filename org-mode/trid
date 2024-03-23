@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Triangledown
+# key: ;tgd
+# --
+\triangledown$0

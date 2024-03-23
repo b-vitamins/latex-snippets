@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Top
+# key: ;top
+# --
+\top$0

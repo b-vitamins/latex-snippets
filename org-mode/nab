@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Nabla
+# key: ;grad
+# --
+\nabla$0

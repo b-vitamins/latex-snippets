@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Nexists
+# key: ;nexist
+# --
+\nexists$0

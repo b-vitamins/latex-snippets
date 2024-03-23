@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Varnothing
+# key: ;nothing
+# --
+\varnothing$0

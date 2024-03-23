@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Sphericalangle
+# key: ;sangle
+# --
+\sphericalangle$0

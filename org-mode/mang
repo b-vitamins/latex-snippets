@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Measuredangle
+# key: ;mangle
+# --
+\measuredangle$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Forall
+# key: ;fall
+# --
+\forall$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Bot
+# key: ;bot
+# --
+\bot$0

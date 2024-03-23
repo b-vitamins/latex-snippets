@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Diagup
+# key: ;dup
+# --
+\diagup$0

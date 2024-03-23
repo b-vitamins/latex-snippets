@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Diagdown
+# key: ;ddn
+# --
+\diagdown$0
