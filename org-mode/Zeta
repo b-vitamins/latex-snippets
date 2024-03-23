@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Zeta
 # key: ;Z
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Zeta $0

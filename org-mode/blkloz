@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Blacklozenge
 # key: ;bloz
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \blacklozenge$0

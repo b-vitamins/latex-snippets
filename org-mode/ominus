@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Ominus
 # key: ;omn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ominus$0

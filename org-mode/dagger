@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Dagger
 # key: ;dag
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dagger$0

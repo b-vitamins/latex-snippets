@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Wr
 # key: ;wr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \wr$0

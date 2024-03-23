@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Centerdot
 # key: ;cdt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \centerdot$0

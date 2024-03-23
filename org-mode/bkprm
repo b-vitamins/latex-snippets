@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Backprime
 # key: ;bprime
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \backprime$0

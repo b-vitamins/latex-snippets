@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: kappa
 # key: ;k
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \kappa $0

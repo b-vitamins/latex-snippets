@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Diamond
 # key: ;dmd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diamond$0

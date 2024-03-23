@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: circledS
 # key: ;oS
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circledS $0

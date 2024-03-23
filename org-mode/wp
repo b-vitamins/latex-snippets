@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: wp
 # key: ;wp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \wp $0

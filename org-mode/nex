@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Nexists
 # key: ;nexist
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \nexists$0

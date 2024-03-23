@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: digamma
 # key: ;dig
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \digamma $0

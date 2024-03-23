@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Divideontimes
 # key: ;doti
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \divideontimes$0

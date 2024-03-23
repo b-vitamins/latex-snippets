@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Otimes
 # key: ;o*
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \otimes$0

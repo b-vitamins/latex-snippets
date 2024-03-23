@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Diagup
 # key: ;dup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diagup$0

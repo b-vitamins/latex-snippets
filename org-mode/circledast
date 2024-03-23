@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Circledast
 # key: ;cst
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circledast$0

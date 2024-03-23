@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Surd
 # key: ;surd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \surd$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Pm
 # key: ;pm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \pm$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Rho
 # key: ;R
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Rho $0

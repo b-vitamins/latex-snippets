@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Oplus
 # key: ;o+
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \oplus$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Theta
 # key: ;T
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Theta $0

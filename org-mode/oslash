@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Oslash
 # key: ;o/
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \oslash$0

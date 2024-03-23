@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: eqref
 # key: ;reqn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \eqref{$1}$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Diagdown
 # key: ;ddn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diagdown$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Triangleleft
 # key: ;ltg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \triangleleft$0

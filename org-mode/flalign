@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: flalign-environment
 # key: ;faln
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{flalign}
 $0

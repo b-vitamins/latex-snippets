@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Ast
 # key: ;ast
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ast$0

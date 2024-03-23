@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Game
 # key: ;Gam
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Game $0

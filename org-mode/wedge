@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Wedge
 # key: ;wdg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \wedge$0

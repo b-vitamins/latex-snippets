@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Cap
 # key: ;cap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \cap$0

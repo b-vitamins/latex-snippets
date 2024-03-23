@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Upsilon
 # key: ;U
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Upsilon $0

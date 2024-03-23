@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Omega
 # key: ;W
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Omega $0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Bigcirc
 # key: ;bgc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bigcirc$0

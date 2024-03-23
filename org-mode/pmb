@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: pmb
 # key: ;pmb
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \pmb{$1} $0

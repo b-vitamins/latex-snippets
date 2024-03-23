@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Gamma
 # key: ;G
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Gamma $0

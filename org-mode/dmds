@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Diamondsuit
 # key: ;dmd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diamondsuit$0

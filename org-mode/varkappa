@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: varkappa
 # key: ;vk
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varkappa $0

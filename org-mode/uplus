@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Uplus
 # key: ;u+
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \uplus$0

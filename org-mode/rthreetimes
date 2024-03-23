@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Righthreetimes
 # key: ;r3t
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \righthreetimes$0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: align-environment
 # key: ;aln
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{align}
 $0
@@ -8,6 +9,7 @@ $0
 # -*- mode: snippet -*-
 # name: align-at-environment
 # key: ;alna
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{align}{$1}
 $0

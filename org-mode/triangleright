@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Triangleright
 # key: ;rtg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \triangleright$0

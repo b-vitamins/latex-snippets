@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Odot
 # key: ;odt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \odot$0

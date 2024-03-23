@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Heartsuit
 # key: ;hrt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \heartsuit$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: varrho
 # key: ;vrh
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varrho $0

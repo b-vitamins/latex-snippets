@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: boldsymbol
 # key: ;bs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \boldsymbol{$1} $0

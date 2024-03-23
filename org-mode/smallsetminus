@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Smallsetminus
 # key: ;sset-
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \smallsetminus$0

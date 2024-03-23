@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: multline-environment
 # key: ;mul
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{multline}
 $0

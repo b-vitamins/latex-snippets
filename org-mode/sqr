@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Square
 # key: ;sqr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \square$0

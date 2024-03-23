@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Circled Dash
 # key: ;cds
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circledash$0

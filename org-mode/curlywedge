@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Curly Wedge
 # key: ;cw
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \curlywedge$0

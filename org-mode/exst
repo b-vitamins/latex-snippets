@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Exists
 # key: ;exist
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \exists$0

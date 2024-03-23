@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Barwedge
 # key: ;bwd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \barwedge$0

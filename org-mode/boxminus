@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Boxminus
 # key: ;bxm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \boxminus$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Finv
 # key: ;Fin
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Finv $0

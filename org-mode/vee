@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Vee
 # key: ;vee
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \vee$0

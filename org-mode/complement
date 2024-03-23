@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: complement
 # key: ;com
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \complement $0

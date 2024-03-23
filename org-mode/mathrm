@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: mathrm
 # key: ;mrm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathrm{$1} $0

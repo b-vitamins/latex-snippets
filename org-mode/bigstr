@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Bigstar
 # key: ;bstar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bigstar$0

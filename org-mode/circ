@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Circ
 # key: ;crc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circ$0

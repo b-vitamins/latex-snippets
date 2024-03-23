@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Angle
 # key: ;angle
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \angle$0

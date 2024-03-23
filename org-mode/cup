@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Cup
 # key: ;cup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \cup$0

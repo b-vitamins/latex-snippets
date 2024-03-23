@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: varphi
 # key: ;vph
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varphi $0

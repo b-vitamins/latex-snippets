@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Nu
 # key: ;N
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Nu $0

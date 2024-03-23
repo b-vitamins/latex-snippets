@@ -1,10 +1,12 @@
 # -*- mode: snippet -*-
 # name: Cap
 # key: ;Cp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Cap$0
 # -*- mode: snippet -*-
 # name: Cap
 # key: ;Cap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Cap$0

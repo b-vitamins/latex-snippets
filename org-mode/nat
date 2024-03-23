@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Natural
 # key: ;nat
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \natural$0

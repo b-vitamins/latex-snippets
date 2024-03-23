@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: dotless-j
 # key: ;jm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \jmath $0

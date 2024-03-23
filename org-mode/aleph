@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: aleph
 # key: ;alp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \aleph $0

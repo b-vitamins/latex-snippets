@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: mathit
 # key: ;mit
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathit{$1} $0

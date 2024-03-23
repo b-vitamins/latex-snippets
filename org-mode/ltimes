@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Ltimes
 # key: ;ltm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ltimes$0

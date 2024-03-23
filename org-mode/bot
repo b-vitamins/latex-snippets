@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Bot
 # key: ;bot
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bot$0

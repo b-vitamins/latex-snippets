@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: mu
 # key: ;m
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mu $0

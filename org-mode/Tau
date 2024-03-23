@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Tau
 # key: ;T
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Tau $0

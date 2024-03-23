@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Double Bar Wedge
 # key: ;dbw
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \doublebarwedge$0

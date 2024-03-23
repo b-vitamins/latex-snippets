@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: pi
 # key: ;p
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \pi $0

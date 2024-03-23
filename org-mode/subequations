@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: subequations
 # key: ;seqn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{subequations}\label{$1}
   $0

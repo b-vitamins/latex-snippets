@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Infinity
 # key: ;inf
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \infty$0

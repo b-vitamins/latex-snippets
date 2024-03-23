@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Gtrdot
 # key: ;gtd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \gtrdot$0

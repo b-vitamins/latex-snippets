@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Sqcup
 # key: ;sqcup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sqcup$0

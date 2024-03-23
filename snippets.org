@@ -56,6 +56,7 @@
   # -*- mode: snippet -*-
   # name: split-environment
   # key: ;spl
+  # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
   # --
   \begin{equation}$1
   \begin{split}
@@ -69,6 +70,7 @@
   # -*- mode: snippet -*-
   # name: multline-environment
   # key: ;mul
+  # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
   # --
   \begin{multline}
   $0
@@ -80,6 +82,7 @@
   # -*- mode: snippet -*-
   # name: gather-environment
   # key: ;gat
+  # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
   # --
   \begin{gather}
   $0
@@ -91,6 +94,7 @@
   # -*- mode: snippet -*-
   # name: align-environment
   # key: ;aln
+  # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
   # --
   \begin{align}
   $0
@@ -102,6 +106,7 @@
   # -*- mode: snippet -*-
   # name: align-at-environment
   # key: ;alna
+  # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
   # --
   \begin{align}{$1}
   $0
@@ -113,6 +118,7 @@
   # -*- mode: snippet -*-
   # name: flalign-environment
   # key: ;faln
+  # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
   # --
   \begin{flalign}
   $0
@@ -125,6 +131,7 @@
 # -*- mode: snippet -*-
 # name: equation-label
 # key: ;leqn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{equation}\label{$1}
   $0
@@ -136,6 +143,7 @@
 # -*- mode: snippet -*-
 # name: eqref
 # key: ;reqn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \eqref{$1}$0
 #+END_SRC
@@ -145,6 +153,7 @@
 # -*- mode: snippet -*-
 # name: tag
 # key: ;tag
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \tag{$1}$0
 #+END_SRC
@@ -154,6 +163,7 @@
 # -*- mode: snippet -*-
 # name: subequations
 # key: ;seqn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{subequations}\label{$1}
   $0
@@ -181,6 +191,7 @@
 # -*- mode: snippet -*-
 # name: dotless-i
 # key: ;im
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \imath $0
 #+end_src
@@ -190,6 +201,7 @@
 # -*- mode: snippet -*-
 # name: dotless-j
 # key: ;jm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \jmath $0
 #+end_src
@@ -199,6 +211,7 @@
 # -*- mode: snippet -*-
 # name: hatted character
 # key: ;hat
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \hat{$1} $0
 #+end_src
@@ -208,6 +221,7 @@
 # -*- mode: snippet -*-
 # name: wide hatted character
 # key: ;what
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \widehat{$1} $0
 #+end_src
@@ -219,6 +233,7 @@
 # -*- mode: snippet -*-
 # name: alpha
 # key: ;a
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \alpha $0
 #+end_src
@@ -228,6 +243,7 @@
 # -*- mode: snippet -*-
 # name: beta
 # key: ;b
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \beta $0
 #+end_src
@@ -237,6 +253,7 @@
 # -*- mode: snippet -*-
 # name: gamma
 # key: ;g
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \gamma $0
 #+end_src
@@ -246,6 +263,7 @@
 # -*- mode: snippet -*-
 # name: delta
 # key: ;d
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \delta $0
 #+end_src
@@ -255,6 +273,7 @@
 # -*- mode: snippet -*-
 # name: epsilon
 # key: ;e
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \epsilon $0
 #+end_src
@@ -264,6 +283,7 @@
 # -*- mode: snippet -*-
 # name: zeta
 # key: ;z
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \zeta $0
 #+end_src
@@ -273,6 +293,7 @@
 # -*- mode: snippet -*-
 # name: eta
 # key: ;h
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \eta $0
 #+end_src
@@ -282,6 +303,7 @@
 # -*- mode: snippet -*-
 # name: theta
 # key: ;t
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \theta $0
 #+end_src
@@ -291,6 +313,7 @@
 # -*- mode: snippet -*-
 # name: iota
 # key: ;i
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \iota $0
 #+end_src
@@ -300,6 +323,7 @@
 # -*- mode: snippet -*-
 # name: kappa
 # key: ;k
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \kappa $0
 #+end_src
@@ -309,6 +333,7 @@
 # -*- mode: snippet -*-
 # name: lambda
 # key: ;l
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \lambda $0
 #+end_src
@@ -318,6 +343,7 @@
 # -*- mode: snippet -*-
 # name: mu
 # key: ;m
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mu $0
 #+end_src
@@ -327,6 +353,7 @@
 # -*- mode: snippet -*-
 # name: nu
 # key: ;n
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \nu $0
 #+end_src
@@ -336,6 +363,7 @@
 # -*- mode: snippet -*-
 # name: xi
 # key: ;x
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \xi $0
 #+end_src
@@ -345,6 +373,7 @@
 # -*- mode: snippet -*-
 # name: omicron
 # key: ;o
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \omicron $0
 #+end_src
@@ -354,6 +383,7 @@
 # -*- mode: snippet -*-
 # name: pi
 # key: ;p
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \pi $0
 #+end_src
@@ -363,6 +393,7 @@
 # -*- mode: snippet -*-
 # name: rho
 # key: ;r
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \rho $0
 #+end_src
@@ -372,6 +403,7 @@
 # -*- mode: snippet -*-
 # name: sigma
 # key: ;s
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sigma $0
 #+end_src
@@ -381,6 +413,7 @@
 # -*- mode: snippet -*-
 # name: tau
 # key: ;T
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \tau $0
 #+end_src
@@ -390,6 +423,7 @@
 # -*- mode: snippet -*-
 # name: upsilon
 # key: ;u
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \upsilon $0
 #+end_src
@@ -399,6 +433,7 @@
 # -*- mode: snippet -*-
 # name: phi
 # key: ;f
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \phi $0
 #+end_src
@@ -408,6 +443,7 @@
 # -*- mode: snippet -*-
 # name: chi
 # key: ;c
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \chi $0
 #+end_src
@@ -417,6 +453,7 @@
 # -*- mode: snippet -*-
 # name: psi
 # key: ;y
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \psi $0
 #+end_src
@@ -426,6 +463,7 @@
 # -*- mode: snippet -*-
 # name: omega
 # key: ;w
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \omega $0
 #+end_src
@@ -435,6 +473,7 @@
 # -*- mode: snippet -*-
 # name: Alpha
 # key: ;A
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Alpha $0
 #+end_src
@@ -444,6 +483,7 @@
 # -*- mode: snippet -*-
 # name: Beta
 # key: ;B
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Beta $0
 #+end_src
@@ -453,6 +493,7 @@
 # -*- mode: snippet -*-
 # name: Gamma
 # key: ;G
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Gamma $0
 #+end_src
@@ -462,6 +503,7 @@
 # -*- mode: snippet -*-
 # name: Delta
 # key: ;D
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Delta $0
 #+end_src
@@ -471,6 +513,7 @@
 # -*- mode: snippet -*-
 # name: Epsilon
 # key: ;E
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Epsilon $0
 #+end_src
@@ -480,6 +523,7 @@
 # -*- mode: snippet -*-
 # name: Zeta
 # key: ;Z
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Zeta $0
 #+end_src
@@ -489,6 +533,7 @@
 # -*- mode: snippet -*-
 # name: Eta
 # key: ;H
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Eta $0
 #+end_src
@@ -498,6 +543,7 @@
 # -*- mode: snippet -*-
 # name: Theta
 # key: ;T
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Theta $0
 #+end_src
@@ -507,6 +553,7 @@
 # -*- mode: snippet -*-
 # name: Iota
 # key: ;I
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Iota $0
 #+end_src
@@ -516,6 +563,7 @@
 # -*- mode: snippet -*-
 # name: Kappa
 # key: ;K
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Kappa $0
 #+end_src
@@ -525,6 +573,7 @@
 # -*- mode: snippet -*-
 # name: Lambda
 # key: ;L
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Lambda $0
 #+end_src
@@ -534,6 +583,7 @@
 # -*- mode: snippet -*-
 # name: Mu
 # key: ;M
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Mu $0
 #+end_src
@@ -543,6 +593,7 @@
 # -*- mode: snippet -*-
 # name: Nu
 # key: ;N
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Nu $0
 #+end_src
@@ -552,6 +603,7 @@
 # -*- mode: snippet -*-
 # name: Xi
 # key: ;X
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Xi $0
 #+end_src
@@ -561,6 +613,7 @@
 # -*- mode: snippet -*-
 # name: Omicron
 # key: ;O
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Omicron $0
 #+end_src
@@ -570,6 +623,7 @@
 # -*- mode: snippet -*-
 # name: Pi
 # key: ;P
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Pi $0
 #+end_src
@@ -579,6 +633,7 @@
 # -*- mode: snippet -*-
 # name: Rho
 # key: ;R
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Rho $0
 #+end_src
@@ -588,6 +643,7 @@
 # -*- mode: snippet -*-
 # name: Sigma
 # key: ;S
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Sigma $0
 #+end_src
@@ -597,6 +653,7 @@
 # -*- mode: snippet -*-
 # name: Tau
 # key: ;T
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Tau $0
 #+end_src
@@ -606,6 +663,7 @@
 # -*- mode: snippet -*-
 # name: Upsilon
 # key: ;U
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Upsilon $0
 #+end_src
@@ -615,6 +673,7 @@
 # -*- mode: snippet -*-
 # name: Phi
 # key: ;F
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Phi $0
 #+end_src
@@ -624,6 +683,7 @@
 # -*- mode: snippet -*-
 # name: Chi
 # key: ;C
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Chi $0
 #+end_src
@@ -633,6 +693,7 @@
 # -*- mode: snippet -*-
 # name: Psi
 # key: ;Y
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Psi $0
 #+end_src
@@ -642,6 +703,7 @@
 # -*- mode: snippet -*-
 # name: Omega
 # key: ;W
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Omega $0
 #+end_src
@@ -651,6 +713,7 @@
 # -*- mode: snippet -*-
 # name: digamma
 # key: ;dig
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \digamma $0
 #+end_src
@@ -660,6 +723,7 @@
 # -*- mode: snippet -*-
 # name: varepsilon
 # key: ;vep
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varepsilon $0
 #+end_src
@@ -669,6 +733,7 @@
 # -*- mode: snippet -*-
 # name: varkappa
 # key: ;vk
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varkappa $0
 #+end_src
@@ -678,6 +743,7 @@
 # -*- mode: snippet -*-
 # name: varphi
 # key: ;vph
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varphi $0
 #+end_src
@@ -687,6 +753,7 @@
 # -*- mode: snippet -*-
 # name: varpi
 # key: ;vp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varpi $0
 #+end_src
@@ -696,6 +763,7 @@
 # -*- mode: snippet -*-
 # name: varrho
 # key: ;vrh
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varrho $0
 #+end_src
@@ -705,6 +773,7 @@
 # -*- mode: snippet -*-
 # name: varsigma
 # key: ;vs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varsigma $0
 #+end_src
@@ -714,6 +783,7 @@
 # -*- mode: snippet -*-
 # name: vartheta
 # key: ;vt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \vartheta $0
 #+end_src
@@ -725,6 +795,7 @@
 # -*- mode: snippet -*-
 # name: aleph
 # key: ;alp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \aleph $0
 #+END_SRC
@@ -734,6 +805,7 @@
 # -*- mode: snippet -*-
 # name: beth
 # key: ;bet
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \beth $0
 #+END_SRC
@@ -743,6 +815,7 @@
 # -*- mode: snippet -*-
 # name: daleth
 # key: ;dal
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \daleth $0
 #+END_SRC
@@ -752,6 +825,7 @@
 # -*- mode: snippet -*-
 # name: gimel
 # key: ;gim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \gimel $0
 #+END_SRC
@@ -761,6 +835,7 @@
 # -*- mode: snippet -*-
 # name: complement
 # key: ;com
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \complement $0
 #+END_SRC
@@ -770,6 +845,7 @@
 # -*- mode: snippet -*-
 # name: ell
 # key: ;el
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ell $0
 #+END_SRC
@@ -779,6 +855,7 @@
 # -*- mode: snippet -*-
 # name: eth
 # key: ;eth
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \eth $0
 #+END_SRC
@@ -788,6 +865,7 @@
 # -*- mode: snippet -*-
 # name: hbar
 # key: ;hb
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \hbar $0
 #+END_SRC
@@ -797,6 +875,7 @@
 # -*- mode: snippet -*-
 # name: hslash
 # key: ;hsl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \hslash $0
 #+END_SRC
@@ -806,6 +885,7 @@
 # -*- mode: snippet -*-
 # name: mho
 # key: ;mh
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mho $0
 #+END_SRC
@@ -815,6 +895,7 @@
 # -*- mode: snippet -*-
 # name: partial
 # key: ;par
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \partial $0
 #+END_SRC
@@ -824,6 +905,7 @@
 # -*- mode: snippet -*-
 # name: wp
 # key: ;wp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \wp $0
 #+END_SRC
@@ -833,6 +915,7 @@
 # -*- mode: snippet -*-
 # name: circledS
 # key: ;oS
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circledS $0
 #+END_SRC
@@ -842,6 +925,7 @@
 # -*- mode: snippet -*-
 # name: Bbbk
 # key: ;bk
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Bbbk $0
 #+END_SRC
@@ -851,6 +935,7 @@
 # -*- mode: snippet -*-
 # name: Finv
 # key: ;Fin
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Finv $0
 #+END_SRC
@@ -860,6 +945,7 @@
 # -*- mode: snippet -*-
 # name: Game
 # key: ;Gam
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Game $0
 #+END_SRC
@@ -869,6 +955,7 @@
 # -*- mode: snippet -*-
 # name: Im
 # key: ;Im
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Im $0
 #+END_SRC
@@ -878,6 +965,7 @@
 # -*- mode: snippet -*-
 # name: Re
 # key: ;Re
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Re $0
 #+END_SRC
@@ -889,6 +977,7 @@
 # -*- mode: snippet -*-
 # name: mathbf
 # key: ;mbf
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathbf{$1} $0
 #+END_SRC
@@ -898,6 +987,7 @@
 # -*- mode: snippet -*-
 # name: mathrm
 # key: ;mrm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathrm{$1} $0
 #+END_SRC
@@ -907,6 +997,7 @@
 # -*- mode: snippet -*-
 # name: mathsf
 # key: ;msf
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathsf{$1} $0
 #+END_SRC
@@ -916,6 +1007,7 @@
 # -*- mode: snippet -*-
 # name: mathit
 # key: ;mit
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathit{$1} $0
 #+END_SRC
@@ -925,6 +1017,7 @@
 # -*- mode: snippet -*-
 # name: boldsymbol
 # key: ;bs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \boldsymbol{$1} $0
 #+END_SRC
@@ -934,6 +1027,7 @@
 # -*- mode: snippet -*-
 # name: pmb
 # key: ;pmb
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \pmb{$1} $0
 #+END_SRC
@@ -945,6 +1039,7 @@
 # -*- mode: snippet -*-
 # name: mathbb
 # key: ;mbb
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathbb{$1} $0
 #+END_SRC
@@ -958,6 +1053,7 @@
 # -*- mode: snippet -*-
 # name: mathcal
 # key: ;mcal
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathcal{$1} $0
 #+END_SRC
@@ -969,6 +1065,7 @@
 # -*- mode: snippet -*-
 # name: mathscr
 # key: ;mscr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathscr{$1} $0
 #+END_SRC
@@ -982,6 +1079,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: mathfrak
 # key: ;mfr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mathfrak{$1} $0
 #+END_SRC
@@ -995,6 +1093,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Hash
 # key: ;hash
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \#$0
 #+END_SRC
@@ -1004,6 +1103,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Ampersand
 # key: ;amp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \&$0
 #+END_SRC
@@ -1013,6 +1113,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Angle
 # key: ;angle
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \angle$0
 #+END_SRC
@@ -1024,6 +1125,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Backprime
 # key: ;bprime
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \backprime$0
 #+END_SRC
@@ -1033,6 +1135,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Bigstar
 # key: ;bstar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bigstar$0
 #+END_SRC
@@ -1044,6 +1147,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Blacklozenge
 # key: ;bloz
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \blacklozenge$0
 #+END_SRC
@@ -1053,6 +1157,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Blacksquare
 # key: ;bsq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \blacksquare$0
 #+END_SRC
@@ -1062,6 +1167,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Blacktriangle
 # key: ;btg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \blacktriangle$0
 #+END_SRC
@@ -1073,6 +1179,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Blacktriangledown
 # key: ;btgd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \blacktriangledown$0
 #+END_SRC
@@ -1084,6 +1191,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Bot
 # key: ;bot
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bot$0
 #+END_SRC
@@ -1093,6 +1201,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Clubsuit
 # key: ;club
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \clubsuit$0
 #+END_SRC
@@ -1102,6 +1211,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Diagdown
 # key: ;ddn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diagdown$0
 #+END_SRC
@@ -1111,6 +1221,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Diagup
 # key: ;dup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diagup$0
 #+END_SRC
@@ -1120,6 +1231,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Diamondsuit
 # key: ;dmd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diamondsuit$0
 #+END_SRC
@@ -1129,6 +1241,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Emptyset
 # key: ;noset
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \emptyset$0
 #+END_SRC
@@ -1138,6 +1251,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Exists
 # key: ;exist
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \exists$0
 #+END_SRC
@@ -1147,6 +1261,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Flat
 # key: ;flat
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \flat$0
 #+END_SRC
@@ -1158,6 +1273,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Forall
 # key: ;fall
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \forall$0
 #+END_SRC
@@ -1167,6 +1283,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Heartsuit
 # key: ;hrt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \heartsuit$0
 #+END_SRC
@@ -1176,6 +1293,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Infinity
 # key: ;inf
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \infty$0
 #+END_SRC
@@ -1185,6 +1303,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Lozenge
 # key: ;loz
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \lozenge$0
 #+END_SRC
@@ -1194,6 +1313,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Measuredangle
 # key: ;mangle
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \measuredangle$0
 #+END_SRC
@@ -1205,6 +1325,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Nabla
 # key: ;grad
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \nabla$0
 #+END_SRC
@@ -1214,6 +1335,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Natural
 # key: ;nat
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \natural$0
 #+END_SRC
@@ -1225,6 +1347,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Negation
 # key: ;neg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \neg$0
 #+END_SRC
@@ -1234,6 +1357,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Nexists
 # key: ;nexist
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \nexists$0
 #+END_SRC
@@ -1245,6 +1369,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Prime
 # key: ;prime
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \prime$0
 #+END_SRC
@@ -1254,6 +1379,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Sharp
 # key: ;sharp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sharp$0
 #+END_SRC
@@ -1265,6 +1391,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Spadesuit
 # key: ;spd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \spadesuit$0
 #+END_SRC
@@ -1274,6 +1401,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Sphericalangle
 # key: ;sangle
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sphericalangle$0
 #+END_SRC
@@ -1285,6 +1413,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Square
 # key: ;sqr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \square$0
 #+END_SRC
@@ -1294,6 +1423,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Surd
 # key: ;surd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \surd$0
 #+END_SRC
@@ -1303,6 +1433,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Top
 # key: ;top
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \top$0
 #+END_SRC
@@ -1312,6 +1443,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Triangle
 # key: ;tg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \triangle$0
 #+END_SRC
@@ -1321,6 +1453,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Triangledown
 # key: ;tgd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \triangledown$0
 #+END_SRC
@@ -1332,6 +1465,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Varnothing
 # key: ;nothing
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \varnothing$0
 #+END_SRC
@@ -1343,6 +1477,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Times
 # key: ;tms
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \times$0
 #+END_SRC
@@ -1352,6 +1487,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Plus
 # key: ;pls
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \+$0
 #+END_SRC
@@ -1361,6 +1497,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Minus
 # key: ;mns
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \-$0
 #+END_SRC
@@ -1370,6 +1507,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Amalg
 # key: ;amg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \amalg$0
 #+END_SRC
@@ -1379,6 +1517,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Ast
 # key: ;ast
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ast$0
 #+END_SRC
@@ -1388,6 +1527,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Barwedge
 # key: ;bwd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \barwedge$0
 #+END_SRC
@@ -1399,6 +1539,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Bigcirc
 # key: ;bgc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bigcirc$0
 #+END_SRC
@@ -1408,6 +1549,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Bigtriangledown
 # key: ;btd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bigtriangledown$0
 #+END_SRC
@@ -1417,6 +1559,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Bigtriangleup
 # key: ;btu
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bigtriangleup$0
 #+END_SRC
@@ -1426,6 +1569,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Boxdot
 # key: ;bxd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \boxdot$0
 #+END_SRC
@@ -1437,6 +1581,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Boxminus
 # key: ;bxm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \boxminus$0
 #+END_SRC
@@ -1448,6 +1593,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Boxplus
 # key: ;bxp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \boxplus$0
 #+END_SRC
@@ -1459,6 +1605,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Boxtimes
 # key: ;bxt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \boxtimes$0
 #+END_SRC
@@ -1470,6 +1617,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Bullet
 # key: ;bul
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \bullet$0
 #+END_SRC
@@ -1479,6 +1627,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Cap
 # key: ;cap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \cap$0
 #+END_SRC
@@ -1488,6 +1637,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Cap
 # key: ;Cp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Cap$0
 #+END_SRC
@@ -1499,6 +1649,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Cdot
 # key: ;cdt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \cdot$0
 #+END_SRC
@@ -1508,6 +1659,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Centerdot
 # key: ;cdt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \centerdot$0
 #+END_SRC
@@ -1519,6 +1671,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Circ
 # key: ;crc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circ$0
 #+END_SRC
@@ -1528,6 +1681,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Circledast
 # key: ;cst
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circledast$0
 #+END_SRC
@@ -1539,6 +1693,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Circledcirc
 # key: ;ccc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circledcirc$0
 #+END_SRC
@@ -1550,6 +1705,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Circled Dash
 # key: ;cds
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \circledash$0
 #+END_SRC
@@ -1561,6 +1717,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Cup
 # key: ;cup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \cup$0
 #+END_SRC
@@ -1570,6 +1727,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Cap
 # key: ;Cap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Cap$0
 #+END_SRC
@@ -1581,6 +1739,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Curly Vee
 # key: ;cv
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \curlyvee$0
 #+END_SRC
@@ -1592,6 +1751,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Curly Wedge
 # key: ;cw
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \curlywedge$0
 #+END_SRC
@@ -1603,6 +1763,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Dagger
 # key: ;dag
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dagger$0
 #+END_SRC
@@ -1612,6 +1773,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Double Dagger
 # key: ;ddag
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ddagger$0
 #+END_SRC
@@ -1621,6 +1783,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Diamond
 # key: ;dmd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \diamond$0
 #+END_SRC
@@ -1630,6 +1793,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Div
 # key: ;div
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \div$0
 #+END_SRC
@@ -1639,6 +1803,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Divideontimes
 # key: ;doti
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \divideontimes$0
 #+END_SRC
@@ -1650,6 +1815,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Dot Plus
 # key: ;dpl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dotplus$0
 #+END_SRC
@@ -1661,6 +1827,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Double Bar Wedge
 # key: ;dbw
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \doublebarwedge$0
 #+END_SRC
@@ -1672,6 +1839,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Gtrdot
 # key: ;gtd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \gtrdot$0
 #+END_SRC
@@ -1683,6 +1851,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Intercal
 # key: ;intc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \intercal$0
 #+END_SRC
@@ -1694,6 +1863,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Leftthreetimes
 # key: ;ltt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \leftthreetimes$0
 #+END_SRC
@@ -1705,6 +1875,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Lessdot
 # key: ;ltd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \lessdot$0
 #+END_SRC
@@ -1716,6 +1887,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Ltimes
 # key: ;ltm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ltimes$0
 #+END_SRC
@@ -1727,6 +1899,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Mp
 # key: ;mp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \mp$0
 #+END_SRC
@@ -1736,6 +1909,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Odot
 # key: ;odt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \odot$0
 #+END_SRC
@@ -1745,6 +1919,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Ominus
 # key: ;omn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ominus$0
 #+END_SRC
@@ -1754,6 +1929,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Oplus
 # key: ;o+
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \oplus$0
 #+END_SRC
@@ -1763,6 +1939,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Oslash
 # key: ;o/
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \oslash$0
 #+END_SRC
@@ -1772,6 +1949,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Otimes
 # key: ;o*
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \otimes$0
 #+END_SRC
@@ -1781,6 +1959,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Pm
 # key: ;pm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \pm$0
 #+END_SRC
@@ -1790,6 +1969,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Righthreetimes
 # key: ;r3t
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \righthreetimes$0
 #+END_SRC
@@ -1801,6 +1981,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Rtimes
 # key: ;r*
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \rtimes$0
 #+END_SRC
@@ -1812,6 +1993,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Setminus
 # key: ;set-
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \setminus$0
 #+END_SRC
@@ -1821,6 +2003,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Smallsetminus
 # key: ;sset-
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \smallsetminus$0
 #+END_SRC
@@ -1832,6 +2015,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Sqcap
 # key: ;sqcap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sqcap$0
 #+END_SRC
@@ -1841,6 +2025,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Sqcup
 # key: ;sqcup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sqcup$0
 #+END_SRC
@@ -1850,6 +2035,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Star
 # key: ;star
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \star$0
 #+END_SRC
@@ -1859,6 +2045,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Times
 # key: ;*
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \times$0
 #+END_SRC
@@ -1868,6 +2055,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Triangleleft
 # key: ;ltg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \triangleleft$0
 #+END_SRC
@@ -1877,6 +2065,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Triangleright
 # key: ;rtg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \triangleright$0
 #+END_SRC
@@ -1886,6 +2075,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Uplus
 # key: ;u+
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \uplus$0
 #+END_SRC
@@ -1895,6 +2085,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Vee
 # key: ;vee
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \vee$0
 #+END_SRC
@@ -1904,6 +2095,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Veebar
 # key: ;vbar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \veebar$0
 #+END_SRC
@@ -1915,6 +2107,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Wedge
 # key: ;wdg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \wedge$0
 #+END_SRC
@@ -1924,15 +2117,1543 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # -*- mode: snippet -*-
 # name: Wr
 # key: ;wr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \wr$0
 #+END_SRC
 
-** Relation symbols: < = > ≈ ∼ and variants
+** Relation symbols: =< = > ≈ ∼= and variants
 
+#+NAME: less
+#+BEGIN_SRC yasnippet :tangle org-mode/less
+# -*- mode: snippet -*-
+# name: Less than
+# key: ;lt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\<$0
+#+END_SRC
 
+#+NAME: equal
+#+BEGIN_SRC yasnippet :tangle org-mode/equal
+# -*- mode: snippet -*-
+# name: Equal
+# key: ;eq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\=$0
+#+END_SRC
+
+#+NAME: greater
+#+BEGIN_SRC yasnippet :tangle org-mode/greater
+# -*- mode: snippet -*-
+# name: Greater than
+# key: ;gt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\>$0
+#+END_SRC
+
+#+NAME: approx
+#+BEGIN_SRC yasnippet :tangle org-mode/approx
+# -*- mode: snippet -*-
+# name: Approx
+# key: ;apx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\approx$0
+#+END_SRC
+
+#+NAME: approxeq
+#+BEGIN_SRC yasnippet :tangle org-mode/approxeq
+# -*- mode: snippet -*-
+# name: Approxeq
+# key: ;apeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\approxeq$0
+#+END_SRC
+=\approxeq= requires font =msbm= from ~amssymb~
+
+#+NAME: asymp
+#+BEGIN_SRC yasnippet :tangle org-mode/asymp
+# -*- mode: snippet -*-
+# name: Asymp
+# key: ;asy
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\asymp$0
+#+END_SRC
+
+#+NAME: backsim
+#+BEGIN_SRC yasnippet :tangle org-mode/backsim
+# -*- mode: snippet -*-
+# name: Backsim
+# key: ;bks
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\backsim$0
+#+END_SRC
+=\backsim= requires font =msam= from ~amssymb~
+
+#+NAME: backsimeq
+#+BEGIN_SRC yasnippet :tangle org-mode/backsimeq
+# -*- mode: snippet -*-
+# name: Backsimeq
+# key: ;bkseq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\backsimeq$0
+#+END_SRC
+=\backsimeq= requires font =msam= from ~amssymb~
+
+#+NAME: bumpeq
+#+BEGIN_SRC yasnippet :tangle org-mode/bumpeq
+# -*- mode: snippet -*-
+# name: Bumpeq
+# key: ;bpeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bumpeq$0
+#+END_SRC
+=\bumpeq= requires font =msam= from ~amssymb~
+
+#+NAME: Bumpeq
+#+BEGIN_SRC yasnippet :tangle org-mode/Bumpeq
+# -*- mode: snippet -*-
+# name: Bumpeq capital
+# key: ;Bpeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Bumpeq$0
+#+END_SRC
+=\Bumpeq= requires font =msam= from ~amssymb~
+
+#+NAME: circeq
+#+BEGIN_SRC yasnippet :tangle org-mode/circeq
+# -*- mode: snippet -*-
+# name: Circeq
+# key: ;ceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\circeq$0
+#+END_SRC
+=\circeq= requires font =msam= from ~amssymb~
+
+#+NAME: cong
+#+BEGIN_SRC yasnippet :tangle org-mode/cong
+# -*- mode: snippet -*-
+# name: Cong
+# key: ;cong
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\cong$0
+#+END_SRC
+
+#+NAME: curlyeqprec
+#+BEGIN_SRC yasnippet :tangle org-mode/curlyeqprec
+# -*- mode: snippet -*-
+# name: Curlyeqprec
+# key: ;ceqp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\curlyeqprec$0
+#+END_SRC
+=\curlyeqprec= requires font =msam= from ~amssymb~
+
+#+NAME: curlyeqsucc
+#+BEGIN_SRC yasnippet :tangle org-mode/curlyeqsucc
+# -*- mode: snippet -*-
+# name: Curlyeqsucc
+# key: ;ceqs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\curlyeqsucc$0
+#+END_SRC
+=\curlyeqsucc= requires font =msam= from ~amssymb~
+
+#+NAME: doteq
+#+BEGIN_SRC yasnippet :tangle org-mode/doteq
+# -*- mode: snippet -*-
+# name: Doteq
+# key: ;doteq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\doteq$0
+#+END_SRC
+
+#+NAME: doteqdot
+#+BEGIN_SRC yasnippet :tangle org-mode/doteqdot
+# -*- mode: snippet -*-
+# name: Doteqdot
+# key: ;doteqd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\doteqdot$0
+#+END_SRC
+=\doteqdot= requires font =msbm= from ~amssymb~
+
+#+NAME: eqcirc
+#+BEGIN_SRC yasnippet :tangle org-mode/eqcirc
+# -*- mode: snippet -*-
+# name: Eqcirc
+# key: ;eqc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\eqcirc$0
+#+END_SRC
+=\eqcirc= requires font =msam= from ~amssymb~
+
+#+NAME: eqsim
+#+BEGIN_SRC yasnippet :tangle org-mode/eqsim
+# -*- mode: snippet -*-
+# name: Eqsim
+# key: ;eqs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\eqsim$0
+#+END_SRC
+=\eqsim= requires font =msbm= from ~amssymb~
+
+#+NAME: eqslantgtr
+#+BEGIN_SRC yasnippet :tangle org-mode/eqslantgtr
+# -*- mode: snippet -*-
+# name: Eqslantgtr
+# key: ;esg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\eqslantgtr$0
+#+END_SRC
+=\eqslantgtr= requires font =msam= from ~amssymb~
+
+#+NAME: eqslantless
+#+BEGIN_SRC yasnippet :tangle org-mode/eqslantless
+# -*- mode: snippet -*-
+# name: Eqslantless
+# key: ;esl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\eqslantless$0
+#+END_SRC
+=\eqslantless= requires font =msam= from ~amssymb~
+
+#+NAME: equiv
+#+BEGIN_SRC yasnippet :tangle org-mode/equiv
+# -*- mode: snippet -*-
+# name: Equiv
+# key: ;equiv
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\equiv$0
+#+END_SRC
+
+#+NAME: fallingdotseq
+#+BEGIN_SRC yasnippet :tangle org-mode/fallingdotseq
+# -*- mode: snippet -*-
+# name: Fallingdotseq
+# key: ;fdseq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\fallingdotseq$0
+#+END_SRC
+=\fallingdotseq= requires font =msam= from ~amssymb~
+
+#+NAME: geq
+#+BEGIN_SRC yasnippet :tangle org-mode/geq
+# -*- mode: snippet -*-
+# name: Geq
+# key: ;geq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\geq$0
+#+END_SRC
+
+#+NAME: geqq
+#+BEGIN_SRC yasnippet :tangle org-mode/geqq
+# -*- mode: snippet -*-
+# name: Geqq
+# key: ;geqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\geqq$0
+#+END_SRC
+=\geqq= requires font =msam= from ~amssymb~
+
+#+NAME: geqslant
+#+BEGIN_SRC yasnippet :tangle org-mode/geqslant
+# -*- mode: snippet -*-
+# name: Geqslant
+# key: ;geqs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\geqslant$0
+#+END_SRC
+=\geqslant= requires font =msam= from ~amssymb~
+
+#+NAME: gg
+#+BEGIN_SRC yasnippet :tangle org-mode/gg
+# -*- mode: snippet -*-
+# name: Gg
+# key: ;gg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gg$0
+#+END_SRC
+
+#+NAME: ggg
+#+BEGIN_SRC yasnippet :tangle org-mode/ggg
+# -*- mode: snippet -*-
+# name: Ggg
+# key: ;ggg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ggg$0
+#+END_SRC
+=\ggg= requires font =msam= from ~amssymb~
+
+#+NAME: gnapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/gnapprox
+# -*- mode: snippet -*-
+# name: Gnapprox
+# key: ;gnap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gnapprox$0
+#+END_SRC
+=\gnapprox= requires font =msbm= from ~amssymb~
+
+#+NAME: gneq
+#+BEGIN_SRC yasnippet :tangle org-mode/gneq
+# -*- mode: snippet -*-
+# name: Gneq
+# key: ;gne
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gneq$0
+#+END_SRC
+=\gneq= requires font =msbm= from ~amssymb~
+
+#+NAME: gneqq
+#+BEGIN_SRC yasnippet :tangle org-mode/gneqq
+# -*- mode: snippet -*-
+# name: Gneqq
+# key: ;gneqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gneqq$0
+#+END_SRC
+=\gneqq= requires font =msbm= from ~amssymb~
+
+#+NAME: gnsim
+#+BEGIN_SRC yasnippet :tangle org-mode/gnsim
+# -*- mode: snippet -*-
+# name: Gnsim
+# key: ;gns
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gnsim$0
+#+END_SRC
+=\gnsim= requires font =msbm= from ~amssymb~
+
+#+NAME: gtrapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/gtrapprox
+# -*- mode: snippet -*-
+# name: Gtrapprox
+# key: ;gtra
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gtrapprox$0
+#+END_SRC
+=\gtrapprox= requires font =msam= from ~amssymb~
+
+#+NAME: gtrless
+#+BEGIN_SRC yasnippet :tangle org-mode/gtrless
+# -*- mode: snippet -*-
+# name: Gtrless
+# key: ;grl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gtrless$0
+#+END_SRC
+=\gtrless= requires font =msam= from ~amssymb~
+
+#+NAME: gtreqless
+#+BEGIN_SRC yasnippet :tangle org-mode/gtreqless
+# -*- mode: snippet -*-
+# name: Gtreqless
+# key: ;grql
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gtreqless$0
+#+END_SRC
+=\gtreqless= requires font =msam= from ~amssymb~
+
+#+NAME: gtrsim
+#+BEGIN_SRC yasnippet :tangle org-mode/gtrsim
+# -*- mode: snippet -*-
+# name: Gtrsim
+# key: ;grs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gtrsim$0
+#+END_SRC
+=\gtrsim= requires font =msam= from ~amssymb~
+
+#+NAME: gvertneqq
+#+BEGIN_SRC yasnippet :tangle org-mode/gvertneqq
+# -*- mode: snippet -*-
+# name: Gvertneqq
+# key: ;gvnq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gvertneqq$0
+#+END_SRC
+=\gvertneqq= requires font =msbm= from ~amssymb~
+
+#+NAME: leq
+#+BEGIN_SRC yasnippet :tangle org-mode/leq
+# -*- mode: snippet -*-
+# name: Leq
+# key: ;le
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leq$0
+#+END_SRC
+
+#+NAME: leqq
+#+BEGIN_SRC yasnippet :tangle org-mode/leqq
+# -*- mode: snippet -*-
+# name: Leqq
+# key: ;leqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leqq$0
+#+END_SRC
+=\leqq= requires font =msam= from ~amssymb~
+
+#+NAME: leqslant
+#+BEGIN_SRC yasnippet :tangle org-mode/leqslant
+# -*- mode: snippet -*-
+# name: Leqslant
+# key: ;leqs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leqslant$0
+#+END_SRC
+=\leqslant= requires font =msam= from ~amssymb~
+
+#+NAME: lessapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/lessapprox
+# -*- mode: snippet -*-
+# name: Lessapprox
+# key: ;lapp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lessapprox$0
+#+END_SRC
+=\lessapprox= requires font =msam= from ~amssymb~
+
+#+NAME: lesseqgtr
+#+BEGIN_SRC yasnippet :tangle org-mode/lesseqgtr
+# -*- mode: snippet -*-
+# name: Lesseqgtr
+# key: ;legt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lesseqgtr$0
+#+END_SRC
+=\lesseqgtr= requires font =msam= from ~amssymb~
+
+#+NAME: lesseqqgtr
+#+BEGIN_SRC yasnippet :tangle org-mode/lesseqqgtr
+# -*- mode: snippet -*-
+# name: Lesseqqgtr
+# key: ;leeqg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lesseqqgtr$0
+#+END_SRC
+=\lesseqqgtr= requires font =msam= from ~amssymb~
+
+#+NAME: lessgtr
+#+BEGIN_SRC yasnippet :tangle org-mode/lessgtr
+# -*- mode: snippet -*-
+# name: Lessgtr
+# key: ;lgrt
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lessgtr$0
+#+END_SRC
+=\lessgtr= requires font =msam= from ~amssymb~
+
+#+NAME: lesssim
+#+BEGIN_SRC yasnippet :tangle org-mode/lesssim
+# -*- mode: snippet -*-
+# name: Lesssim
+# key: ;lss
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lesssim$0
+#+END_SRC
+=\lesssim= requires font =msam= from ~amssymb~
+
+#+NAME: ll
+#+BEGIN_SRC yasnippet :tangle org-mode/ll
+# -*- mode: snippet -*-
+# name: Double less than
+# key: ;ll
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ll$0
+#+END_SRC
+
+#+NAME: lll
+#+BEGIN_SRC yasnippet :tangle org-mode/lll
+# -*- mode: snippet -*-
+# name: Triple less than
+# key: ;lll
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lll$0
+#+END_SRC
+=\lll= requires font =msam= from ~amssymb~
+
+#+NAME: lnapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/lnapprox
+# -*- mode: snippet -*-
+# name: LNapprox
+# key: ;nap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lnapprox$0
+#+END_SRC
+=\napprox= requires font =msbm= from ~amssymb~
+
+#+NAME: lneq
+#+BEGIN_SRC yasnippet :tangle org-mode/lneq
+# -*- mode: snippet -*-
+# name: LNeq
+# key: ;lne
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lneq$0
+#+END_SRC
+
+#+NAME: lneqq
+#+BEGIN_SRC yasnippet :tangle org-mode/lneqq
+# -*- mode: snippet -*-
+# name: LNeqq
+# key: ;lneqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lneqq$0
+#+END_SRC
+=\neqq= requires font =msbm= from ~amssymb~
+
+#+NAME: lnsim
+#+BEGIN_SRC yasnippet :tangle org-mode/lnsim
+# -*- mode: snippet -*-
+# name: LNsim
+# key: ;lnsim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lnsim$0
+#+END_SRC
+=\nsim= requires font =msbm= from ~amssymb~
+
+#+NAME: ncong
+#+BEGIN_SRC yasnippet :tangle org-mode/ncong
+# -*- mode: snippet -*-
+# name: Ncong
+# key: ;ncong
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ncong$0
+#+END_SRC
+=\ncong= requires font =msbm= from ~amssymb~
+
+#+NAME: ngeq
+#+BEGIN_SRC yasnippet :tangle org-mode/ngeq
+# -*- mode: snippet -*-
+# name: Ngeq
+# key: ;ngeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ngeq$0
+#+END_SRC
+=\ngeq= requires font =msbm= from ~amssymb~
+
+#+NAME: ngeqq
+#+BEGIN_SRC yasnippet :tangle org-mode/ngeqq
+# -*- mode: snippet -*-
+# name: Ngeqq
+# key: ;ngeqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ngeqq$0
+#+END_SRC
+=\ngeqq= requires font =msbm= from ~amssymb~
+
+#+NAME: ngeqslant
+#+BEGIN_SRC yasnippet :tangle org-mode/ngeqslant
+# -*- mode: snippet -*-
+# name: Ngeqslant
+# key: ;ngeqs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ngeqslant$0
+#+END_SRC
+=\ngeqslant= requires font =msbm= from ~amssymb~
+
+#+NAME: ngtr
+#+BEGIN_SRC yasnippet :tangle org-mode/ngtr
+# -*- mode: snippet -*-
+# name: Ngtr
+# key: ;ngtr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ngtr$0
+#+END_SRC
+=\ngtr= requires font =msbm= from ~amssymb~
+
+#+NAME: nleq
+#+BEGIN_SRC yasnippet :tangle org-mode/nleq
+# -*- mode: snippet -*-
+# name: Nleq
+# key: ;nleq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nleq$0
+#+END_SRC
+=\nleq= requires font =msbm= from ~amssymb~
+
+#+NAME: nleqq
+#+BEGIN_SRC yasnippet :tangle org-mode/nleqq
+# -*- mode: snippet -*-
+# name: nleqq
+# key: ;nleqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nleqq$0
+#+END_SRC
+=\nleqq= requires font =msbm= from ~amssymb~
+
+#+NAME: nleqslant
+#+BEGIN_SRC yasnippet :tangle org-mode/nleqslant
+# -*- mode: snippet -*-
+# name: nleqslant
+# key: ;nleqs
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nleqslant$0
+#+END_SRC
+=\nleqslant= requires font =msbm= from ~amssymb~
+
+#+NAME: nless
+#+BEGIN_SRC yasnippet :tangle org-mode/nless
+# -*- mode: snippet -*-
+# name: nless
+# key: ;nless
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nless$0
+#+END_SRC
+=\nless= requires font =msbm= from ~amssymb~
+
+#+NAME: nprec
+#+BEGIN_SRC yasnippet :tangle org-mode/nprec
+# -*- mode: snippet -*-
+# name: nprec
+# key: ;nprec
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nprec$0
+#+END_SRC
+=\nprec= requires font =msbm= from ~amssymb~
+
+#+NAME: npreceq
+#+BEGIN_SRC yasnippet :tangle org-mode/npreceq
+# -*- mode: snippet -*-
+# name: npreceq
+# key: ;npreceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\npreceq$0
+#+END_SRC
+=\npreceq= requires font =msbm= from ~amssymb~
+
+#+NAME: nsim
+#+BEGIN_SRC yasnippet :tangle org-mode/nsim
+# -*- mode: snippet -*-
+# name: nsim
+# key: ;nsim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nsim$0
+#+END_SRC
+=\nsim= requires font =msbm= from ~amssymb~
+
+#+NAME: nsucc
+#+BEGIN_SRC yasnippet :tangle org-mode/nsucc
+# -*- mode: snippet -*-
+# name: nsucc
+# key: ;nsucc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nsucc$0
+#+END_SRC
+=\nsucc= requires font =msbm= from ~amssymb~
+
+#+NAME: nsucceq
+#+BEGIN_SRC yasnippet :tangle org-mode/nsucceq
+# -*- mode: snippet -*-
+# name: nsucceq
+# key: ;nsucceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nsucceq$0
+#+END_SRC
+=\nsucceq= requires font =msbm= from ~amssymb~
+
+#+NAME: prec
+#+BEGIN_SRC yasnippet :tangle org-mode/prec
+# -*- mode: snippet -*-
+# name: prec
+# key: ;prec
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\prec$0
+#+END_SRC
+
+#+NAME: precapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/precapprox
+# -*- mode: snippet -*-
+# name: precapprox
+# key: ;precapx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precapprox$0
+#+END_SRC
+=\precapprox= requires font =msbm= from ~amssymb~
+
+#+NAME: preccurlyeq
+#+BEGIN_SRC yasnippet :tangle org-mode/preccurlyeq
+# -*- mode: snippet -*-
+# name: Preccurlyeq
+# key: ;pceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\preccurlyeq$0
+#+END_SRC
+=\preccurlyeq= requires font =msam= from ~amssymb~
+
+#+NAME: preceq
+#+BEGIN_SRC yasnippet :tangle org-mode/preceq
+# -*- mode: snippet -*-
+# name: Preceq
+# key: ;peq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\preceq$0
+#+END_SRC
+
+#+NAME: precnapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/precnapprox
+# -*- mode: snippet -*-
+# name: Precnapprox
+# key: ;pnapx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precnapprox$0
+#+END_SRC
+=\precnapprox= requires font =msbm= from ~amssymb~
+
+#+NAME: precneqq
+#+BEGIN_SRC yasnippet :tangle org-mode/precneqq
+# -*- mode: snippet -*-
+# name: Precneqq
+# key: ;pneqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precneqq$0
+#+END_SRC
+=\precneqq= requires font =msbm= from ~amssymb~
+
+#+NAME: precnsim
+#+BEGIN_SRC yasnippet :tangle org-mode/precnsim
+# -*- mode: snippet -*-
+# name: Precnsim
+# key: ;pnsim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precnsim$0
+#+END_SRC
+=\precnsim= requires font =msbm= from ~amssymb~
+
+#+NAME: precsim
+#+BEGIN_SRC yasnippet :tangle org-mode/precsim
+# -*- mode: snippet -*-
+# name: Precsim
+# key: ;psim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\precsim$0
+#+END_SRC
+=\precsim= requires font =msam= from ~amssymb~
+
+#+NAME: risingdotseq
+#+BEGIN_SRC yasnippet :tangle org-mode/risingdotseq
+# -*- mode: snippet -*-
+# name: Risingdotseq
+# key: ;rdseq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\risingdotseq$0
+#+END_SRC
+=\risingdotseq= requires font =msam= from ~amssymb~
+
+#+NAME: sim
+#+BEGIN_SRC yasnippet :tangle org-mode/sim
+# -*- mode: snippet -*-
+# name: Sim
+# key: ;sim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\sim$0
+#+END_SRC
+
+#+NAME: simeq
+#+BEGIN_SRC yasnippet :tangle org-mode/simeq
+# -*- mode: snippet -*-
+# name: Simeq
+# key: ;simeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\simeq$0
+#+END_SRC
+
+#+NAME: succ
+#+BEGIN_SRC yasnippet :tangle org-mode/succ
+# -*- mode: snippet -*-
+# name: Succ
+# key: ;succ
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succ$0
+#+END_SRC
+
+#+NAME: succapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/succapprox
+# -*- mode: snippet -*-
+# name: Succapprox
+# key: ;sucapx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succapprox$0
+#+END_SRC
+=\succapprox= requires font =msbm= from ~amssymb~
+
+#+NAME: succcurlyeq
+#+BEGIN_SRC yasnippet :tangle org-mode/succcurlyeq
+# -*- mode: snippet -*-
+# name: Succcurlyeq
+# key: ;succeq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succcurlyeq$0
+#+END_SRC
+=\succcurlyeq= requires font =msam= from ~amssymb~
+
+#+NAME: succeq
+#+BEGIN_SRC yasnippet :tangle org-mode/succeq
+# -*- mode: snippet -*-
+# name: Succeq
+# key: ;sceq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succeq$0
+#+END_SRC
+
+#+NAME: succnapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/succnapprox
+# -*- mode: snippet -*-
+# name: Succnapprox
+# key: ;sucnapx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succnapprox$0
+#+END_SRC
+=\succnapprox= requires font =msbm= from ~amssymb~
+
+#+NAME: succneqq
+#+BEGIN_SRC yasnippet :tangle org-mode/succneqq
+# -*- mode: snippet -*-
+# name: Succneqq
+# key: ;sucneq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succneqq$0
+#+END_SRC
+=\succneqq= requires font =msbm= from ~amssymb~
+
+#+NAME: succnsim
+#+BEGIN_SRC yasnippet :tangle org-mode/succnsim
+# -*- mode: snippet -*-
+# name: Succnsim
+# key: ;sucns
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succnsim$0
+#+END_SRC
+=\succnsim= requires font =msbm= from ~amssymb~
+
+#+NAME: succsim
+#+BEGIN_SRC yasnippet :tangle org-mode/succsim
+# -*- mode: snippet -*-
+# name: Succsim
+# key: ;sucsim
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\succsim$0
+#+END_SRC
+=\succsim= requires font =msam= from ~amssymb~
+
+#+NAME: thickapprox
+#+BEGIN_SRC yasnippet :tangle org-mode/thickapprox
+# -*- mode: snippet -*-
+# name: Thickapprox
+# key: ;thapx
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\thickapprox$0
+#+END_SRC
+=\thickapprox= requires font =msbm= from ~amssymb~
+
+#+NAME: thicksim
+#+BEGIN_SRC yasnippet :tangle org-mode/thicksim
+# -*- mode: snippet -*-
+# name: Thicksim
+# key: ;thksm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\thicksim$0
+#+END_SRC
+
+#+NAME: triangleq
+#+BEGIN_SRC yasnippet :tangle org-mode/triangleq
+# -*- mode: snippet -*-
+# name: Triangleq
+# key: ;tgq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\triangleq$0
+#+END_SRC
+=\triangleq= requires font =msam= from ~amssymb~
 
 ** Relation symbols: arrows
+
+#+NAME: circlearrowleft
+#+BEGIN_SRC yasnippet :tangle org-mode/circlearrowleft
+# -*- mode: snippet -*-
+# name: Circlearrowleft
+# key: ;carl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\circlearrowleft$0
+#+END_SRC
+=\circlearrowleft= requires font =msam= from ~amssymb~
+
+#+NAME: circlearrowright
+#+BEGIN_SRC yasnippet :tangle org-mode/circlearrowright
+# -*- mode: snippet -*-
+# name: Circlearrowright
+# key: ;carr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\circlearrowright$0
+#+END_SRC
+=\circlearrowright= requires font =msam= from ~amssymb~
+
+#+NAME: curvearrowleft
+#+BEGIN_SRC yasnippet :tangle org-mode/curvearrowleft
+# -*- mode: snippet -*-
+# name: Curvearrowleft
+# key: ;cual
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\curvearrowleft$0
+#+END_SRC
+=\curvearrowleft= requires font =msam= from ~amssymb~
+
+#+NAME: curvearrowright
+#+BEGIN_SRC yasnippet :tangle org-mode/curvearrowright
+# -*- mode: snippet -*-
+# name: Curvearrowright
+# key: ;cuar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\curvearrowright$0
+#+END_SRC
+=\curvearrowright= requires font =msam= from ~amssymb~
+
+#+NAME: downdownarrows
+#+BEGIN_SRC yasnippet :tangle org-mode/downdownarrows
+# -*- mode: snippet -*-
+# name: Downdownarrows
+# key: ;ddar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\downdownarrows$0
+#+END_SRC
+=\downdownarrows= requires font =msam= from ~amssymb~
+
+#+NAME: downharpoonleft
+#+BEGIN_SRC yasnippet :tangle org-mode/downharpoonleft
+# -*- mode: snippet -*-
+# name: Downharpoonleft
+# key: ;dhpl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\downharpoonleft$0
+#+END_SRC
+=\downharpoonleft= requires font =msam= from ~amssymb~
+
+#+NAME: downharpoonright
+#+BEGIN_SRC yasnippet :tangle org-mode/downharpoonright
+# -*- mode: snippet -*-
+# name: Downharpoonright
+# key: ;dhpr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\downharpoonright$0
+#+END_SRC
+=\downharpoonright= requires font =msam= from ~amssymb~
+
+#+NAME: hookleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/hookleftarrow
+# -*- mode: snippet -*-
+# name: Hookleftarrow
+# key: ;hla
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\hookleftarrow$0
+#+END_SRC
+
+#+NAME: hookrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/hookrightarrow
+# -*- mode: snippet -*-
+# name: Hookrightarrow
+# key: ;hra
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\hookrightarrow$0
+#+END_SRC
+
+#+NAME: leftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/leftarrow
+# -*- mode: snippet -*-
+# name: Leftarrow
+# key: ;larr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftarrow$0
+#+END_SRC
+
+#+NAME: Leftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Leftarrow
+# -*- mode: snippet -*-
+# name: Leftarrow (double line)
+# key: ;Larr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Leftarrow$0
+#+END_SRC
+
+#+NAME: leftharpoondown
+#+BEGIN_SRC yasnippet :tangle org-mode/leftharpoondown
+# -*- mode: snippet -*-
+# name: Leftharpoondown
+# key: ;lhd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftharpoondown$0
+#+END_SRC
+
+#+NAME: leftharpoonup
+#+BEGIN_SRC yasnippet :tangle org-mode/leftharpoonup
+# -*- mode: snippet -*-
+# name: Leftharpoonup
+# key: ;lhu
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftharpoonup$0
+#+END_SRC
+
+#+NAME: leftleftarrows
+#+BEGIN_SRC yasnippet :tangle org-mode/leftleftarrows
+# -*- mode: snippet -*-
+# name: Leftleftarrows
+# key: ;lla
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftleftarrows$0
+#+END_SRC
+=\leftleftarrows= requires font =msam= from ~amssymb~
+
+#+NAME: leftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/leftrightarrow
+# -*- mode: snippet -*-
+# name: Leftrightarrow
+# key: ;lrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftrightarrow$0
+#+END_SRC
+
+#+NAME: Leftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Leftrightarrow
+# -*- mode: snippet -*-
+# name: Leftrightarrow (double line)
+# key: ;Lrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Leftrightarrow$0
+#+END_SRC
+
+#+NAME: leftrightsquigarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/leftrightsquigarrow
+# -*- mode: snippet -*-
+# name: Leftrightsquigarrow
+# key: ;lrsq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftrightsquigarrow$0
+#+END_SRC
+=\leftrightsquigarrow= requires font =msam= from ~amssymb~
+
+#+NAME: leftrightharpoons
+#+BEGIN_SRC yasnippet :tangle org-mode/leftrightharpoons
+# -*- mode: snippet -*-
+# name: Leftrightharpoons
+# key: ;lrh
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\leftrightharpoons$0
+#+END_SRC
+=\leftrightharpoons= requires font =msam= from ~amssymb~
+
+#+NAME: Lleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Lleftarrow
+# -*- mode: snippet -*-
+# name: Lleftarrow
+# key: ;Llarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Lleftarrow$0
+#+END_SRC
+=\Lleftarrow= requires font =msam= from ~amssymb~
+
+#+NAME: longleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/longleftarrow
+# -*- mode: snippet -*-
+# name: Longleftarrow
+# key: ;llarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\longleftarrow$0
+#+END_SRC
+
+#+NAME: Longleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Longleftarrow
+# -*- mode: snippet -*-
+# name: Longleftarrow (double line)
+# key: ;LLarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Longleftarrow$0
+#+END_SRC
+
+#+NAME: longleftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/longleftrightarrow
+# -*- mode: snippet -*-
+# name: Longleftrightarrow
+# key: ;llrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\longleftrightarrow$0
+#+END_SRC
+
+#+NAME: Longleftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Longleftrightarrow
+# -*- mode: snippet -*-
+# name: Longleftrightarrow (double line)
+# key: ;LLrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Longleftrightarrow$0
+#+END_SRC
+
+#+NAME: longmapsto
+#+BEGIN_SRC yasnippet :tangle org-mode/longmapsto
+# -*- mode: snippet -*-
+# name: Longmapsto
+# key: ;lmp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\longmapsto$0
+#+END_SRC
+
+#+NAME: longrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/longrightarrow
+# -*- mode: snippet -*-
+# name: Longrightarrow
+# key: ;lrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\longrightarrow$0
+#+END_SRC
+
+#+NAME: Longrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Longrightarrow
+# -*- mode: snippet -*-
+# name: Longrightarrow (double line)
+# key: ;LRarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Longrightarrow$0
+#+END_SRC
+
+#+NAME: looparrowleft
+#+BEGIN_SRC yasnippet :tangle org-mode/looparrowleft
+# -*- mode: snippet -*-
+# name: Looparrowleft
+# key: ;lal
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\looparrowleft$0
+#+END_SRC
+=\looparrowleft= requires font =msam= from ~amssymb~
+
+#+NAME: looparrowright
+#+BEGIN_SRC yasnippet :tangle org-mode/looparrowright
+# -*- mode: snippet -*-
+# name: Looparrowright
+# key: ;lar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\looparrowright$0
+#+END_SRC
+=\looparrowright= requires font =msam= from ~amssymb~
+
+#+NAME: Lsh
+#+BEGIN_SRC yasnippet :tangle org-mode/Lsh
+# -*- mode: snippet -*-
+# name: Lsh
+# key: ;Lsh
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Lsh$0
+#+END_SRC
+=\Lsh= requires font =msam= from ~amssymb~
+
+#+NAME: mapsto
+#+BEGIN_SRC yasnippet :tangle org-mode/mapsto
+# -*- mode: snippet -*-
+# name: Mapsto
+# key: ;map
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\mapsto$0
+#+END_SRC
+
+#+NAME: multimap
+#+BEGIN_SRC yasnippet :tangle org-mode/multimap
+# -*- mode: snippet -*-
+# name: Multimap
+# key: ;mmap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\multimap$0
+#+END_SRC
+=\multimap= requires font =msam= from ~amssymb~
+
+#+NAME: nLeftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nLeftarrow
+# -*- mode: snippet -*-
+# name: nLeftarrow
+# key: ;nLarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nLeftarrow$0
+#+END_SRC
+=\nLeftarrow= requires font =msam= from ~amssymb~
+
+#+NAME: nLeftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nLeftrightarrow
+# -*- mode: snippet -*-
+# name: nLeftrightarrow
+# key: ;nLRarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nLeftrightarrow$0
+#+END_SRC
+=\nLeftrightarrow= requires font =msam= from ~amssymb~
+
+#+NAME: nRightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nRightarrow
+# -*- mode: snippet -*-
+# name: nRightarrow
+# key: ;nRarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nRightarrow$0
+#+END_SRC
+=\nRightarrow= requires font =msam= from ~amssymb~
+
+#+NAME: nearrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nearrow
+# -*- mode: snippet -*-
+# name: Nearrow
+# key: ;near
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nearrow$0
+#+END_SRC
+
+#+NAME: nleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nleftarrow
+# -*- mode: snippet -*-
+# name: Nleftarrow
+# key: ;nlarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nleftarrow$0
+#+END_SRC
+
+#+NAME: nleftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nleftrightarrow
+# -*- mode: snippet -*-
+# name: Nleftrightarrow
+# key: ;nlrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nleftrightarrow$0
+#+END_SRC
+=\nleftrightarrow= requires font =msam= from ~amssymb~
+
+#+NAME: nrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nrightarrow
+# -*- mode: snippet -*-
+# name: Nrightarrow
+# key: ;nrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nrightarrow$0
+#+END_SRC
+=\nrightarrow= requires font =msam= from ~amssymb~
+
+#+NAME: nwarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/nwarrow
+# -*- mode: snippet -*-
+# name: Nwarrow
+# key: ;nwar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nwarrow$0
+#+END_SRC
+
+#+NAME: rightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/rightarrow
+# -*- mode: snippet -*-
+# name: Rightarrow
+# key: ;rarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightarrow$0
+#+END_SRC
+
+#+NAME: Rightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Rightarrow
+# -*- mode: snippet -*-
+# name: Rightarrow (double line)
+# key: ;Rarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Rightarrow$0
+#+END_SRC
+
+#+NAME: rightarrowtail
+#+BEGIN_SRC yasnippet :tangle org-mode/rightarrowtail
+# -*- mode: snippet -*-
+# name: Rightarrowtail
+# key: ;rartl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightarrowtail$0
+#+END_SRC
+=\rightarrowtail= requires font =msam= from ~amssymb~
+
+#+NAME: rightharpoondown
+#+BEGIN_SRC yasnippet :tangle org-mode/rightharpoondown
+# -*- mode: snippet -*-
+# name: Rightharpoondown
+# key: ;rhpd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightharpoondown$0
+#+END_SRC
+
+#+NAME: rightharpoonup
+#+BEGIN_SRC yasnippet :tangle org-mode/rightharpoonup
+# -*- mode: snippet -*-
+# name: Rightharpoonup
+# key: ;rhp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightharpoonup$0
+#+END_SRC
+
+#+NAME: rightleftarrows
+#+BEGIN_SRC yasnippet :tangle org-mode/rightleftarrows
+# -*- mode: snippet -*-
+# name: Rightleftarrows
+# key: ;rlarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightleftarrows$0
+#+END_SRC
+=\rightleftarrows= requires font =msam= from ~amssymb~
+
+#+NAME: rightleftharpoons
+#+BEGIN_SRC yasnippet :tangle org-mode/rightleftharpoons
+# -*- mode: snippet -*-
+# name: Rightleftharpoons
+# key: ;rlhp
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightleftharpoons$0
+#+END_SRC
+=\rightleftharpoons= requires font =msam= from ~amssymb~
+
+#+NAME: rightrightarrows
+#+BEGIN_SRC yasnippet :tangle org-mode/rightrightarrows
+# -*- mode: snippet -*-
+# name: Rightrightarrows
+# key: ;rrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightrightarrows$0
+#+END_SRC
+=\rightrightarrows= requires font =msam= from ~amssymb~
+
+#+NAME: rightsquigarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/rightsquigarrow
+# -*- mode: snippet -*-
+# name: Rightsquigarrow
+# key: ;rsqarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\rightsquigarrow$0
+#+END_SRC
+=\rightsquigarrow= requires font =msam= from ~amssymb~
+
+#+NAME: Rrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Rrightarrow
+# -*- mode: snippet -*-
+# name: Rrightarrow
+# key: ;Rrarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Rrightarrow$0
+#+END_SRC
+=\Rrightarrow= requires font =msam= from ~amssymb~
+
+#+NAME: Rsh
+#+BEGIN_SRC yasnippet :tangle org-mode/Rsh
+# -*- mode: snippet -*-
+# name: Rsh
+# key: ;Rsh
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Rsh$0
+#+END_SRC
+=\Rsh= requires font =msam= from ~amssymb~
+
+#+NAME: searrow
+#+BEGIN_SRC yasnippet :tangle org-mode/searrow
+# -*- mode: snippet -*-
+# name: Searrow
+# key: ;sear
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\searrow$0
+#+END_SRC
+
+#+NAME: swarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/swarrow
+# -*- mode: snippet -*-
+# name: Swarrow
+# key: ;swar
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\swarrow$0
+#+END_SRC
+
+#+NAME: twoheadleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/twoheadleftarrow
+# -*- mode: snippet -*-
+# name: Twoheadleftarrow
+# key: ;thla
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\twoheadleftarrow$0
+#+END_SRC
+=\twoheadleftarrow= requires font =msam= from ~amssymb~
+
+#+NAME: twoheadrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/twoheadrightarrow
+# -*- mode: snippet -*-
+# name: Twoheadrightarrow
+# key: ;thra
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\twoheadrightarrow$0
+#+END_SRC
+=\twoheadrightarrow= requires font =msam= from ~amssymb~
+
+#+NAME: upharpoonleft
+#+BEGIN_SRC yasnippet :tangle org-mode/upharpoonleft
+# -*- mode: snippet -*-
+# name: Upharpoonleft
+# key: ;uphl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\upharpoonleft$0
+#+END_SRC
+=\upharpoonleft= requires font =msam= from ~amssymb~
+
+#+NAME: upharpoonright
+#+BEGIN_SRC yasnippet :tangle org-mode/upharpoonright
+# -*- mode: snippet -*-
+# name: Upharpoonright
+# key: ;uphr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\upharpoonright$0
+#+END_SRC
+=\upharpoonright= requires font =msam= from ~amssymb~
+
+#+NAME: upuparrows
+#+BEGIN_SRC yasnippet :tangle org-mode/upuparrows
+# -*- mode: snippet -*-
+# name: Upuparrows
+# key: ;upup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\upuparrows$0
+#+END_SRC
+=\upuparrows= requires font =msam= from ~amssymb~
+
 ** Relation symbols: miscellaneous
 ** Cumulative (variable-size) operators
 ** Punctuation
