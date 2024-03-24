@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: vartriangleright
+# key: ;vtrir
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\vartriangleright$0

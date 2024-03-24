@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: smallsmile
+# key: ;ssm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\smallsmile$0

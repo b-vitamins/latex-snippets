@@ -4,3 +4,9 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \triangleleft$0
+# -*- mode: snippet -*-
+# name: triangleleft
+# key: ;tril
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\triangleleft$0

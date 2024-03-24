@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Because
+# key: ;bec
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\because$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Subset
+# key: ;Sub
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Subset$0

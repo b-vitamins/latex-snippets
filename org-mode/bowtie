@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Bowtie
+# key: ;btie
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bowtie$0

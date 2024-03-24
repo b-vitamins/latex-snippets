@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Ntriangleleft
+# key: ;ntrl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ntriangleleft$0

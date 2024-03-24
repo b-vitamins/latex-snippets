@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: varsupsetneqq
+# key: ;vsupneqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\varsupsetneqq$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Ntrianglelefteq
+# key: ;ntrleq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ntrianglelefteq$0

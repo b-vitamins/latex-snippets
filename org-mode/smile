@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: smile
+# key: ;smi
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\smile$0

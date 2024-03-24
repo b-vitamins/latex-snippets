@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: shortmid
+# key: ;shmid
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\shortmid$0

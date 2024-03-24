@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Nsupseteq
+# key: ;nsup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nsupseteq$0

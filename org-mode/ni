@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Ni
+# key: ;ni
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ni$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ntriangleright
+# key: ;ntrir
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ntriangleright$0

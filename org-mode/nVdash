@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: nVdash
+# key: ;nVD
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nVdash$0

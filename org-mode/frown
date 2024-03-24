@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Frown
+# key: ;fwn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\frown$0

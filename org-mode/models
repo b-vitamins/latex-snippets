@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Models
+# key: ;mods
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\models$0

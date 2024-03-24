@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: supseteqq
+# key: ;supeqq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\supseteqq$0

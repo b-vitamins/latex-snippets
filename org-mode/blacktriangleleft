@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Blacktriangleleft
+# key: ;btl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\blacktriangleleft$0

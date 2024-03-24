@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Notin
+# key: ;notin
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\notin$0

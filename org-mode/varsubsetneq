@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: varsubsetneq
+# key: ;vsubneq
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\varsubsetneq$0
