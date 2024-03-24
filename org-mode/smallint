@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: smallint
+# key: ;sint
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\smallint$0
+# -*- mode: snippet -*-
+# name: sum
+# key: ;sum
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\sum$0

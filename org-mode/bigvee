@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bigvee
+# key: ;or
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigvee$0

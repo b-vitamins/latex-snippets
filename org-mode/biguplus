@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: biguplus
+# key: ;buplus
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\biguplus$0

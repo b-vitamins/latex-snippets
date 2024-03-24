@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bigsqcup
+# key: ;bsqcup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigsqcup$0

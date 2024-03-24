@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bigodot
+# key: ;bodot
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigodot$0

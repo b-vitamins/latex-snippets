@@ -4376,6 +4376,157 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 =\Vvdash= requires font =msam= from ~amssymb~
 
 ** Cumulative (variable-size) operators
+
+#+NAME: int
+#+BEGIN_SRC yasnippet :tangle org-mode/int
+# -*- mode: snippet -*-
+# name: int
+# key: ;int
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\int$0
+#+END_SRC
+
+#+NAME: oint
+#+BEGIN_SRC yasnippet :tangle org-mode/oint
+# -*- mode: snippet -*-
+# name: oint
+# key: ;oint
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\oint$0
+#+END_SRC
+
+#+NAME: bigcap
+#+BEGIN_SRC yasnippet :tangle org-mode/bigcap
+# -*- mode: snippet -*-
+# name: bigcap
+# key: ;bcap
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigcap$0
+#+END_SRC
+
+#+NAME: bigcup
+#+BEGIN_SRC yasnippet :tangle org-mode/bigcup
+# -*- mode: snippet -*-
+# name: bigcup
+# key: ;bcup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigcup$0
+#+END_SRC
+
+#+NAME: bigodot
+#+BEGIN_SRC yasnippet :tangle org-mode/bigodot
+# -*- mode: snippet -*-
+# name: bigodot
+# key: ;bodot
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigodot$0
+#+END_SRC
+
+#+NAME: bigoplus
+#+BEGIN_SRC yasnippet :tangle org-mode/bigoplus
+# -*- mode: snippet -*-
+# name: bigoplus
+# key: ;boplus
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigoplus$0
+#+END_SRC
+
+#+NAME: bigotimes
+#+BEGIN_SRC yasnippet :tangle org-mode/bigotimes
+# -*- mode: snippet -*-
+# name: bigotimes
+# key: ;botimes
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigotimes$0
+#+END_SRC
+
+#+NAME: bigsqcup
+#+BEGIN_SRC yasnippet :tangle org-mode/bigsqcup
+# -*- mode: snippet -*-
+# name: bigsqcup
+# key: ;bsqcup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigsqcup$0
+#+END_SRC
+
+#+NAME: biguplus
+#+BEGIN_SRC yasnippet :tangle org-mode/biguplus
+# -*- mode: snippet -*-
+# name: biguplus
+# key: ;buplus
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\biguplus$0
+#+END_SRC
+
+#+NAME: bigvee
+#+BEGIN_SRC yasnippet :tangle org-mode/bigvee
+# -*- mode: snippet -*-
+# name: bigvee
+# key: ;or
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigvee$0
+#+END_SRC
+
+#+NAME: bigwedge
+#+BEGIN_SRC yasnippet :tangle org-mode/bigwedge
+# -*- mode: snippet -*-
+# name: bigwedge
+# key: ;and
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bigwedge$0
+#+END_SRC
+
+#+NAME: coprod
+#+BEGIN_SRC yasnippet :tangle org-mode/coprod
+# -*- mode: snippet -*-
+# name: coprod
+# key: ;coprod
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\coprod$0
+#+END_SRC
+
+#+NAME: prod
+#+BEGIN_SRC yasnippet :tangle org-mode/prod
+# -*- mode: snippet -*-
+# name: prod
+# key: ;prod
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\prod$0
+#+END_SRC
+
+#+NAME: smallint
+#+BEGIN_SRC yasnippet :tangle org-mode/smallint
+# -*- mode: snippet -*-
+# name: smallint
+# key: ;sint
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\smallint$0
+#+END_SRC
+
+#+NAME: sum
+#+BEGIN_SRC yasnippet :tangle org-mode/smallint
+# -*- mode: snippet -*-
+# name: sum
+# key: ;sum
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\sum$0
+#+END_SRC
+
 ** Punctuation
 ** Pairing delimiters (extensible)
 ** Nonpairing extensible symbols
