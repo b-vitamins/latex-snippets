@@ -4528,6 +4528,87 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Punctuation
+
+#+NAME: colon
+#+BEGIN_SRC yasnippet :tangle org-mode/colon
+# -*- mode: snippet -*-
+# name: colon
+# key: ;colon
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\colon$0
+#+END_SRC
+
+#+NAME: dotsb
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsb
+# -*- mode: snippet -*-
+# name: dotsb
+# key: ;dotsb
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\dotsb$0
+#+END_SRC
+
+#+NAME: dotsc
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsc
+# -*- mode: snippet -*-
+# name: dotsc
+# key: ;dotsc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\dotsc$0
+#+END_SRC
+
+#+NAME: dotsi
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsi
+# -*- mode: snippet -*-
+# name: dotsi
+# key: ;dotsi
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\dotsi$0
+#+END_SRC
+
+#+NAME: dotsm
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsm
+# -*- mode: snippet -*-
+# name: dotsm
+# key: ;dotsm
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\dotsm$0
+#+END_SRC
+
+#+NAME: dotso
+#+BEGIN_SRC yasnippet :tangle org-mode/dotso
+# -*- mode: snippet -*-
+# name: dotso
+# key: ;dotso
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\dotso$0
+#+END_SRC
+
+#+NAME: ddots
+#+BEGIN_SRC yasnippet :tangle org-mode/ddots
+# -*- mode: snippet -*-
+# name: ddots
+# key: ;ddots
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\ddots$0
+#+END_SRC
+
+#+NAME: vdots
+#+BEGIN_SRC yasnippet :tangle org-mode/vdots
+# -*- mode: snippet -*-
+# name: vdots
+# key: ;vdots
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\vdots$0
+#+END_SRC
+
 ** Pairing delimiters (extensible)
 ** Nonpairing extensible symbols
 ** Extensible vertical arrows
