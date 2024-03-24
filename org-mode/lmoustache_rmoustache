@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: lmoustache_rmoustache
+# key: ;{()}
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lmoustache $0 \rmoustache

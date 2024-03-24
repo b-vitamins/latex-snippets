@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: lvert_rvert
+# key: ;||
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lvert $0 \rvert

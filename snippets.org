@@ -4610,6 +4610,87 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Pairing delimiters (extensible)
+
+#+NAME: lbrace_rbrace
+#+BEGIN_SRC yasnippet :tangle org-mode/lbrace_rbrace
+# -*- mode: snippet -*-
+# name: lbrace_rbrace
+# key: ;{}
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\{ $0 \}
+#+END_SRC
+
+#+NAME: lvert_rvert
+#+BEGIN_SRC yasnippet :tangle org-mode/lvert_rvert
+# -*- mode: snippet -*-
+# name: lvert_rvert
+# key: ;||
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lvert $0 \rvert
+#+END_SRC
+
+#+NAME: lVert_rVert
+#+BEGIN_SRC yasnippet :tangle org-mode/lVert_rVert
+# -*- mode: snippet -*-
+# name: lVert_rVert
+# key: ;|||
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lVert $0 \rVert
+#+END_SRC
+
+#+NAME: langle_rangle
+#+BEGIN_SRC yasnippet :tangle org-mode/langle_rangle
+# -*- mode: snippet -*-
+# name: langle_rangle
+# key: ;<>
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\langle $0 \rangle
+#+END_SRC
+
+#+NAME: lceil_rceil
+#+BEGIN_SRC yasnippet :tangle org-mode/lceil_rceil
+# -*- mode: snippet -*-
+# name: lceil_rceil
+# key: ;[]
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lceil $0 \rceil
+#+END_SRC
+
+#+NAME: lfloor_rfloor
+#+BEGIN_SRC yasnippet :tangle org-mode/lfloor_rfloor
+# -*- mode: snippet -*-
+# name: lfloor_rfloor
+# key: ;_|
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lfloor $0 \rfloor
+#+END_SRC
+
+#+NAME: lgroup_rgroup
+#+BEGIN_SRC yasnippet :tangle org-mode/lgroup_rgroup
+# -*- mode: snippet -*-
+# name: lgroup_rgroup
+# key: ;()
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lgroup $0 \rgroup
+#+END_SRC
+
+#+NAME: lmoustache_rmoustache
+#+BEGIN_SRC yasnippet :tangle org-mode/lmoustache_rmoustache
+# -*- mode: snippet -*-
+# name: lmoustache_rmoustache
+# key: ;{()}
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lmoustache $0 \rmoustache
+#+END_SRC
+
 ** Nonpairing extensible symbols
 ** Extensible vertical arrows
 ** Math accents
