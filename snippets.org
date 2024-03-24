@@ -4754,6 +4754,67 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Extensible vertical arrows
+
+#+NAME: uparrow
+#+BEGIN_SRC yasnippet :tangle org-mode/uparrow
+# -*- mode: snippet -*-
+# name: uparrow
+# key: ;uarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\uparrow$0
+#+END_SRC
+
+#+NAME: Uparrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Uparrow
+# -*- mode: snippet -*-
+# name: Uparrow
+# key: ;Uarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Uparrow$0
+#+END_SRC
+
+#+NAME: downarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/downarrow
+# -*- mode: snippet -*-
+# name: downarrow
+# key: ;darr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\downarrow$0
+#+END_SRC
+
+#+NAME: Downarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Downarrow
+# -*- mode: snippet -*-
+# name: Downarrow
+# key: ;Darr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Downarrow$0
+#+END_SRC
+
+#+NAME: updownarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/updownarrow
+# -*- mode: snippet -*-
+# name: updownarrow
+# key: ;udarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\updownarrow$0
+#+END_SRC
+
+#+NAME: Updownarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/Updownarrow
+# -*- mode: snippet -*-
+# name: Updownarrow
+# key: ;Udarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Updownarrow$0
+#+END_SRC
+
 ** Math accents
 ** Named operators
 * Notations

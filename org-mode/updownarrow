@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: updownarrow
+# key: ;udarr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\updownarrow$0
