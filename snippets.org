@@ -4692,6 +4692,67 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Nonpairing extensible symbols
+
+#+NAME: vert
+#+BEGIN_SRC yasnippet :tangle org-mode/vert
+# -*- mode: snippet -*-
+# name: vert
+# key: ;vert
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\vert$0
+#+END_SRC
+
+#+NAME: Vert
+#+BEGIN_SRC yasnippet :tangle org-mode/Vert
+# -*- mode: snippet -*-
+# name: Vert (double vertical line)
+# key: ;Vert
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Vert$0
+#+END_SRC
+
+#+NAME: backslash
+#+BEGIN_SRC yasnippet :tangle org-mode/backslash
+# -*- mode: snippet -*-
+# name: backslash
+# key: ;bksl
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\backslash$0
+#+END_SRC
+
+#+NAME: arrowvert
+#+BEGIN_SRC yasnippet :tangle org-mode/arrowvert
+# -*- mode: snippet -*-
+# name: arrowvert
+# key: ;arrv
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\arrowvert$0
+#+END_SRC
+
+#+NAME: Arrowvert
+#+BEGIN_SRC yasnippet :tangle org-mode/Arrowvert
+# -*- mode: snippet -*-
+# name: Arrowvert (double arrow vertical line)
+# key: ;Arrv
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Arrowvert$0
+#+END_SRC
+
+#+NAME: bracevert
+#+BEGIN_SRC yasnippet :tangle org-mode/bracevert
+# -*- mode: snippet -*-
+# name: bracevert
+# key: ;brav
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\bracevert$0
+#+END_SRC
+
 ** Extensible vertical arrows
 ** Math accents
 ** Named operators

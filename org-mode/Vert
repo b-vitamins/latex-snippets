@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Vert (double vertical line)
+# key: ;Vert
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Vert$0

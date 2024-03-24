@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Arrowvert (double arrow vertical line)
+# key: ;Arrv
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\Arrowvert$0

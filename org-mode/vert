@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: vert
+# key: ;vert
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\vert$0
