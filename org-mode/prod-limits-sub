@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: prod with limits on subscript
+# key: ;prodl_
+# --
+\prod\limits_{${1:lower}}$0

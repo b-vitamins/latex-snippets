@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: int with display limits on sub and sup
+# key: ;intd_^
+# --
+\int\displaylimits_{${1:lower}}^{${2:upper}}$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: int with limits on sub and sup
+# key: ;intl_^
+# --
+\int\limits_{${1:lower}}^{${2:upper}}$0

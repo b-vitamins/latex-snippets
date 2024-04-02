@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: int with no limits on subscript
+# key: ;intn_
+# --
+\int\nolimits_{${1:lower}}$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sum with subscript
+# key: ;sum_
+# --
+\sum_{${1:lower}}$0

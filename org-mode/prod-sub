@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: prod with subscript
+# key: ;prod_
+# --
+\prod_{${1:lower}}$0

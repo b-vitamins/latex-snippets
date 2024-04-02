@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: prod with display limits on subscript
+# key: ;prodd_'
+# --
+\sideset{}{\prime}\prod\displaylimits_{${1:lower}}$0

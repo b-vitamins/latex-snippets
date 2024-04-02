@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sum with no limits on subscript
+# key: ;sumn_
+# --
+\sum\nolimits_{${1:lower}}$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: prod with no limits on sub and sup
+# key: ;prodn_^
+# --
+\prod\nolimits_{${1:lower}}^{${2:upper}}$0

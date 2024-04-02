@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sum with sub and sup
+# key: ;sum_^
+# --
+\sum_{${1:lower}}^{${2:upper}}$0

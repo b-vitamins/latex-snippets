@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sum with display limits on subscript
+# key: ;sumd_'
+# --
+\sideset{}{\prime}\sum\displaylimits_{${1:lower}}{\prime}$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sum with limits on subscript
+# key: ;suml_'
+# --
+\sideset{}{\prime}\sum\limits_{${1:lower}}{\prime}$0

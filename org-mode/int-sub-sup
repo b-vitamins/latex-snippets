@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: int with sub and sup
+# key: ;int_^
+# --
+\int_{${1:lower}}^{${2:upper}}$0

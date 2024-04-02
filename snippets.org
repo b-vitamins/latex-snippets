@@ -6296,6 +6296,295 @@ _{\text{$1}}$0
 
 * Integrals and sums
 ** Altering the placement of limits
+
+#+NAME: int-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/int-sub
+# -*- mode: snippet -*-
+# name: int with subscript
+# key: ;int_
+# --
+\int_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: int-limits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/int-limits-sub
+# -*- mode: snippet -*-
+# name: int with limits on subscript
+# key: ;intl_
+# --
+\int\limits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: int-nolimits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/int-nolimits-sub
+# -*- mode: snippet -*-
+# name: int with no limits on subscript
+# key: ;intn_
+# --
+\int\nolimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: int-displaylimits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/int-displaylimits-sub
+# -*- mode: snippet -*-
+# name: int with display limits on subscript
+# key: ;intd_
+# --
+\int\displaylimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: int-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/int-sub-sup
+# -*- mode: snippet -*-
+# name: int with sub and sup
+# key: ;int_^
+# --
+\int_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: int-limits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/int-limits-sub-sup
+# -*- mode: snippet -*-
+# name: int with limits on sub and sup
+# key: ;intl_^
+# --
+\int\limits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: int-nolimits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/int-nolimits-sub-sup
+# -*- mode: snippet -*-
+# name: int with no limits on sub and sup
+# key: ;intn_^
+# --
+\int\nolimits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: int-displaylimits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/int-displaylimits-sub-sup
+# -*- mode: snippet -*-
+# name: int with display limits on sub and sup
+# key: ;intd_^
+# --
+\int\displaylimits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: sum-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-sub
+# -*- mode: snippet -*-
+# name: sum with subscript
+# key: ;sum_
+# --
+\sum_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: sum-limits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-limits-sub
+# -*- mode: snippet -*-
+# name: sum with limits on subscript
+# key: ;suml_
+# --
+\sum\limits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: sum-nolimits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-nolimits-sub
+# -*- mode: snippet -*-
+# name: sum with no limits on subscript
+# key: ;sumn_
+# --
+\sum\nolimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: sum-displaylimits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-displaylimits-sub
+# -*- mode: snippet -*-
+# name: sum with display limits on subscript
+# key: ;sumd_
+# --
+\sum\displaylimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: sum-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-sub-prime
+# -*- mode: snippet -*-
+# name: sum with subscript
+# key: ;sum_'
+# --
+\sideset{}{\prime}\sum_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: sum-limits-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-limits-sub-prime
+# -*- mode: snippet -*-
+# name: sum with limits on subscript
+# key: ;suml_'
+# --
+\sideset{}{\prime}\sum\limits_{${1:lower}}{\prime}$0
+#+END_SRC
+
+#+NAME: sum-nolimits-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-nolimits-sub-prime
+# -*- mode: snippet -*-
+# name: sum with no limits on subscript
+# key: ;sumn_'
+# --
+\sideset{}{\prime}\sum\nolimits_{${1:lower}}{\prime}$0
+#+END_SRC
+
+#+NAME: sum-displaylimits-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-displaylimits-sub-prime
+# -*- mode: snippet -*-
+# name: sum with display limits on subscript
+# key: ;sumd_'
+# --
+\sideset{}{\prime}\sum\displaylimits_{${1:lower}}{\prime}$0
+#+END_SRC
+
+#+NAME: sum-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-sub-sup
+# -*- mode: snippet -*-
+# name: sum with sub and sup
+# key: ;sum_^
+# --
+\sum_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: sum-limits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-limits-sub-sup
+# -*- mode: snippet -*-
+# name: sum with limits on sub and sup
+# key: ;suml_^
+# --
+\sum\limits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: sum-nolimits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-nolimits-sub-sup
+# -*- mode: snippet -*-
+# name: sum with no limits on sub and sup
+# key: ;sumn_^
+# --
+\sum\nolimits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: sum-displaylimits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-displaylimits-sub-sup
+# -*- mode: snippet -*-
+# name: sum with display limits on sub and sup
+# key: ;sumd_^
+# --
+\sum\displaylimits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: prod-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-sub
+# -*- mode: snippet -*-
+# name: prod with subscript
+# key: ;prod_
+# --
+\prod_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-limits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-limits-sub
+# -*- mode: snippet -*-
+# name: prod with limits on subscript
+# key: ;prodl_
+# --
+\prod\limits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-nolimits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-nolimits-sub
+# -*- mode: snippet -*-
+# name: prod with no limits on subscript
+# key: ;prodn_
+# --
+\prod\nolimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-displaylimits-sub
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-displaylimits-sub
+# -*- mode: snippet -*-
+# name: prod with display limits on subscript
+# key: ;prodd_
+# --
+\prod\displaylimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-sub-prime
+# -*- mode: snippet -*-
+# name: prod with subscript
+# key: ;prod_'
+# --
+\sideset{}{\prime}\prod_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-limits-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-limits-sub-prime
+# -*- mode: snippet -*-
+# name: prod with limits on subscript
+# key: ;prodl_'
+# --
+\sideset{}{\prime}\prod\limits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-nolimits-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-nolimits-sub-prime
+# -*- mode: snippet -*-
+# name: prod with no limits on subscript
+# key: ;prodn_'
+# --
+\sideset{}{\prime}\prod\nolimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-displaylimits-sub-prime
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-displaylimits-sub-prime
+# -*- mode: snippet -*-
+# name: prod with display limits on subscript
+# key: ;prodd_'
+# --
+\sideset{}{\prime}\prod\displaylimits_{${1:lower}}$0
+#+END_SRC
+
+#+NAME: prod-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-sub-sup
+# -*- mode: snippet -*-
+# name: prod with sub and sup
+# key: ;prod_^
+# --
+\prod_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: prod-limits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-limits-sub-sup
+# -*- mode: snippet -*-
+# name: prod with limits on sub and sup
+# key: ;prodl_^
+# --
+\prod\limits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: prod-nolimits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-nolimits-sub-sup
+# -*- mode: snippet -*-
+# name: prod with no limits on sub and sup
+# key: ;prodn_^
+# --
+\prod\nolimits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
+#+NAME: prod-displaylimits-sub-sup
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-displaylimits-sub-sup
+# -*- mode: snippet -*-
+# name: prod with display limits on sub and sup
+# key: ;prodd_^
+# --
+\prod\displaylimits_{${1:lower}}^{${2:upper}}$0
+#+END_SRC
+
 ** Multiple integral signs
 ** Multiline subscripts and superscripts
 ** The \sideset command

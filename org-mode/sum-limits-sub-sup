@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sum with limits on sub and sup
+# key: ;suml_^
+# --
+\sum\limits_{${1:lower}}^{${2:upper}}$0
