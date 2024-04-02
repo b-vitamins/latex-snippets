@@ -5954,6 +5954,34 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 * Fractions and related constructions
 ** The \frac, \dfrac, and \tfrac commands
+
+#+NAME: frac
+#+BEGIN_SRC yasnippet :tangle org-mode/frac
+# -*- mode: snippet -*-
+# name: frac
+# key: ;frac
+# --
+\frac{$1}{$2}$0
+#+END_SRC
+
+#+NAME: dfrac
+#+BEGIN_SRC yasnippet :tangle org-mode/dfrac
+# -*- mode: snippet -*-
+# name: dfrac
+# key: ;dfrac
+# --
+\dfrac{$1}{$2}$0
+#+END_SRC
+
+#+NAME: tfrac
+#+BEGIN_SRC yasnippet :tangle org-mode/tfrac
+# -*- mode: snippet -*-
+# name: tfrac
+# key: ;tfrac
+# --
+\tfrac{$1}{$2}$0
+#+END_SRC
+
 ** The \binom, \dbinom, and \tbinom commands
 ** The \genfrac command
 ** Continued fractions
