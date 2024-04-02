@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cfrac
+# key: ;cfrac
+# --
+\cfrac{${1:1}}{\sqrt{${2:2}}\cfrac{${3:1}}{\sqrt{${2:2}}+\dotsb}}

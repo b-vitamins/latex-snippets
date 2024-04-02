@@ -6023,8 +6023,199 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Continued fractions
+
+#+NAME: cfrac
+#+BEGIN_SRC yasnippet :tangle org-mode/cfrac
+# -*- mode: snippet -*-
+# name: cfrac
+# key: ;cfrac
+# --
+\cfrac{${1:1}}{\sqrt{${2:2}}\cfrac{${3:1}}{\sqrt{${2:2}}+\dotsb}}
+#+END_SRC
+
 * Delimiters
 ** Delimiter sizes
+
+#+NAME: left-right-delimiters
+#+BEGIN_SRC yasnippet :tangle org-mode/left-right-delimiters
+# -*- mode: snippet -*-
+# name: left-right-delimiters
+# key: ;leftright
+# --
+\left${1:delimiter} ${2:content} \right${3:delimiter}$0
+#+END_SRC
+
+#+NAME: left-right-parentheses
+#+BEGIN_SRC yasnippet :tangle org-mode/left-right-parentheses
+# -*- mode: snippet -*-
+# name: left-right-parentheses
+# key: ;()lr
+# --
+\left( $1 \right)$0
+#+END_SRC
+
+#+NAME: left-right-brackets
+#+BEGIN_SRC yasnippet :tangle org-mode/left-right-brackets
+# -*- mode: snippet -*-
+# name: left-right-brackets
+# key: ;[]lr
+# --
+\left[ $1 \right]$0
+#+END_SRC
+
+#+NAME: left-right-braces
+#+BEGIN_SRC yasnippet :tangle org-mode/left-right-braces
+# -*- mode: snippet -*-
+# name: left-right-braces
+# key: ;{}lr
+# --
+\left\{ $1 \right\}$0
+#+END_SRC
+
+#+NAME: bigl-bigr-delimiters
+#+BEGIN_SRC yasnippet :tangle org-mode/bigl-bigr-delimiters
+# -*- mode: snippet -*-
+# name: bigl-bigr-delimiters
+# key: ;biglr
+# --
+\bigl${1:delimiter} ${2:content} \bigr${3:delimiter}$0
+#+END_SRC
+
+#+NAME: bigl-bigr-parentheses
+#+BEGIN_SRC yasnippet :tangle org-mode/bigl-bigr-parentheses
+# -*- mode: snippet -*-
+# name: bigl-bigr-parentheses
+# key: ;()bg
+# --
+\bigl( $1 \bigr)$0
+#+END_SRC
+
+#+NAME: bigl-bigr-brackets
+#+BEGIN_SRC yasnippet :tangle org-mode/bigl-bigr-brackets
+# -*- mode: snippet -*-
+# name: bigl-bigr-brackets
+# key: ;[]bg
+# --
+\bigl[ $1 \bigr]$0
+#+END_SRC
+
+#+NAME: bigl-bigr-braces
+#+BEGIN_SRC yasnippet :tangle org-mode/bigl-bigr-braces
+# -*- mode: snippet -*-
+# name: bigl-bigr-braces
+# key: ;{}bg
+# --
+\bigl\{ $1 \bigr\}$0
+#+END_SRC
+
+#+NAME: Bigl-Bigr-delimiters
+#+BEGIN_SRC yasnippet :tangle org-mode/Bigl-Bigr-delimiters
+# -*- mode: snippet -*-
+# name: Bigl-Bigr-delimiters
+# key: ;Biglr
+# --
+\Bigl${1:delimiter} ${2:content} \Bigr${3:delimiter}$0
+#+END_SRC
+
+#+NAME: Bigl-Bigr-parentheses
+#+BEGIN_SRC yasnippet :tangle org-mode/Bigl-Bigr-parentheses
+# -*- mode: snippet -*-
+# name: Bigl-Bigr-parentheses
+# key: ;()Bg
+# --
+\Bigl( $1 \Bigr)$0
+#+END_SRC
+
+#+NAME: Bigl-Bigr-brackets
+#+BEGIN_SRC yasnippet :tangle org-mode/Bigl-Bigr-brackets
+# -*- mode: snippet -*-
+# name: Bigl-Bigr-brackets
+# key: ;[]Bg
+# --
+\Bigl[ $1 \Bigr]$0
+#+END_SRC
+
+#+NAME: Bigl-Bigr-braces
+#+BEGIN_SRC yasnippet :tangle org-mode/Bigl-Bigr-braces
+# -*- mode: snippet -*-
+# name: Bigl-Bigr-braces
+# key: ;{}Bg
+# --
+\Bigl\{ $1 \Bigr\}$0
+#+END_SRC
+
+#+NAME: biggl-biggr-delimiters
+#+BEGIN_SRC yasnippet :tangle org-mode/biggl-biggr-delimiters
+# -*- mode: snippet -*-
+# name: biggl-biggr-delimiters
+# key: ;bigglr
+# --
+\biggl${1:delimiter} ${2:content} \biggr${3:delimiter}$0
+#+END_SRC
+
+#+NAME: biggl-biggr-parentheses
+#+BEGIN_SRC yasnippet :tangle org-mode/biggl-biggr-parentheses
+# -*- mode: snippet -*-
+# name: biggl-biggr-parentheses
+# key: ;()bgg
+# --
+\biggl( $1 \biggr)$0
+#+END_SRC
+
+#+NAME: biggl-biggr-brackets
+#+BEGIN_SRC yasnippet :tangle org-mode/biggl-biggr-brackets
+# -*- mode: snippet -*-
+# name: biggl-biggr-brackets
+# key: ;[]bgg
+# --
+\biggl[ $1 \biggr]$0
+#+END_SRC
+
+#+NAME: biggl-biggr-braces
+#+BEGIN_SRC yasnippet :tangle org-mode/biggl-biggr-braces
+# -*- mode: snippet -*-
+# name: biggl-biggr-braces
+# key: ;{}bgg
+# --
+\biggl\{ $1 \biggr\}$0
+#+END_SRC
+
+#+NAME: Biggl-Biggr-delimiters
+#+BEGIN_SRC yasnippet :tangle org-mode/Biggl-Biggr-delimiters
+# -*- mode: snippet -*-
+# name: Biggl-Biggr-delimiters
+# key: ;Bigglr
+# --
+\Biggl${1:delimiter} ${2:content} \Biggr${3:delimiter}$0
+#+END_SRC
+
+#+NAME: Biggl-Biggr-parentheses
+#+BEGIN_SRC yasnippet :tangle org-mode/Biggl-Biggr-parentheses
+# -*- mode: snippet -*-
+# name: Biggl-Biggr-parentheses
+# key: ;()Bgg
+# --
+\Biggl( $1 \Biggr)$0
+#+END_SRC
+
+#+NAME: Biggl-Biggr-brackets
+#+BEGIN_SRC yasnippet :tangle org-mode/Biggl-Biggr-brackets
+# -*- mode: snippet -*-
+# name: Biggl-Biggr-brackets
+# key: ;[]Bgg
+# --
+\Biggl[ $1 \Biggr]$0
+#+END_SRC
+
+#+NAME: Biggl-Biggr-braces
+#+BEGIN_SRC yasnippet :tangle org-mode/Biggl-Biggr-braces
+# -*- mode: snippet -*-
+# name: Biggl-Biggr-braces
+# key: ;{}Bgg
+# --
+\Biggl\{ $1 \Biggr\}$0
+#+END_SRC
+
 ** Vertical bar notations
 * The \text command
 ** \mod and its relatives

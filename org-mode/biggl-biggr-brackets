@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: biggl-biggr-brackets
+# key: ;[]bgg
+# --
+\biggl[ $1 \biggr]$0

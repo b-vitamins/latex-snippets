@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: left-right-delimiters
+# key: ;leftright
+# --
+\left${1:delimiter} ${2:content} \right${3:delimiter}$0

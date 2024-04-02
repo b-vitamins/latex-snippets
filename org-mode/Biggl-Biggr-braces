@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Biggl-Biggr-braces
+# key: ;{}Bgg
+# --
+\Biggl\{ $1 \Biggr\}$0

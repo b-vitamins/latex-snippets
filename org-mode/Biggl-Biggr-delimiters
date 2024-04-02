@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Biggl-Biggr-delimiters
+# key: ;Bigglr
+# --
+\Biggl${1:delimiter} ${2:content} \Biggr${3:delimiter}$0
