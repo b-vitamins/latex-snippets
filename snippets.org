@@ -5481,6 +5481,113 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 * Notations
 ** Top and bottom embellishments
+#+NAME: widetilde
+#+BEGIN_SRC yasnippet :tangle org-mode/widetilde
+# -*- mode: snippet -*-
+# name: widetilde
+# key: ;wtild
+# --
+\widetilde{$1}$0
+#+END_SRC
+
+#+NAME: widehat
+#+BEGIN_SRC yasnippet :tangle org-mode/widehat
+# -*- mode: snippet -*-
+# name: widehat
+# key: ;what
+# --
+\widehat{$1}$0
+#+END_SRC
+
+#+NAME: overline
+#+BEGIN_SRC yasnippet :tangle org-mode/overline
+# -*- mode: snippet -*-
+# name: overline
+# key: ;olin
+# --
+\overline{$1}$0
+#+END_SRC
+
+#+NAME: underline
+#+BEGIN_SRC yasnippet :tangle org-mode/underline
+# -*- mode: snippet -*-
+# name: underline
+# key: ;ulin
+# --
+\underline{$1}$0
+#+END_SRC
+
+#+NAME: overbrace
+#+BEGIN_SRC yasnippet :tangle org-mode/overbrace
+# -*- mode: snippet -*-
+# name: overbrace
+# key: ;obrc
+# --
+\overbrace{$1}$0
+#+END_SRC
+
+#+NAME: underbrace
+#+BEGIN_SRC yasnippet :tangle org-mode/underbrace
+# -*- mode: snippet -*-
+# name: underbrace
+# key: ;ubrc
+# --
+\underbrace{$1}$0
+#+END_SRC
+
+#+NAME: overleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/overleftarrow
+# -*- mode: snippet -*-
+# name: overleftarrow
+# key: ;olar
+# --
+\overleftarrow{$1}$0
+#+END_SRC
+
+#+NAME: underleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/underleftarrow
+# -*- mode: snippet -*-
+# name: underleftarrow
+# key: ;ular
+# --
+\underleftarrow{$1}$0
+#+END_SRC
+
+#+NAME: overrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/overrightarrow
+# -*- mode: snippet -*-
+# name: overrightarrow
+# key: ;orar
+# --
+\overrightarrow{$1}$0
+#+END_SRC
+
+#+NAME: underrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/underrightarrow
+# -*- mode: snippet -*-
+# name: underrightarrow
+# key: ;urar
+# --
+\underrightarrow{$1}$0
+#+END_SRC
+
+#+NAME: overleftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/overleftrightarrow
+# -*- mode: snippet -*-
+# name: overleftrightarrow
+# key: ;olrar
+# --
+\overleftrightarrow{$1}$0
+#+END_SRC
+
+#+NAME: underleftrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/underleftrightarrow
+# -*- mode: snippet -*-
+# name: underleftrightarrow
+# key: ;ulrar
+# --
+\underleftrightarrow{$1}$0
+#+END_SRC
 
 ** Extensible arrows
 ** Affixing symbols to other symbols

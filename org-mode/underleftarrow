@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: underleftarrow
+# key: ;ular
+# --
+\underleftarrow{$1}$0

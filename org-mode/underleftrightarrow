@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: underleftrightarrow
+# key: ;ulrar
+# --
+\underleftrightarrow{$1}$0

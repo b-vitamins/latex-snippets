@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: overbrace
+# key: ;obrc
+# --
+\overbrace{$1}$0
