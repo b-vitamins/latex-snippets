@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Text in Math as Subscript
+# key: ;_txt
+# --
+_{\text{$1}}$0

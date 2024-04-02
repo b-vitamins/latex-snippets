@@ -6217,7 +6217,45 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Vertical bar notations
+
+#+NAME: abs
+#+BEGIN_SRC yasnippet :tangle org-mode/abs
+# -*- mode: snippet -*-
+# name: Absolute Value
+# key: ;abs
+# --
+\lvert $1 \rvert$0
+#+END_SRC
+
+#+NAME: norm
+#+BEGIN_SRC yasnippet :tangle org-mode/norm
+# -*- mode: snippet -*-
+# name: Norm
+# key: ;norm
+# --
+\lVert $1 \rVert$0
+#+END_SRC
+
 * The \text command
+
+#+NAME: text-in-math
+#+BEGIN_SRC yasnippet :tangle org-mode/text-in-math
+# -*- mode: snippet -*-
+# name: Text in Math
+# key: ;mtxt
+# --
+\text{$1}$0
+#+END_SRC
+
+#+NAME: text-in-math-subscript
+#+BEGIN_SRC yasnippet :tangle org-mode/text-in-math-subscript
+# -*- mode: snippet -*-
+# name: Text in Math as Subscript
+# key: ;_txt
+# --
+_{\text{$1}}$0
+#+END_SRC
+
 ** \mod and its relatives
 * Integrals and sums
 ** Altering the placement of limits
