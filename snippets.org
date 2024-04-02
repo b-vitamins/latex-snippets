@@ -5983,6 +5983,34 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** The \binom, \dbinom, and \tbinom commands
+
+#+NAME: binom
+#+BEGIN_SRC yasnippet :tangle org-mode/binom
+# -*- mode: snippet -*-
+# name: binom
+# key: ;binom
+# --
+\binom{$1}{$2}$0
+#+END_SRC
+
+#+NAME: dbinom
+#+BEGIN_SRC yasnippet :tangle org-mode/dbinom
+# -*- mode: snippet -*-
+# name: dbinom
+# key: ;dbinom
+# --
+\dbinom{$1}{$2}$0
+#+END_SRC
+
+#+NAME: tbinom
+#+BEGIN_SRC yasnippet :tangle org-mode/tbinom
+# -*- mode: snippet -*-
+# name: tbinom
+# key: ;tbinom
+# --
+\tbinom{$1}{$2}$0
+#+END_SRC
+
 ** The \genfrac command
 ** Continued fractions
 * Delimiters
