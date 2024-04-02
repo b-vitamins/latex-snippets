@@ -6257,6 +6257,43 @@ _{\text{$1}}$0
 #+END_SRC
 
 ** \mod and its relatives
+
+#+NAME: mod
+#+BEGIN_SRC yasnippet :tangle org-mode/mod
+# -*- mode: snippet -*-
+# name: Modulo
+# key: ;mod
+# --
+\mod{$1}$0
+#+END_SRC
+
+#+NAME: bmod
+#+BEGIN_SRC yasnippet :tangle org-mode/bmod
+# -*- mode: snippet -*-
+# name: Binary Modulo
+# key: ;bmod
+# --
+\bmod{$1}$0
+#+END_SRC
+
+#+NAME: pmod
+#+BEGIN_SRC yasnippet :tangle org-mode/pmod
+# -*- mode: snippet -*-
+# name: Parenthesized Modulo
+# key: ;pmod
+# --
+\pmod{$1}$0
+#+END_SRC
+
+#+NAME: pod
+#+BEGIN_SRC yasnippet :tangle org-mode/pod
+# -*- mode: snippet -*-
+# name: Plain Modulo
+# key: ;pod
+# --
+\pod{$1}$0
+#+END_SRC
+
 * Integrals and sums
 ** Altering the placement of limits
 ** Multiple integral signs

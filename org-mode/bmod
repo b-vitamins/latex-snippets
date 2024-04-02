@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Binary Modulo
+# key: ;bmod
+# --
+\bmod{$1}$0

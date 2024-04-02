@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Plain Modulo
+# key: ;pod
+# --
+\pod{$1}$0

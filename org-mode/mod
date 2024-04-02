@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Modulo
+# key: ;mod
+# --
+\mod{$1}$0

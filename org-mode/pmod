@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Parenthesized Modulo
+# key: ;pmod
+# --
+\pmod{$1}$0
