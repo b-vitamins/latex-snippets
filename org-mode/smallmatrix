@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: smallmatrix
+# key: ;smat
+# --
+\left(\begin{smallmatrix}
+  $1
+\end{smallmatrix}\right)$0

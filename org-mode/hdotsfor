@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hdotsfor (dots across columns in a matrix)
+# key: ;hdots
+# --
+\hdotsfor{$1}$0

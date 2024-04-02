@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Vmatrix
+# key: ;Vmat
+# --
+\begin{Vmatrix}
+  $1
+\end{Vmatrix}$0

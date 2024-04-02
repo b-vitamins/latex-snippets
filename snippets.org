@@ -5630,6 +5630,93 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Matrices
+
+#+NAME: pmatrix
+#+BEGIN_SRC yasnippet :tangle org-mode/pmatrix
+# -*- mode: snippet -*-
+# name: pmatrix
+# key: ;pmat
+# --
+\begin{pmatrix}
+  $1
+\end{pmatrix}$0
+#+END_SRC
+
+#+NAME: bmatrix
+#+BEGIN_SRC yasnippet :tangle org-mode/bmatrix
+# -*- mode: snippet -*-
+# name: bmatrix
+# key: ;bmat
+# --
+\begin{bmatrix}
+  $1
+\end{bmatrix}$0
+#+END_SRC
+
+#+NAME: Bmatrix
+#+BEGIN_SRC yasnippet :tangle org-mode/Bmatrix
+# -*- mode: snippet -*-
+# name: Bmatrix
+# key: ;Bmat
+# --
+\begin{Bmatrix}
+  $1
+\end{Bmatrix}$0
+#+END_SRC
+
+#+NAME: vmatrix
+#+BEGIN_SRC yasnippet :tangle org-mode/vmatrix
+# -*- mode: snippet -*-
+# name: vmatrix
+# key: ;vmat
+# --
+\begin{vmatrix}
+  $1
+\end{vmatrix}$0
+#+END_SRC
+
+#+NAME: Vmatrix
+#+BEGIN_SRC yasnippet :tangle org-mode/Vmatrix
+# -*- mode: snippet -*-
+# name: Vmatrix
+# key: ;Vmat
+# --
+\begin{Vmatrix}
+  $1
+\end{Vmatrix}$0
+#+END_SRC
+
+#+NAME: smallmatrix
+#+BEGIN_SRC yasnippet :tangle org-mode/smallmatrix
+# -*- mode: snippet -*-
+# name: smallmatrix
+# key: ;smat
+# --
+\left(\begin{smallmatrix}
+  $1
+\end{smallmatrix}\right)$0
+#+END_SRC
+
+#+NAME: hdotsfor
+#+BEGIN_SRC yasnippet :tangle org-mode/hdotsfor
+# -*- mode: snippet -*-
+# name: hdotsfor (dots across columns in a matrix)
+# key: ;hdots
+# --
+\hdotsfor{$1}$0
+#+END_SRC
+
+#+NAME: cases
+#+BEGIN_SRC yasnippet :tangle org-mode/cases
+# -*- mode: snippet -*-
+# name: cases
+# key: ;case
+# --
+\begin{cases}
+  $1
+\end{cases}$0
+#+END_SRC
+
 ** Math spacing commands
 ** Dots
 ** Nonbreaking dashes
