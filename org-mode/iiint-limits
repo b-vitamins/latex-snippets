@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: iiint with limits
+# key: ;iiint_
+# --
+\iiint\limits_{$1}$0

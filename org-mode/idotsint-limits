@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: idotsint with limits
+# key: ;i.sint_
+# --
+\idotsint\limits_{$1}$0

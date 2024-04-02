@@ -6586,6 +6586,61 @@ _{\text{$1}}$0
 #+END_SRC
 
 ** Multiple integral signs
+
+#+NAME: iint
+#+BEGIN_SRC yasnippet :tangle org-mode/iint
+# -*- mode: snippet -*-
+# name: iint
+# key: ;iint
+# --
+\iint$0
+#+END_SRC
+
+#+NAME: iiint
+#+BEGIN_SRC yasnippet :tangle org-mode/iiint
+# -*- mode: snippet -*-
+# name: iiint
+# key: ;iiint
+# --
+\iiint$0
+#+END_SRC
+
+#+NAME: idotsint
+#+BEGIN_SRC yasnippet :tangle org-mode/idotsint
+# -*- mode: snippet -*-
+# name: idotsint
+# key: ;i.int
+# --
+\idotsint$0
+#+END_SRC
+
+#+NAME: iint-limits
+#+BEGIN_SRC yasnippet :tangle org-mode/iint-limits
+# -*- mode: snippet -*-
+# name: iint with limits
+# key: ;iint_
+# --
+\iint\limits_{$1}$0
+#+END_SRC
+
+#+NAME: iiint-limits
+#+BEGIN_SRC yasnippet :tangle org-mode/iiint-limits
+# -*- mode: snippet -*-
+# name: iiint with limits
+# key: ;iiint_
+# --
+\iiint\limits_{$1}$0
+#+END_SRC
+
+#+NAME: idotsint-limits
+#+BEGIN_SRC yasnippet :tangle org-mode/idotsint-limits
+# -*- mode: snippet -*-
+# name: idotsint with limits
+# key: ;i.sint_
+# --
+\idotsint\limits_{$1}$0
+#+END_SRC
+
 ** Multiline subscripts and superscripts
 ** The \sideset command
 * Changing the size of elements in a formula
