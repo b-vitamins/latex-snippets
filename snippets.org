@@ -6012,6 +6012,16 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** The \genfrac command
+
+#+NAME: genfrac
+#+BEGIN_SRC yasnippet :tangle org-mode/genfrac
+# -*- mode: snippet -*-
+# name: genfrac
+# key: ;genfrac
+# --
+\genfrac{${1:left-delim}}{${2:right-delim}}{${3:thickness}}{${4:mathstyle}}{${5:numerator}}{${6:denominator}}$0
+#+END_SRC
+
 ** Continued fractions
 * Delimiters
 ** Delimiter sizes
