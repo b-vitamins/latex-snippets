@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sum-substack
+# key: ;sum_stack
+# --
+\sum_{\substack{$1}}$0

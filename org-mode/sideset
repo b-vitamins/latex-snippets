@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sideset
+# key: ;sideset
+# --
+\sideset{${1:_{pre-subscript}^{pre-superscript}}}{${2:_{post-subscript}^{post-superscript}}}$0

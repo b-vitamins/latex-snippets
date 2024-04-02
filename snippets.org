@@ -6642,7 +6642,32 @@ _{\text{$1}}$0
 #+END_SRC
 
 ** Multiline subscripts and superscripts
+
+#+NAME: sum-substack
+#+BEGIN_SRC yasnippet :tangle org-mode/sum-substack
+# -*- mode: snippet -*-
+# name: sum-substack
+# key: ;sum_stack
+# --
+\sum_{\substack{$1}}$0
+#+END_SRC
+
+#+NAME: prod-substack
+#+BEGIN_SRC yasnippet :tangle org-mode/prod-substack
+# -*- mode: snippet -*-
+# name: prod-substack
+# key: ;prod_stack
+# --
+\prod_{\substack{$1}}$0
+#+END_SRC
+
 ** The \sideset command
-* Changing the size of elements in a formula
-* Other packages of interest
-* Other documentation of interest
+
+#+NAME: sideset
+#+BEGIN_SRC yasnippet :tangle org-mode/sideset
+# -*- mode: snippet -*-
+# name: sideset
+# key: ;sideset
+# --
+\sideset{${1:_{pre-subscript}^{pre-superscript}}}{${2:_{post-subscript}^{post-superscript}}}$0
+#+END_SRC

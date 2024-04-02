@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: prod-substack
+# key: ;prod_stack
+# --
+\prod_{\substack{$1}}$0
