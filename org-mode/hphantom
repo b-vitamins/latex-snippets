@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hphantom
+# key: ;hph
+# --
+\hphantom{$1}$0

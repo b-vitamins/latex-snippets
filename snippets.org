@@ -5718,6 +5718,115 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Math spacing commands
+
+#+NAME: thinspace
+#+BEGIN_SRC yasnippet :tangle org-mode/thinspace
+# -*- mode: snippet -*-
+# name: thinspace
+# key: ;ts
+# --
+\,$0
+#+END_SRC
+
+#+NAME: medspace
+#+BEGIN_SRC yasnippet :tangle org-mode/medspace
+# -*- mode: snippet -*-
+# name: medspace
+# key: ;ms
+# --
+\:$0
+#+END_SRC
+
+#+NAME: thickspace
+#+BEGIN_SRC yasnippet :tangle org-mode/thickspace
+# -*- mode: snippet -*-
+# name: thickspace
+# key: ;ths
+# --
+\;$0
+#+END_SRC
+
+#+NAME: quad
+#+BEGIN_SRC yasnippet :tangle org-mode/quad
+# -*- mode: snippet -*-
+# name: quad
+# key: ;qd
+# --
+\quad$0
+#+END_SRC
+
+#+NAME: qquad
+#+BEGIN_SRC yasnippet :tangle org-mode/qquad
+# -*- mode: snippet -*-
+# name: qquad
+# key: ;qqd
+# --
+\qquad$0
+#+END_SRC
+
+#+NAME: negthinspace
+#+BEGIN_SRC yasnippet :tangle org-mode/negthinspace
+# -*- mode: snippet -*-
+# name: negthinspace
+# key: ;nts
+# --
+\!$0
+#+END_SRC
+
+#+NAME: negmedspace
+#+BEGIN_SRC yasnippet :tangle org-mode/negmedspace
+# -*- mode: snippet -*-
+# name: negmedspace
+# key: ;nms
+# --
+\negmedspace$0
+#+END_SRC
+
+#+NAME: negthickspace
+#+BEGIN_SRC yasnippet :tangle org-mode/negthickspace
+# -*- mode: snippet -*-
+# name: negthickspace
+# key: ;nths
+# --
+\negthickspace$0
+#+END_SRC
+
+#+NAME: mspace
+#+BEGIN_SRC yasnippet :tangle org-mode/mspace
+# -*- mode: snippet -*-
+# name: mspace
+# key: ;mspace
+# --
+\mspace{$1}$0
+#+END_SRC
+
+#+NAME: phantom
+#+BEGIN_SRC yasnippet :tangle org-mode/phantom
+# -*- mode: snippet -*-
+# name: phantom
+# key: ;ph
+# --
+\phantom{$1}$0
+#+END_SRC
+
+#+NAME: hphantom
+#+BEGIN_SRC yasnippet :tangle org-mode/hphantom
+# -*- mode: snippet -*-
+# name: hphantom
+# key: ;hph
+# --
+\hphantom{$1}$0
+#+END_SRC
+
+#+NAME: vphantom
+#+BEGIN_SRC yasnippet :tangle org-mode/vphantom
+# -*- mode: snippet -*-
+# name: vphantom
+# key: ;vph
+# --
+\vphantom{$1}$0
+#+END_SRC
+
 ** Dots
 ** Nonbreaking dashes
 ** Roots
