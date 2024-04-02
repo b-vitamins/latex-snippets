@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: mathring
+# key: ;mathring
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\mathring{$1}$0

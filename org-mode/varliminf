@@ -1,12 +1,12 @@
 # -*- mode: snippet -*-
-# name: wide hatted character
-# key: ;what
+# name: varliminf
+# key: ;vliminf
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\widehat{$1} $0
+\varliminf$0
 # -*- mode: snippet -*-
-# name: widehat
-# key: ;widehat
+# name: varliminf
+# key: ;vliminf
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\widehat{$1}$0
+\varliminf$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: gcd
+# key: ;gcd
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\gcd$0

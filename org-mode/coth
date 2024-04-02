@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: coth
+# key: ;coth
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\coth$0

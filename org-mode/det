@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: det
+# key: ;det
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\det$0

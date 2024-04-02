@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cos
+# key: ;cos
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\cos$0

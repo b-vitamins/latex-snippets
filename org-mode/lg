@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: lg
+# key: ;lg
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\lg$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: limsup
+# key: ;limsup
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\limsup$0

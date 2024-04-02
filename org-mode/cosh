@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cosh
+# key: ;cosh
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\cosh$0

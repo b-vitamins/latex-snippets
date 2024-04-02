@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: operatorname (for a one-off operator name)
+# key: ;opn
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\operatorname{$1}$0

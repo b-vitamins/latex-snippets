@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: arctan
+# key: ;atan
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\arctan$0

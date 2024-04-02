@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: grave
+# key: ;grave
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\grave{$1}$0

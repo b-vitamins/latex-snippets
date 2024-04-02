@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: min
+# key: ;min
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\min$0

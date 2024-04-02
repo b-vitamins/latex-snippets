@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: csc
+# key: ;csc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\csc$0
