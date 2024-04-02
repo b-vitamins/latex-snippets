@@ -4,3 +4,8 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \vdots$0
+# -*- mode: snippet -*-
+# name: vdots
+# key: ;vdots
+# --
+\vdots$0

@@ -4,3 +4,8 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dotsi$0
+# -*- mode: snippet -*-
+# name: dotsi (dots with integrals)
+# key: ;dotsi
+# --
+\dotsi$0

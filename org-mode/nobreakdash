@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nobreakdash
+# key: ;ndash
+# --
+\nobreakdash-$0

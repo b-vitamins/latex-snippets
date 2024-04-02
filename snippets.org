@@ -5828,7 +5828,99 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Dots
+
+#+NAME: ldots
+#+BEGIN_SRC yasnippet :tangle org-mode/ldots
+# -*- mode: snippet -*-
+# name: ldots
+# key: ;ldots
+# --
+\ldots$0
+#+END_SRC
+
+#+NAME: cdots
+#+BEGIN_SRC yasnippet :tangle org-mode/cdots
+# -*- mode: snippet -*-
+# name: cdots
+# key: ;cdots
+# --
+\cdots$0
+#+END_SRC
+
+#+NAME: vdots
+#+BEGIN_SRC yasnippet :tangle org-mode/vdots
+# -*- mode: snippet -*-
+# name: vdots
+# key: ;vdots
+# --
+\vdots$0
+#+END_SRC
+
+#+NAME: ddots
+#+BEGIN_SRC yasnippet :tangle org-mode/ddots
+# -*- mode: snippet -*-
+# name: ddots
+# key: ;ddots
+# --
+\ddots$0
+#+END_SRC
+
+#+NAME: dotsc
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsc
+# -*- mode: snippet -*-
+# name: dotsc (dots with commas)
+# key: ;dotsc
+# --
+\dotsc$0
+#+END_SRC
+
+#+NAME: dotsb
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsb
+# -*- mode: snippet -*-
+# name: dotsb (dots with binary operators/relations)
+# key: ;dotsb
+# --
+\dotsb$0
+#+END_SRC
+
+#+NAME: dotsm
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsm
+# -*- mode: snippet -*-
+# name: dotsm (multiplication dots)
+# key: ;dotsm
+# --
+\dotsm$0
+#+END_SRC
+
+#+NAME: dotsi
+#+BEGIN_SRC yasnippet :tangle org-mode/dotsi
+# -*- mode: snippet -*-
+# name: dotsi (dots with integrals)
+# key: ;dotsi
+# --
+\dotsi$0
+#+END_SRC
+
+#+NAME: dotso
+#+BEGIN_SRC yasnippet :tangle org-mode/dotso
+# -*- mode: snippet -*-
+# name: dotso (other dots)
+# key: ;dotso
+# --
+\dotso$0
+#+END_SRC
+
 ** Nonbreaking dashes
+
+#+NAME: nobreakdash
+#+BEGIN_SRC yasnippet :tangle org-mode/nobreakdash
+# -*- mode: snippet -*-
+# name: nobreakdash
+# key: ;ndash
+# --
+\nobreakdash-$0
+#+END_SRC
+
 ** Roots
 ** Boxed formulas
 * Fractions and related constructions

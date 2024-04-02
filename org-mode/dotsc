@@ -4,3 +4,8 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dotsc$0
+# -*- mode: snippet -*-
+# name: dotsc (dots with commas)
+# key: ;dotsc
+# --
+\dotsc$0

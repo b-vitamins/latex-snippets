@@ -4,3 +4,8 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dotsm$0
+# -*- mode: snippet -*-
+# name: dotsm (multiplication dots)
+# key: ;dotsm
+# --
+\dotsm$0

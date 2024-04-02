@@ -4,3 +4,8 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dotsb$0
+# -*- mode: snippet -*-
+# name: dotsb (dots with binary operators/relations)
+# key: ;dotsb
+# --
+\dotsb$0

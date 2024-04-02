@@ -4,3 +4,8 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \dotso$0
+# -*- mode: snippet -*-
+# name: dotso (other dots)
+# key: ;dotso
+# --
+\dotso$0
