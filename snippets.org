@@ -5610,6 +5610,25 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Affixing symbols to other symbols
+
+#+NAME: overset
+#+BEGIN_SRC yasnippet :tangle org-mode/overset
+# -*- mode: snippet -*-
+# name: overset
+# key: ;oset
+# --
+\overset{$1}{$2}$0
+#+END_SRC
+
+#+NAME: underset
+#+BEGIN_SRC yasnippet :tangle org-mode/underset
+# -*- mode: snippet -*-
+# name: underset
+# key: ;uset
+# --
+\underset{$1}{$2}$0
+#+END_SRC
+
 ** Matrices
 ** Math spacing commands
 ** Dots
