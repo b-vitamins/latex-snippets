@@ -5590,6 +5590,25 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Extensible arrows
+
+#+NAME: xleftarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/xleftarrow
+# -*- mode: snippet -*-
+# name: xleftarrow
+# key: ;xla
+# --
+\xleftarrow[${1:subscript}]{$2:superscript}$0
+#+END_SRC
+
+#+NAME: xrightarrow
+#+BEGIN_SRC yasnippet :tangle org-mode/xrightarrow
+# -*- mode: snippet -*-
+# name: xrightarrow
+# key: ;xra
+# --
+\xrightarrow[${1:subscript}]{$2:superscript}$0
+#+END_SRC
+
 ** Affixing symbols to other symbols
 ** Matrices
 ** Math spacing commands
