@@ -5922,7 +5922,36 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+END_SRC
 
 ** Roots
+
+#+NAME: sqrt
+#+BEGIN_SRC yasnippet :tangle org-mode/sqrt
+# -*- mode: snippet -*-
+# name: sqrt
+# key: ;sqrt
+# --
+\sqrt{$1}$0
+#+END_SRC
+
+#+NAME: nroot
+#+BEGIN_SRC yasnippet :tangle org-mode/nroot
+# -*- mode: snippet -*-
+# name: nroot (n-th root)
+# key: ;nroot
+# --
+\sqrt[$1]{$2}$0
+#+END_SRC
+
 ** Boxed formulas
+
+#+NAME: boxed
+#+BEGIN_SRC yasnippet :tangle org-mode/boxed
+# -*- mode: snippet -*-
+# name: boxed
+# key: ;boxed
+# --
+\boxed{$1}$0
+#+END_SRC
+
 * Fractions and related constructions
 ** The \frac, \dfrac, and \tfrac commands
 ** The \binom, \dbinom, and \tbinom commands

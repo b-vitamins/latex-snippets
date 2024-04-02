@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nroot (n-th root)
+# key: ;nroot
+# --
+\sqrt[$1]{$2}$0
