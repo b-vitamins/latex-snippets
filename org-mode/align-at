@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: align-environment
-# key: ;aln
+# name: align-at-environment
+# key: ;alna
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\begin{align}
+\begin{align}{$1}
 $0
 \end{align}

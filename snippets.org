@@ -102,7 +102,7 @@
   #+END_SRC
 
   #+NAME: align-at-environment
-  #+BEGIN_SRC yasnippet :tangle org-mode/align
+  #+BEGIN_SRC yasnippet :tangle org-mode/align-at
   # -*- mode: snippet -*-
   # name: align-at-environment
   # key: ;alna
