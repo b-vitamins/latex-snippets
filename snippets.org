@@ -12,7 +12,7 @@
    # key: ;im
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
-   \($1\)$0
+   \\($1\\)$0
     #+END_SRC
 
     #+NAME: display-math
@@ -22,9 +22,9 @@
    # key: ;dm
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
-   \[
+   \\[
    $1
-   \]$0
+   \\]$0
     #+END_SRC
 
     #+NAME: equation-unnamed
@@ -190,7 +190,7 @@
 #+begin_src yasnippet :tangle org-mode/dotless-i
 # -*- mode: snippet -*-
 # name: dotless-i
-# key: ;im
+# key: ;imath
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \imath $0

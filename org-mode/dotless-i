@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: dotless-i
-# key: ;im
+# key: ;imath
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \imath $0
