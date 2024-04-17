@@ -4,9 +4,3 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sec$0
-# -*- mode: snippet -*-
-# name: sec
-# key: ;sec
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\sec$0

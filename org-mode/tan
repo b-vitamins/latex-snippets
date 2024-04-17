@@ -4,9 +4,3 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \tan$0
-# -*- mode: snippet -*-
-# name: tan
-# key: ;tan
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\tan$0

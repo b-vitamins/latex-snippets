@@ -5239,26 +5239,6 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \sec$0
 #+END_SRC
 
-#+NAME: sin
-#+BEGIN_SRC yasnippet :tangle org-mode/sin
-# -*- mode: snippet -*-
-# name: sin
-# key: ;sin
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\sin$0
-#+END_SRC
-
-#+NAME: sinh
-#+BEGIN_SRC yasnippet :tangle org-mode/sinh
-# -*- mode: snippet -*-
-# name: sinh
-# key: ;sinh
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\sinh$0
-#+END_SRC
-
 #+NAME: sup
 #+BEGIN_SRC yasnippet :tangle org-mode/sup
 # -*- mode: snippet -*-
@@ -5349,16 +5329,6 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \projlim$0
 #+END_SRC
 
-#+NAME: sec
-#+BEGIN_SRC yasnippet :tangle org-mode/sec
-# -*- mode: snippet -*-
-# name: sec
-# key: ;sec
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\sec$0
-#+END_SRC
-
 #+NAME: sin
 #+BEGIN_SRC yasnippet :tangle org-mode/sin
 # -*- mode: snippet -*-
@@ -5387,26 +5357,6 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sup$0
-#+END_SRC
-
-#+NAME: tan
-#+BEGIN_SRC yasnippet :tangle org-mode/tan
-# -*- mode: snippet -*-
-# name: tan
-# key: ;tan
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\tan$0
-#+END_SRC
-
-#+NAME: tanh
-#+BEGIN_SRC yasnippet :tangle org-mode/tanh
-# -*- mode: snippet -*-
-# name: tanh
-# key: ;tanh
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\tanh$0
 #+END_SRC
 
 #+NAME: varinjlim

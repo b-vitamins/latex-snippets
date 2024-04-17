@@ -4,9 +4,3 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \sin$0
-# -*- mode: snippet -*-
-# name: sin
-# key: ;sin
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\sin$0
