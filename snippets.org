@@ -12,7 +12,7 @@
    # key: ;im
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
-   \\($1\\)$0
+   \\( $0 \\)
     #+END_SRC
 
     #+NAME: display-math
@@ -23,8 +23,8 @@
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
    \\[
-   $1
-   \\]$0
+   $0
+   \\]
     #+END_SRC
 
     #+NAME: equation-unnamed
@@ -35,8 +35,8 @@
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
    \begin{equation*}
-     $1
-   \end{equation*}$0
+     $0
+   \end{equation*}
     #+END_SRC
 
     #+NAME: equation-numbered
@@ -47,8 +47,8 @@
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
    \begin{equation}
-     $1
-   \end{equation}$0
+     $0
+   \end{equation}
     #+END_SRC
 
   #+NAME: split-environment

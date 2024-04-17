@@ -4,5 +4,5 @@
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \begin{equation}
-  $1
-\end{equation}$0
+  $0
+\end{equation}
