@@ -984,7 +984,7 @@
 
 *** Math font switches
 
-#+NAME: mathbf
+#+NAME: common-mathbf
 #+BEGIN_SRC yasnippet :tangle org-mode/mathbf
 # -*- mode: snippet -*-
 # name: mathbf
@@ -994,7 +994,7 @@
 \mathbf{$0}
 #+END_SRC
 
-#+NAME: mathrm
+#+NAME: common-mathrm
 #+BEGIN_SRC yasnippet :tangle org-mode/mathrm
 # -*- mode: snippet -*-
 # name: mathrm
@@ -1004,7 +1004,7 @@
 \mathrm{$0}
 #+END_SRC
 
-#+NAME: mathsf
+#+NAME: common-mathsf
 #+BEGIN_SRC yasnippet :tangle org-mode/mathsf
 # -*- mode: snippet -*-
 # name: mathsf
@@ -1014,7 +1014,7 @@
 \mathsf{$0}
 #+END_SRC
 
-#+NAME: mathit
+#+NAME: common-mathit
 #+BEGIN_SRC yasnippet :tangle org-mode/mathit
 # -*- mode: snippet -*-
 # name: mathit
@@ -1024,7 +1024,7 @@
 \mathit{$0}
 #+END_SRC
 
-#+NAME: boldsymbol
+#+NAME: common-boldsymbol
 #+BEGIN_SRC yasnippet :tangle org-mode/boldsymbol
 # -*- mode: snippet -*-
 # name: boldsymbol
@@ -1034,7 +1034,7 @@
 \boldsymbol{$0}
 #+END_SRC
 
-#+NAME: pmb
+#+NAME: common-pmb
 #+BEGIN_SRC yasnippet :tangle org-mode/pmb
 # -*- mode: snippet -*-
 # name: pmb
@@ -1046,7 +1046,7 @@
 
 *** Blackboard Bold letters (msbm; no lowercase)
 
-#+NAME: common-mathbb
+#+NAME: mathbb
 #+BEGIN_SRC yasnippet :tangle org-mode/mathbb
 # -*- mode: snippet -*-
 # name: mathbb
@@ -1072,7 +1072,7 @@
 
 *** Non-CM calligraphic and script letters
 
-#+NAME: common-mathscr
+#+NAME: mathscr
 #+BEGIN_SRC yasnippet :tangle org-mode/mathscr
 # -*- mode: snippet -*-
 # name: mathscr
@@ -1494,11 +1494,11 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 ** Binary operator symbols
 
-#+NAME: times
+#+NAME: common-times
 #+BEGIN_SRC yasnippet :tangle org-mode/times
 # -*- mode: snippet -*-
 # name: Times
-# key: ;tms
+# key: ;xx
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \times$0
@@ -1534,7 +1534,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \amalg$0
 #+END_SRC
 
-#+NAME: ast
+#+NAME: common-ast
 #+BEGIN_SRC yasnippet :tangle org-mode/ast
 # -*- mode: snippet -*-
 # name: Ast
@@ -1556,7 +1556,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\barwedge= requires font =msam= from ~amssymb~
 
-#+NAME: bigcirc
+#+NAME: common-bigcirc
 #+BEGIN_SRC yasnippet :tangle org-mode/bigcirc
 # -*- mode: snippet -*-
 # name: Bigcirc
@@ -1634,7 +1634,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\boxtimes= requires font =msam= from ~amssymb~
 
-#+NAME: bullet
+#+NAME: common-bullet
 #+BEGIN_SRC yasnippet :tangle org-mode/bullet
 # -*- mode: snippet -*-
 # name: Bullet
@@ -1644,7 +1644,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \bullet$0
 #+END_SRC
 
-#+NAME: cap
+#+NAME: common-cap
 #+BEGIN_SRC yasnippet :tangle org-mode/cap
 # -*- mode: snippet -*-
 # name: Cap
@@ -1654,11 +1654,11 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \cap$0
 #+END_SRC
 
-#+NAME: Cap
+#+NAME: common-Cap
 #+BEGIN_SRC yasnippet :tangle org-mode/Cap
 # -*- mode: snippet -*-
 # name: Cap
-# key: ;Cp
+# key: ;Cap
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \Cap$0
@@ -1666,21 +1666,21 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\Cap= requires font =msam= from ~amssymb~
 
-#+NAME: cdot
+#+NAME: common-cdot
 #+BEGIN_SRC yasnippet :tangle org-mode/cdot
 # -*- mode: snippet -*-
 # name: Cdot
-# key: ;cdt
+# key: ;c.
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \cdot$0
 #+END_SRC
 
-#+NAME: centerdot
+#+NAME: common-centerdot
 #+BEGIN_SRC yasnippet :tangle org-mode/centerdot
 # -*- mode: snippet -*-
 # name: Centerdot
-# key: ;cdt
+# key: ;cc.
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \centerdot$0
@@ -1688,7 +1688,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\centerdot= requires font =msam= from ~amssymb~
 
-#+NAME: circ
+#+NAME: common-circ
 #+BEGIN_SRC yasnippet :tangle org-mode/circ
 # -*- mode: snippet -*-
 # name: Circ
@@ -1734,7 +1734,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\circledash= requires font =msam= from ~amssymb~
 
-#+NAME: cup
+#+NAME: common-cup
 #+BEGIN_SRC yasnippet :tangle org-mode/cup
 # -*- mode: snippet -*-
 # name: Cup
@@ -1744,7 +1744,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \cup$0
 #+END_SRC
 
-#+NAME: Cap (intersection)
+#+NAME: common-Cap (intersection)
 #+BEGIN_SRC yasnippet :tangle org-mode/Cap
 # -*- mode: snippet -*-
 # name: Cap
@@ -1780,7 +1780,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\curlywedge= requires font =msam= from ~amssymb~
 
-#+NAME: dagger
+#+NAME: common-dagger
 #+BEGIN_SRC yasnippet :tangle org-mode/dagger
 # -*- mode: snippet -*-
 # name: Dagger
@@ -1794,7 +1794,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+BEGIN_SRC yasnippet :tangle org-mode/ddagger
 # -*- mode: snippet -*-
 # name: Double Dagger
-# key: ;ddag
+# key: ;dag
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \ddagger$0
@@ -1814,7 +1814,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+BEGIN_SRC yasnippet :tangle org-mode/div
 # -*- mode: snippet -*-
 # name: Div
-# key: ;div
+# key: ;/
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \div$0
@@ -1916,7 +1916,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\ltimes= requires font =msbm= from ~amssymb~
 
-#+NAME: mp
+#+NAME: common-mp
 #+BEGIN_SRC yasnippet :tangle org-mode/mp
 # -*- mode: snippet -*-
 # name: Mp
@@ -1926,11 +1926,11 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \mp$0
 #+END_SRC
 
-#+NAME: odot
+#+NAME: common-odot
 #+BEGIN_SRC yasnippet :tangle org-mode/odot
 # -*- mode: snippet -*-
 # name: Odot
-# key: ;odt
+# key: ;o.
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \odot$0
@@ -1946,7 +1946,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \ominus$0
 #+END_SRC
 
-#+NAME: oplus
+#+NAME: common-oplus
 #+BEGIN_SRC yasnippet :tangle org-mode/oplus
 # -*- mode: snippet -*-
 # name: Oplus
@@ -1956,7 +1956,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \oplus$0
 #+END_SRC
 
-#+NAME: oslash
+#+NAME: common-oslash
 #+BEGIN_SRC yasnippet :tangle org-mode/oslash
 # -*- mode: snippet -*-
 # name: Oslash
@@ -1966,7 +1966,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \oslash$0
 #+END_SRC
 
-#+NAME: otimes
+#+NAME: common-otimes
 #+BEGIN_SRC yasnippet :tangle org-mode/otimes
 # -*- mode: snippet -*-
 # name: Otimes
@@ -1976,7 +1976,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \otimes$0
 #+END_SRC
 
-#+NAME: pm
+#+NAME: common-pm
 #+BEGIN_SRC yasnippet :tangle org-mode/pm
 # -*- mode: snippet -*-
 # name: Pm
@@ -2060,16 +2060,6 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \star$0
-#+END_SRC
-
-#+NAME: times
-#+BEGIN_SRC yasnippet :tangle org-mode/times
-# -*- mode: snippet -*-
-# name: Times
-# key: ;*
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\times$0
 #+END_SRC
 
 #+NAME: triangleleft
