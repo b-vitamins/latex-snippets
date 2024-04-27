@@ -1,6 +1,7 @@
-#+TITLE: LaTeX YASnippet collection based on the 'Short Math Guide for LaTeX' by Michael Downes, and Barbara Beeton
+#+TITLE: LaTeX YASnippet collection
+#+SUBTITLE: based on the 'Short Math Guide for LaTeX' by Michael Downes, and Barbara Beeton
 #+AUTHOR: ChatGPT and Ayan
-#+STARTUP: overview
+#+STARTUP: overview indent
 #+PROPERTY: header-args:yasnippet :mkdirp yes :padline no
 * Introduction
 * Inline math formulas and displayed equations
@@ -22,9 +23,7 @@
    # key: ;dm
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
-   \\[
-   $0
-   \\]
+   \\[$0\\]
     #+END_SRC
 
     #+NAME: equation-unnamed
@@ -35,7 +34,7 @@
    # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
    # --
    \begin{equation*}
-     $0
+   $0
    \end{equation*}
     #+END_SRC
 
