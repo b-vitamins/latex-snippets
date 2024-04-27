@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: align-environment-numbered
+# key: ;naln
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\begin{align}
+$0
+\end{align}
