@@ -4612,7 +4612,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 *** Pairing delimiters (extensible)
 
-#+NAME: lbrace_rbrace
+#+NAME: common-lbrace_rbrace
 #+begin_src yasnippet :tangle org-mode/lbrace_rbrace
 # -*- mode: snippet -*-
 # name: lbrace_rbrace
@@ -4622,7 +4622,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \{ $0 \}
 #+end_src
 
-#+NAME: lvert_rvert
+#+NAME: common-lvert_rvert
 #+begin_src yasnippet :tangle org-mode/lvert_rvert
 # -*- mode: snippet -*-
 # name: lvert_rvert
@@ -4642,7 +4642,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \lVert $0 \rVert
 #+end_src
 
-#+NAME: langle_rangle
+#+NAME: common-langle_rangle
 #+begin_src yasnippet :tangle org-mode/langle_rangle
 # -*- mode: snippet -*-
 # name: langle_rangle
@@ -4694,11 +4694,11 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 *** Nonpairing extensible symbols
 
-#+NAME: vert
+#+NAME: common-vert
 #+begin_src yasnippet :tangle org-mode/vert
 # -*- mode: snippet -*-
 # name: vert
-# key: ;vert
+# key: ;|
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \vert$0
@@ -4825,7 +4825,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # key: ;acute
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\acute{$1}$0
+\acute{$0}
 #+end_src
 
 #+NAME: grave
@@ -4835,37 +4835,37 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # key: ;grave
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\grave{$1}$0
+\grave{$0}
 #+end_src
 
-#+NAME: ddot
+#+NAME: common-ddot
 #+begin_src yasnippet :tangle org-mode/ddot
 # -*- mode: snippet -*-
 # name: ddot
 # key: ;ddot
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\ddot{$1}$0
+\ddot{$0}
 #+end_src
 
-#+NAME: tilde
+#+NAME: common-tilde
 #+begin_src yasnippet :tangle org-mode/tilde
 # -*- mode: snippet -*-
 # name: tilde
-# key: ;tilde
+# key: ;~
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\tilde{$1}$0
+\tilde{$0}
 #+end_src
 
-#+NAME: bar
+#+NAME: common-bar
 #+begin_src yasnippet :tangle org-mode/bar
 # -*- mode: snippet -*-
 # name: bar
 # key: ;bar
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\bar{$1}$0
+\bar{$0}
 #+end_src
 
 #+NAME: breve
@@ -4875,7 +4875,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # key: ;breve
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\breve{$1}$0
+\breve{$0}
 #+end_src
 
 #+NAME: check
@@ -4885,37 +4885,37 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # key: ;check
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\check{$1}$0
+\check{$0}
 #+end_src
 
-#+NAME: hat
+#+NAME: common-hat
 #+begin_src yasnippet :tangle org-mode/hat
 # -*- mode: snippet -*-
 # name: hat
 # key: ;hat
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\hat{$1}$0
+\hat{$0}
 #+end_src
 
-#+NAME: vec
+#+NAME: common-vec
 #+begin_src yasnippet :tangle org-mode/vec
 # -*- mode: snippet -*-
 # name: vec
 # key: ;vec
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\vec{$1}$0
+\vec{$0}
 #+end_src
 
-#+NAME: dot
+#+NAME: common-dot
 #+begin_src yasnippet :tangle org-mode/dot
 # -*- mode: snippet -*-
 # name: dot
 # key: ;dot
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\dot{$1}$0
+\dot{$0}
 #+end_src
 
 #+NAME: mathring
@@ -4925,7 +4925,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # key: ;mathring
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathring{$1}$0
+\mathring{$0}
 #+end_src
 
 #+NAME: widetilde
@@ -4935,17 +4935,17 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # key: ;widetilde
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\widetilde{$1}$0
+\widetilde{$0}
 #+end_src
 
-#+NAME: widehat
+#+NAME: common-widehat
 #+begin_src yasnippet :tangle org-mode/widehat
 # -*- mode: snippet -*-
 # name: widehat
 # key: ;widehat
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\widehat{$1}$0
+\widehat{$0}
 #+end_src
 
 *** Named operators
@@ -5984,7 +5984,7 @@ $0
 # name: left-right-delimiters
 # key: ;leftright
 # --
-\left${1:delimiter} ${2:content} \right${3:delimiter}$0
+\left${1:delimiter} ${2:content} \right${3:delimiter}
 #+end_src
 
 #+NAME: left-right-parentheses
@@ -5993,7 +5993,7 @@ $0
 # name: left-right-parentheses
 # key: ;()lr
 # --
-\left( $1 \right)$0
+\left( $0 \right)
 #+end_src
 
 #+NAME: left-right-brackets
@@ -6002,7 +6002,7 @@ $0
 # name: left-right-brackets
 # key: ;[]lr
 # --
-\left[ $1 \right]$0
+\left[ $0 \right]
 #+end_src
 
 #+NAME: left-right-braces
@@ -6011,7 +6011,7 @@ $0
 # name: left-right-braces
 # key: ;{}lr
 # --
-\left\{ $1 \right\}$0
+\left\{ $0 \right\}
 #+end_src
 
 #+NAME: bigl-bigr-delimiters
@@ -6020,142 +6020,151 @@ $0
 # name: bigl-bigr-delimiters
 # key: ;biglr
 # --
-\bigl${1:delimiter} ${2:content} \bigr${3:delimiter}$0
+\bigl${1:delimiter} ${2:content} \bigr${3:delimiter}
 #+end_src
 
-#+NAME: bigl-bigr-parentheses
-#+begin_src yasnippet :tangle org-mode/bigl-bigr-parentheses
+#+NAME: common-big
+#+begin_src yasnippet :tangle org-mode/big
 # -*- mode: snippet -*-
-# name: bigl-bigr-parentheses
+# name: big
+# key: ;b
+# --
+\big $0
+#+end_src
+
+#+NAME: common-big-parentheses
+#+begin_src yasnippet :tangle org-mode/big-parentheses
+# -*- mode: snippet -*-
+# name: big-parentheses
+# key: ;()b
+# --
+\bigl( $0 \bigr)
+#+end_src
+
+#+NAME: common-big-brackets
+#+begin_src yasnippet :tangle org-mode/big-brackets
+# -*- mode: snippet -*-
+# name: big-brackets
+# key: ;[]b
+# --
+\bigl[ $0 \bigr]
+#+end_src
+
+#+NAME: common-big-braces
+#+begin_src yasnippet :tangle org-mode/big-braces
+# -*- mode: snippet -*-
+# name: big-braces
+# key: ;{}b
+# --
+\bigl\{ $0 \bigr\}
+#+end_src
+
+#+NAME: common-Big
+#+begin_src yasnippet :tangle org-mode/Big
+# -*- mode: snippet -*-
+# name: Big
+# key: ;B
+# --
+\Big $0
+#+end_src
+
+#+NAME: Big-parentheses
+#+begin_src yasnippet :tangle org-mode/Big-parentheses
+# -*- mode: snippet -*-
+# name: Big-parentheses
+# key: ;()B
+# --
+\Bigl( $0 \Bigr)
+#+end_src
+
+#+NAME: Big-brackets
+#+begin_src yasnippet :tangle org-mode/Big-brackets
+# -*- mode: snippet -*-
+# name: Big-brackets
+# key: ;[]B
+# --
+\Bigl[ $0 \Bigr]
+#+end_src
+
+#+NAME: Big-braces
+#+begin_src yasnippet :tangle org-mode/Big-braces
+# -*- mode: snippet -*-
+# name: Big-braces
+# key: ;{}B
+# --
+\Bigl\{ $0 \Bigr\}
+#+end_src
+
+#+NAME: common-bigg
+#+begin_src yasnippet :tangle org-mode/bigg
+# -*- mode: snippet -*-
+# name: bigg
+# key: ;bg
+# --
+\bigg $0
+#+end_src
+
+#+NAME: common-bigg-parentheses
+#+begin_src yasnippet :tangle org-mode/bigg-parentheses
+# -*- mode: snippet -*-
+# name: bigg-parentheses
 # key: ;()bg
 # --
-\bigl( $1 \bigr)$0
+\biggl( $0 \biggr)
 #+end_src
 
-#+NAME: bigl-bigr-brackets
-#+begin_src yasnippet :tangle org-mode/bigl-bigr-brackets
+#+NAME: common-bigg-brackets
+#+begin_src yasnippet :tangle org-mode/bigg-brackets
 # -*- mode: snippet -*-
-# name: bigl-bigr-brackets
+# name: bigg-brackets
 # key: ;[]bg
 # --
-\bigl[ $1 \bigr]$0
+\biggl[ $0 \biggr]
 #+end_src
 
-#+NAME: bigl-bigr-braces
-#+begin_src yasnippet :tangle org-mode/bigl-bigr-braces
+#+NAME: common-bigg-braces
+#+begin_src yasnippet :tangle org-mode/bigg-braces
 # -*- mode: snippet -*-
-# name: bigl-bigr-braces
+# name: bigg-braces
 # key: ;{}bg
 # --
-\bigl\{ $1 \bigr\}$0
+\biggl\{ $0 \biggr\}
 #+end_src
 
-#+NAME: Bigl-Bigr-delimiters
-#+begin_src yasnippet :tangle org-mode/Bigl-Bigr-delimiters
+#+NAME: common-Bigg
+#+begin_src yasnippet :tangle org-mode/Bigg
 # -*- mode: snippet -*-
-# name: Bigl-Bigr-delimiters
-# key: ;Biglr
+# name: Bigg
+# key: ;Bg
 # --
-\Bigl${1:delimiter} ${2:content} \Bigr${3:delimiter}$0
+\Bigg $0
 #+end_src
 
-#+NAME: Bigl-Bigr-parentheses
-#+begin_src yasnippet :tangle org-mode/Bigl-Bigr-parentheses
+#+NAME: Bigg-parentheses
+#+begin_src yasnippet :tangle org-mode/Bigg-parentheses
 # -*- mode: snippet -*-
-# name: Bigl-Bigr-parentheses
+# name: Bigg-parentheses
 # key: ;()Bg
 # --
-\Bigl( $1 \Bigr)$0
+\Biggl( $0 \Biggr)
 #+end_src
 
-#+NAME: Bigl-Bigr-brackets
-#+begin_src yasnippet :tangle org-mode/Bigl-Bigr-brackets
+#+NAME: Bigg-brackets
+#+begin_src yasnippet :tangle org-mode/Bigg-brackets
 # -*- mode: snippet -*-
-# name: Bigl-Bigr-brackets
+# name: Bigg-brackets
 # key: ;[]Bg
 # --
-\Bigl[ $1 \Bigr]$0
+\Biggl[ $0 \Biggr]
 #+end_src
 
-#+NAME: Bigl-Bigr-braces
-#+begin_src yasnippet :tangle org-mode/Bigl-Bigr-braces
+#+NAME: Bigg-braces
+#+begin_src yasnippet :tangle org-mode/Bigg-braces
 # -*- mode: snippet -*-
-# name: Bigl-Bigr-braces
+# name: Bigg-braces
 # key: ;{}Bg
 # --
-\Bigl\{ $1 \Bigr\}$0
-#+end_src
-
-#+NAME: biggl-biggr-delimiters
-#+begin_src yasnippet :tangle org-mode/biggl-biggr-delimiters
-# -*- mode: snippet -*-
-# name: biggl-biggr-delimiters
-# key: ;bigglr
-# --
-\biggl${1:delimiter} ${2:content} \biggr${3:delimiter}$0
-#+end_src
-
-#+NAME: biggl-biggr-parentheses
-#+begin_src yasnippet :tangle org-mode/biggl-biggr-parentheses
-# -*- mode: snippet -*-
-# name: biggl-biggr-parentheses
-# key: ;()bgg
-# --
-\biggl( $1 \biggr)$0
-#+end_src
-
-#+NAME: biggl-biggr-brackets
-#+begin_src yasnippet :tangle org-mode/biggl-biggr-brackets
-# -*- mode: snippet -*-
-# name: biggl-biggr-brackets
-# key: ;[]bgg
-# --
-\biggl[ $1 \biggr]$0
-#+end_src
-
-#+NAME: biggl-biggr-braces
-#+begin_src yasnippet :tangle org-mode/biggl-biggr-braces
-# -*- mode: snippet -*-
-# name: biggl-biggr-braces
-# key: ;{}bgg
-# --
-\biggl\{ $1 \biggr\}$0
-#+end_src
-
-#+NAME: Biggl-Biggr-delimiters
-#+begin_src yasnippet :tangle org-mode/Biggl-Biggr-delimiters
-# -*- mode: snippet -*-
-# name: Biggl-Biggr-delimiters
-# key: ;Bigglr
-# --
-\Biggl${1:delimiter} ${2:content} \Biggr${3:delimiter}$0
-#+end_src
-
-#+NAME: Biggl-Biggr-parentheses
-#+begin_src yasnippet :tangle org-mode/Biggl-Biggr-parentheses
-# -*- mode: snippet -*-
-# name: Biggl-Biggr-parentheses
-# key: ;()Bgg
-# --
-\Biggl( $1 \Biggr)$0
-#+end_src
-
-#+NAME: Biggl-Biggr-brackets
-#+begin_src yasnippet :tangle org-mode/Biggl-Biggr-brackets
-# -*- mode: snippet -*-
-# name: Biggl-Biggr-brackets
-# key: ;[]Bgg
-# --
-\Biggl[ $1 \Biggr]$0
-#+end_src
-
-#+NAME: Biggl-Biggr-braces
-#+begin_src yasnippet :tangle org-mode/Biggl-Biggr-braces
-# -*- mode: snippet -*-
-# name: Biggl-Biggr-braces
-# key: ;{}Bgg
-# --
-\Biggl\{ $1 \Biggr\}$0
+\Biggl\{ $0 \Biggr\}
 #+end_src
 
 *** Vertical bar notations
@@ -6166,7 +6175,7 @@ $0
 # name: Absolute Value
 # key: ;abs
 # --
-\lvert $1 \rvert$0
+\lvert $0 \rvert
 #+end_src
 
 #+NAME: norm
@@ -6175,20 +6184,21 @@ $0
 # name: Norm
 # key: ;norm
 # --
-\lVert $1 \rVert$0
+\lVert $0 \rVert
 #+end_src
+
 ** The \text command
 
-#+NAME: text-in-math
+#+NAME: common-text-in-math
 #+begin_src yasnippet :tangle org-mode/text-in-math
 # -*- mode: snippet -*-
 # name: Text in Math
-# key: ;mtxt
+# key: ;txt
 # --
 \text{$1}$0
 #+end_src
 
-#+NAME: text-in-math-subscript
+#+NAME: common-text-in-math-subscript
 #+begin_src yasnippet :tangle org-mode/text-in-math-subscript
 # -*- mode: snippet -*-
 # name: Text in Math as Subscript
@@ -6197,9 +6207,18 @@ $0
 _{\text{$1}}$0
 #+end_src
 
+#+NAME: text-in-math-superscript
+#+begin_src yasnippet :tangle org-mode/text-in-math-superscript
+# -*- mode: snippet -*-
+# name: Text in Math as Superscript
+# key: ;^txt
+# --
+^{\text{$1}}$0
+#+end_src
+
 *** \mod and its relatives
 
-#+NAME: mod
+#+NAME: common-mod
 #+begin_src yasnippet :tangle org-mode/mod
 # -*- mode: snippet -*-
 # name: Modulo
