@@ -3,4 +3,4 @@
 # key: ;mfr
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathfrak{$1} $0
+\mathfrak{$0}

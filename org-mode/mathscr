@@ -3,4 +3,4 @@
 # key: ;mscr
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathscr{$1} $0
+\mathscr{$0}

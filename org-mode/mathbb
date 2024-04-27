@@ -3,4 +3,4 @@
 # key: ;mbb
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathbb{$1} $0
+\mathbb{$0}

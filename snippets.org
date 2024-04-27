@@ -1052,7 +1052,7 @@
 # key: ;mbb
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathbb{$1} $0
+\mathbb{$0}
 #+END_SRC
 
 =\mathbb= requires ~\usepackage{amsfonts}~
@@ -1066,7 +1066,7 @@
 # key: ;mcal
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathcal{$1} $0
+\mathcal{$0}
 #+END_SRC
 
 *** Non-CM calligraphic and script letters
@@ -1078,7 +1078,7 @@
 # key: ;mscr
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathscr{$1} $0
+\mathscr{$0}
 #+END_SRC
 
 Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; no lowercase) ~euscript~.
@@ -1092,7 +1092,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # key: ;mfr
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathfrak{$1} $0
+\mathfrak{$0}
 #+END_SRC
 
 =\mathfrak= requires ~amsfonts~
@@ -1247,7 +1247,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \diamondsuit$0
 #+END_SRC
 
-#+NAME: emptyset
+#+NAME: common-emptyset
 #+BEGIN_SRC yasnippet :tangle org-mode/empt
 # -*- mode: snippet -*-
 # name: Emptyset
@@ -1279,7 +1279,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\flat= requires font =msbm= from ~amssymb~
 
-#+NAME: forall
+#+NAME: common-forall
 #+BEGIN_SRC yasnippet :tangle org-mode/forall
 # -*- mode: snippet -*-
 # name: Forall
@@ -1299,7 +1299,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \heartsuit$0
 #+END_SRC
 
-#+NAME: infinity
+#+NAME: common-infinity
 #+BEGIN_SRC yasnippet :tangle org-mode/infty
 # -*- mode: snippet -*-
 # name: Infinity
@@ -1331,7 +1331,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\measuredangle= requires font =msbm= from ~amssymb~
 
-#+NAME: nabla
+#+NAME: common-grad
 #+BEGIN_SRC yasnippet :tangle org-mode/nab
 # -*- mode: snippet -*-
 # name: Nabla
@@ -1339,6 +1339,16 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \nabla$0
+#+END_SRC
+
+#+NAME: common-divergence
+#+BEGIN_SRC yasnippet :tangle org-mode/divergence
+# -*- mode: snippet -*-
+# name: Divergence
+# key: ;div
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\nabla^2$0
 #+END_SRC
 
 #+NAME: natural

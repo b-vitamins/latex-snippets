@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: mathcal
-# key: ;mcal
+# name: Divergence
+# key: ;div
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathcal{$0}
+\nabla^2$0
