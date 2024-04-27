@@ -4378,7 +4378,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 *** Cumulative (variable-size) operators
 
-#+NAME: int
+#+NAME: common-int
 #+begin_src yasnippet :tangle org-mode/int
 # -*- mode: snippet -*-
 # name: int
@@ -4398,7 +4398,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \oint$0
 #+end_src
 
-#+NAME: bigcap
+#+NAME: common-bigcap
 #+begin_src yasnippet :tangle org-mode/bigcap
 # -*- mode: snippet -*-
 # name: bigcap
@@ -4408,7 +4408,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \bigcap$0
 #+end_src
 
-#+NAME: bigcup
+#+NAME: common-bigcup
 #+begin_src yasnippet :tangle org-mode/bigcup
 # -*- mode: snippet -*-
 # name: bigcup
@@ -4498,7 +4498,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \coprod$0
 #+end_src
 
-#+NAME: prod
+#+NAME: common-prod
 #+begin_src yasnippet :tangle org-mode/prod
 # -*- mode: snippet -*-
 # name: prod
@@ -4518,7 +4518,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \smallint$0
 #+end_src
 
-#+NAME: sum
+#+NAME: common-sum
 #+begin_src yasnippet :tangle org-mode/smallint
 # -*- mode: snippet -*-
 # name: sum
@@ -6257,7 +6257,7 @@ _{\text{$1}}$0
 ** Integrals and sums
 *** Altering the placement of limits
 
-#+NAME: int-sub
+#+NAME: common-int-sub
 #+begin_src yasnippet :tangle org-mode/int-sub
 # -*- mode: snippet -*-
 # name: int with subscript
@@ -6266,7 +6266,7 @@ _{\text{$1}}$0
 \int_{${1:lower}}$0
 #+end_src
 
-#+NAME: int-limits-sub
+#+NAME: common-int-limits-sub
 #+begin_src yasnippet :tangle org-mode/int-limits-sub
 # -*- mode: snippet -*-
 # name: int with limits on subscript
@@ -6275,7 +6275,7 @@ _{\text{$1}}$0
 \int\limits_{${1:lower}}$0
 #+end_src
 
-#+NAME: int-nolimits-sub
+#+NAME: common-int-nolimits-sub
 #+begin_src yasnippet :tangle org-mode/int-nolimits-sub
 # -*- mode: snippet -*-
 # name: int with no limits on subscript
@@ -6284,7 +6284,7 @@ _{\text{$1}}$0
 \int\nolimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: int-displaylimits-sub
+#+NAME: common-int-displaylimits-sub
 #+begin_src yasnippet :tangle org-mode/int-displaylimits-sub
 # -*- mode: snippet -*-
 # name: int with display limits on subscript
@@ -6293,7 +6293,7 @@ _{\text{$1}}$0
 \int\displaylimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: int-sub-sup
+#+NAME: common-int-sub-sup
 #+begin_src yasnippet :tangle org-mode/int-sub-sup
 # -*- mode: snippet -*-
 # name: int with sub and sup
@@ -6302,7 +6302,7 @@ _{\text{$1}}$0
 \int_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: int-limits-sub-sup
+#+NAME: common-int-limits-sub-sup
 #+begin_src yasnippet :tangle org-mode/int-limits-sub-sup
 # -*- mode: snippet -*-
 # name: int with limits on sub and sup
@@ -6311,7 +6311,7 @@ _{\text{$1}}$0
 \int\limits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: int-nolimits-sub-sup
+#+NAME: common-int-nolimits-sub-sup
 #+begin_src yasnippet :tangle org-mode/int-nolimits-sub-sup
 # -*- mode: snippet -*-
 # name: int with no limits on sub and sup
@@ -6320,7 +6320,7 @@ _{\text{$1}}$0
 \int\nolimits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: int-displaylimits-sub-sup
+#+NAME: common-int-displaylimits-sub-sup
 #+begin_src yasnippet :tangle org-mode/int-displaylimits-sub-sup
 # -*- mode: snippet -*-
 # name: int with display limits on sub and sup
@@ -6329,7 +6329,7 @@ _{\text{$1}}$0
 \int\displaylimits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: sum-sub
+#+NAME: common-sum-sub
 #+begin_src yasnippet :tangle org-mode/sum-sub
 # -*- mode: snippet -*-
 # name: sum with subscript
@@ -6338,7 +6338,7 @@ _{\text{$1}}$0
 \sum_{${1:lower}}$0
 #+end_src
 
-#+NAME: sum-limits-sub
+#+NAME: common-sum-limits-sub
 #+begin_src yasnippet :tangle org-mode/sum-limits-sub
 # -*- mode: snippet -*-
 # name: sum with limits on subscript
@@ -6347,7 +6347,7 @@ _{\text{$1}}$0
 \sum\limits_{${1:lower}}$0
 #+end_src
 
-#+NAME: sum-nolimits-sub
+#+NAME: common-sum-nolimits-sub
 #+begin_src yasnippet :tangle org-mode/sum-nolimits-sub
 # -*- mode: snippet -*-
 # name: sum with no limits on subscript
@@ -6356,7 +6356,7 @@ _{\text{$1}}$0
 \sum\nolimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: sum-displaylimits-sub
+#+NAME: common-sum-displaylimits-sub
 #+begin_src yasnippet :tangle org-mode/sum-displaylimits-sub
 # -*- mode: snippet -*-
 # name: sum with display limits on subscript
@@ -6365,7 +6365,7 @@ _{\text{$1}}$0
 \sum\displaylimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: sum-sub-prime
+#+NAME: common-sum-sub-prime
 #+begin_src yasnippet :tangle org-mode/sum-sub-prime
 # -*- mode: snippet -*-
 # name: sum with subscript
@@ -6374,7 +6374,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\sum_{${1:lower}}$0
 #+end_src
 
-#+NAME: sum-limits-sub-prime
+#+NAME: common-sum-limits-sub-prime
 #+begin_src yasnippet :tangle org-mode/sum-limits-sub-prime
 # -*- mode: snippet -*-
 # name: sum with limits on subscript
@@ -6383,7 +6383,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\sum\limits_{${1:lower}}{\prime}$0
 #+end_src
 
-#+NAME: sum-nolimits-sub-prime
+#+NAME: common-sum-nolimits-sub-prime
 #+begin_src yasnippet :tangle org-mode/sum-nolimits-sub-prime
 # -*- mode: snippet -*-
 # name: sum with no limits on subscript
@@ -6392,7 +6392,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\sum\nolimits_{${1:lower}}{\prime}$0
 #+end_src
 
-#+NAME: sum-displaylimits-sub-prime
+#+NAME: common-sum-displaylimits-sub-prime
 #+begin_src yasnippet :tangle org-mode/sum-displaylimits-sub-prime
 # -*- mode: snippet -*-
 # name: sum with display limits on subscript
@@ -6401,7 +6401,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\sum\displaylimits_{${1:lower}}{\prime}$0
 #+end_src
 
-#+NAME: sum-sub-sup
+#+NAME: common-sum-sub-sup
 #+begin_src yasnippet :tangle org-mode/sum-sub-sup
 # -*- mode: snippet -*-
 # name: sum with sub and sup
@@ -6410,7 +6410,7 @@ _{\text{$1}}$0
 \sum_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: sum-limits-sub-sup
+#+NAME: common-sum-limits-sub-sup
 #+begin_src yasnippet :tangle org-mode/sum-limits-sub-sup
 # -*- mode: snippet -*-
 # name: sum with limits on sub and sup
@@ -6419,7 +6419,7 @@ _{\text{$1}}$0
 \sum\limits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: sum-nolimits-sub-sup
+#+NAME: common-sum-nolimits-sub-sup
 #+begin_src yasnippet :tangle org-mode/sum-nolimits-sub-sup
 # -*- mode: snippet -*-
 # name: sum with no limits on sub and sup
@@ -6428,7 +6428,7 @@ _{\text{$1}}$0
 \sum\nolimits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: sum-displaylimits-sub-sup
+#+NAME: common-sum-displaylimits-sub-sup
 #+begin_src yasnippet :tangle org-mode/sum-displaylimits-sub-sup
 # -*- mode: snippet -*-
 # name: sum with display limits on sub and sup
@@ -6437,7 +6437,7 @@ _{\text{$1}}$0
 \sum\displaylimits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: prod-sub
+#+NAME: common-prod-sub
 #+begin_src yasnippet :tangle org-mode/prod-sub
 # -*- mode: snippet -*-
 # name: prod with subscript
@@ -6446,7 +6446,7 @@ _{\text{$1}}$0
 \prod_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-limits-sub
+#+NAME: common-prod-limits-sub
 #+begin_src yasnippet :tangle org-mode/prod-limits-sub
 # -*- mode: snippet -*-
 # name: prod with limits on subscript
@@ -6455,7 +6455,7 @@ _{\text{$1}}$0
 \prod\limits_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-nolimits-sub
+#+NAME: common-prod-nolimits-sub
 #+begin_src yasnippet :tangle org-mode/prod-nolimits-sub
 # -*- mode: snippet -*-
 # name: prod with no limits on subscript
@@ -6464,7 +6464,7 @@ _{\text{$1}}$0
 \prod\nolimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-displaylimits-sub
+#+NAME: common-prod-displaylimits-sub
 #+begin_src yasnippet :tangle org-mode/prod-displaylimits-sub
 # -*- mode: snippet -*-
 # name: prod with display limits on subscript
@@ -6473,7 +6473,7 @@ _{\text{$1}}$0
 \prod\displaylimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-sub-prime
+#+NAME: common-prod-sub-prime
 #+begin_src yasnippet :tangle org-mode/prod-sub-prime
 # -*- mode: snippet -*-
 # name: prod with subscript
@@ -6482,7 +6482,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\prod_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-limits-sub-prime
+#+NAME: common-prod-limits-sub-prime
 #+begin_src yasnippet :tangle org-mode/prod-limits-sub-prime
 # -*- mode: snippet -*-
 # name: prod with limits on subscript
@@ -6491,7 +6491,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\prod\limits_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-nolimits-sub-prime
+#+NAME: common-prod-nolimits-sub-prime
 #+begin_src yasnippet :tangle org-mode/prod-nolimits-sub-prime
 # -*- mode: snippet -*-
 # name: prod with no limits on subscript
@@ -6500,7 +6500,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\prod\nolimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-displaylimits-sub-prime
+#+NAME: common-prod-displaylimits-sub-prime
 #+begin_src yasnippet :tangle org-mode/prod-displaylimits-sub-prime
 # -*- mode: snippet -*-
 # name: prod with display limits on subscript
@@ -6509,7 +6509,7 @@ _{\text{$1}}$0
 \sideset{}{\prime}\prod\displaylimits_{${1:lower}}$0
 #+end_src
 
-#+NAME: prod-sub-sup
+#+NAME: common-prod-sub-sup
 #+begin_src yasnippet :tangle org-mode/prod-sub-sup
 # -*- mode: snippet -*-
 # name: prod with sub and sup
@@ -6518,7 +6518,7 @@ _{\text{$1}}$0
 \prod_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: prod-limits-sub-sup
+#+NAME: common-prod-limits-sub-sup
 #+begin_src yasnippet :tangle org-mode/prod-limits-sub-sup
 # -*- mode: snippet -*-
 # name: prod with limits on sub and sup
@@ -6527,7 +6527,7 @@ _{\text{$1}}$0
 \prod\limits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: prod-nolimits-sub-sup
+#+NAME: common-prod-nolimits-sub-sup
 #+begin_src yasnippet :tangle org-mode/prod-nolimits-sub-sup
 # -*- mode: snippet -*-
 # name: prod with no limits on sub and sup
@@ -6536,7 +6536,7 @@ _{\text{$1}}$0
 \prod\nolimits_{${1:lower}}^{${2:upper}}$0
 #+end_src
 
-#+NAME: prod-displaylimits-sub-sup
+#+NAME: common-prod-displaylimits-sub-sup
 #+begin_src yasnippet :tangle org-mode/prod-displaylimits-sub-sup
 # -*- mode: snippet -*-
 # name: prod with display limits on sub and sup
@@ -6547,7 +6547,7 @@ _{\text{$1}}$0
 
 *** Multiple integral signs
 
-#+NAME: iint
+#+NAME: common-iint
 #+begin_src yasnippet :tangle org-mode/iint
 # -*- mode: snippet -*-
 # name: iint
@@ -6556,7 +6556,7 @@ _{\text{$1}}$0
 \iint$0
 #+end_src
 
-#+NAME: iiint
+#+NAME: common-iiint
 #+begin_src yasnippet :tangle org-mode/iiint
 # -*- mode: snippet -*-
 # name: iiint
@@ -6574,7 +6574,7 @@ _{\text{$1}}$0
 \idotsint$0
 #+end_src
 
-#+NAME: iint-limits
+#+NAME: common-iint-limits
 #+begin_src yasnippet :tangle org-mode/iint-limits
 # -*- mode: snippet -*-
 # name: iint with limits
@@ -6583,7 +6583,7 @@ _{\text{$1}}$0
 \iint\limits_{$1}$0
 #+end_src
 
-#+NAME: iiint-limits
+#+NAME: common-iiint-limits
 #+begin_src yasnippet :tangle org-mode/iiint-limits
 # -*- mode: snippet -*-
 # name: iiint with limits
@@ -6603,7 +6603,7 @@ _{\text{$1}}$0
 
 *** Multiline subscripts and superscripts
 
-#+NAME: sum-substack
+#+NAME: common-sum-substack
 #+begin_src yasnippet :tangle org-mode/sum-substack
 # -*- mode: snippet -*-
 # name: sum-substack
@@ -6612,7 +6612,7 @@ _{\text{$1}}$0
 \sum_{\substack{$1}}$0
 #+end_src
 
-#+NAME: prod-substack
+#+NAME: common-prod-substack
 #+begin_src yasnippet :tangle org-mode/prod-substack
 # -*- mode: snippet -*-
 # name: prod-substack
@@ -6623,7 +6623,7 @@ _{\text{$1}}$0
 
 *** The \sideset command
 
-#+NAME: sideset
+#+NAME: common-sideset
 #+begin_src yasnippet :tangle org-mode/sideset
 # -*- mode: snippet -*-
 # name: sideset
