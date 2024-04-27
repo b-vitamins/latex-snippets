@@ -5441,58 +5441,50 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 #+end_src
 ** Notations
 *** Top and bottom embellishments
+
 #+NAME: widetilde
 #+begin_src yasnippet :tangle org-mode/widetilde
 # -*- mode: snippet -*-
 # name: widetilde
 # key: ;wtild
 # --
-\widetilde{$1}$0
-#+end_src
-
-#+NAME: widehat
-#+begin_src yasnippet :tangle org-mode/widehat
-# -*- mode: snippet -*-
-# name: widehat
-# key: ;what
-# --
-\widehat{$1}$0
+\widetilde{$0}
 #+end_src
 
 #+NAME: overline
 #+begin_src yasnippet :tangle org-mode/overline
 # -*- mode: snippet -*-
 # name: overline
-# key: ;olin
+# key: ;oline
 # --
-\overline{$1}$0
+\overline{$0}
 #+end_src
 
 #+NAME: underline
 #+begin_src yasnippet :tangle org-mode/underline
 # -*- mode: snippet -*-
 # name: underline
-# key: ;ulin
+# key: ;uline
 # --
-\underline{$1}$0
+\underline{$0}
 #+end_src
 
-#+NAME: overbrace
+#+NAME: common-overbrace
 #+begin_src yasnippet :tangle org-mode/overbrace
 # -*- mode: snippet -*-
 # name: overbrace
-# key: ;obrc
+# key: ;o{}
 # --
-\overbrace{$1}$0
+\overbrace{$0}
 #+end_src
 
-#+NAME: underbrace
+#+NAME: common-underbrace
 #+begin_src yasnippet :tangle org-mode/underbrace
 # -*- mode: snippet -*-
 # name: underbrace
-# key: ;ubrc
+# key: ;u{}
 # --
-\underbrace{$1}$0
+\underbrace{$0}
 #+end_src
 
 #+NAME: overleftarrow
@@ -5501,7 +5493,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: overleftarrow
 # key: ;olar
 # --
-\overleftarrow{$1}$0
+\overleftarrow{$0}
 #+end_src
 
 #+NAME: underleftarrow
@@ -5510,7 +5502,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: underleftarrow
 # key: ;ular
 # --
-\underleftarrow{$1}$0
+\underleftarrow{$0}
 #+end_src
 
 #+NAME: overrightarrow
@@ -5519,7 +5511,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: overrightarrow
 # key: ;orar
 # --
-\overrightarrow{$1}$0
+\overrightarrow{$0}
 #+end_src
 
 #+NAME: underrightarrow
@@ -5528,7 +5520,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: underrightarrow
 # key: ;urar
 # --
-\underrightarrow{$1}$0
+\underrightarrow{$0}
 #+end_src
 
 #+NAME: overleftrightarrow
@@ -5537,7 +5529,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: overleftrightarrow
 # key: ;olrar
 # --
-\overleftrightarrow{$1}$0
+\overleftrightarrow{$0}
 #+end_src
 
 #+NAME: underleftrightarrow
@@ -5546,7 +5538,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: underleftrightarrow
 # key: ;ulrar
 # --
-\underleftrightarrow{$1}$0
+\underleftrightarrow{$0}
 #+end_src
 
 *** Extensible arrows
