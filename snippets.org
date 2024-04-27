@@ -5854,33 +5854,33 @@ $0
 
 *** Nonbreaking dashes
 
-#+NAME: nobreakdash
+#+NAME: common-nobreakdash
 #+begin_src yasnippet :tangle org-mode/nobreakdash
 # -*- mode: snippet -*-
 # name: nobreakdash
-# key: ;ndash
+# key: ;--
 # --
 \nobreakdash-$0
 #+end_src
 
 *** Roots
 
-#+NAME: sqrt
+#+NAME: common-sqrt
 #+begin_src yasnippet :tangle org-mode/sqrt
 # -*- mode: snippet -*-
 # name: sqrt
 # key: ;sqrt
 # --
-\sqrt{$1}$0
+\sqrt{$0}
 #+end_src
 
-#+NAME: nroot
+#+NAME: common-nroot
 #+begin_src yasnippet :tangle org-mode/nroot
 # -*- mode: snippet -*-
 # name: nroot (n-th root)
 # key: ;nroot
 # --
-\sqrt[$1]{$2}$0
+\sqrt[$1]{$0}
 #+end_src
 
 *** Boxed formulas
@@ -5893,6 +5893,7 @@ $0
 # --
 \boxed{$0}
 #+end_src
+
 ** Fractions and related constructions
 *** The \frac, \dfrac, and \tfrac commands
 
