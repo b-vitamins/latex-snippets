@@ -809,7 +809,7 @@
 # key: ;alp
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\aleph $0
+\aleph$0
 #+END_SRC
 
 #+NAME: beth
@@ -819,7 +819,7 @@
 # key: ;bet
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\beth $0
+\beth$0
 #+END_SRC
 
 #+NAME: daleth
@@ -829,7 +829,7 @@
 # key: ;dal
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\daleth $0
+\daleth$0
 #+END_SRC
 
 #+NAME: gimel
@@ -839,7 +839,7 @@
 # key: ;gim
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\gimel $0
+\gimel$0
 #+END_SRC
 
 #+NAME: complement
@@ -849,7 +849,7 @@
 # key: ;com
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\complement $0
+\complement$0
 #+END_SRC
 
 #+NAME: ell
@@ -859,7 +859,7 @@
 # key: ;el
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\ell $0
+\ell$0
 #+END_SRC
 
 #+NAME: eth
@@ -869,17 +869,17 @@
 # key: ;eth
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\eth $0
+\eth$0
 #+END_SRC
 
-#+NAME: hbar
+#+NAME: common-hbar
 #+BEGIN_SRC yasnippet :tangle org-mode/hbar
 # -*- mode: snippet -*-
 # name: hbar
 # key: ;hb
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\hbar $0
+\hbar$0
 #+END_SRC
 
 #+NAME: hslash
@@ -889,7 +889,7 @@
 # key: ;hsl
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\hslash $0
+\hslash$0
 #+END_SRC
 
 #+NAME: mho
@@ -899,17 +899,17 @@
 # key: ;mh
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mho $0
+\mho$0
 #+END_SRC
 
-#+NAME: partial
+#+NAME: common-partial
 #+BEGIN_SRC yasnippet :tangle org-mode/partial
 # -*- mode: snippet -*-
 # name: partial
 # key: ;par
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\partial $0
+\partial$0
 #+END_SRC
 
 #+NAME: wp
@@ -919,7 +919,7 @@
 # key: ;wp
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\wp $0
+\wp$0
 #+END_SRC
 
 #+NAME: circledS
@@ -929,7 +929,7 @@
 # key: ;oS
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\circledS $0
+\circledS$0
 #+END_SRC
 
 #+NAME: Bbbk
@@ -939,7 +939,7 @@
 # key: ;bk
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Bbbk $0
+\Bbbk$0
 #+END_SRC
 
 #+NAME: Finv
@@ -949,7 +949,7 @@
 # key: ;Fin
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Finv $0
+\Finv$0
 #+END_SRC
 
 #+NAME: Game
@@ -959,27 +959,27 @@
 # key: ;Gam
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Game $0
+\Game$0
 #+END_SRC
 
-#+NAME: Im
+#+NAME: common-Im
 #+BEGIN_SRC yasnippet :tangle org-mode/Im
 # -*- mode: snippet -*-
 # name: Im
 # key: ;Im
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Im $0
+\Im$0
 #+END_SRC
 
-#+NAME: Re
+#+NAME: common-Re
 #+BEGIN_SRC yasnippet :tangle org-mode/Re
 # -*- mode: snippet -*-
 # name: Re
 # key: ;Re
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Re $0
+\Re$0
 #+END_SRC
 
 *** Math font switches
