@@ -3,7 +3,7 @@
 # key: ;what
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\widehat{$1} $0
+\widehat{$0}
 # -*- mode: snippet -*-
 # name: widehat
 # key: ;widehat

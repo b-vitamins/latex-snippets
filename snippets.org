@@ -224,7 +224,7 @@
 # key: ;hat
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\hat{$1} $0
+\hat{$0}
 #+end_src
 
 #+NAME: widehat
@@ -234,7 +234,7 @@
 # key: ;what
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\widehat{$1} $0
+\widehat{$0}
 #+end_src
 
 *** Greek letters
