@@ -5895,13 +5895,13 @@ $0
 
 *** Boxed formulas
 
-#+NAME: boxed
+#+NAME: common-boxed
 #+begin_src yasnippet :tangle org-mode/boxed
 # -*- mode: snippet -*-
 # name: boxed
 # key: ;boxed
 # --
-\boxed{$1}$0
+\boxed{$0}
 #+end_src
 ** Fractions and related constructions
 *** The \frac, \dfrac, and \tfrac commands
