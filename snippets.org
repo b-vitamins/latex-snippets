@@ -95,6 +95,18 @@
   # key: ;aln
   # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
   # --
+  \begin{align*}
+  $0
+  \end{align*}
+  #+END_SRC
+
+  #+NAME: align-environment-numbered
+  #+BEGIN_SRC yasnippet :tangle org-mode/align-numbered
+  # -*- mode: snippet -*-
+  # name: align-environment-numbered
+  # key: ;naln
+  # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+  # --
   \begin{align}
   $0
   \end{align}
