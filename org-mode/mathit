@@ -3,4 +3,4 @@
 # key: ;mit
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathit{$1} $0
+\mathit{$0}

@@ -3,4 +3,4 @@
 # key: ;msf
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathsf{$1} $0
+\mathsf{$0}

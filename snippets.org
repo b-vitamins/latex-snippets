@@ -990,7 +990,7 @@
 # key: ;mbf
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathbf{$1} $0
+\mathbf{$0}
 #+END_SRC
 
 #+NAME: mathrm
@@ -1000,7 +1000,7 @@
 # key: ;mrm
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathrm{$1} $0
+\mathrm{$0}
 #+END_SRC
 
 #+NAME: mathsf
@@ -1010,7 +1010,7 @@
 # key: ;msf
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathsf{$1} $0
+\mathsf{$0}
 #+END_SRC
 
 #+NAME: mathit
@@ -1020,7 +1020,7 @@
 # key: ;mit
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathit{$1} $0
+\mathit{$0}
 #+END_SRC
 
 #+NAME: boldsymbol
@@ -1030,7 +1030,7 @@
 # key: ;bs
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\boldsymbol{$1} $0
+\boldsymbol{$0}
 #+END_SRC
 
 #+NAME: pmb
@@ -1040,7 +1040,7 @@
 # key: ;pmb
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\pmb{$1} $0
+\pmb{$0}
 #+END_SRC
 
 *** Blackboard Bold letters (msbm; no lowercase)
