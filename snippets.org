@@ -1665,16 +1665,6 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\Cap= requires font =msam= from ~amssymb~
 
-#+NAME: common-cdot
-#+begin_src yasnippet :tangle org-mode/cdot
-# -*- mode: snippet -*-
-# name: Cdot
-# key: ;c.
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-\cdot$0
-#+end_src
-
 #+NAME: common-centerdot
 #+begin_src yasnippet :tangle org-mode/centerdot
 # -*- mode: snippet -*-
@@ -5671,7 +5661,7 @@ $0
 
 *** Math spacing commands
 
-#+NAME: thinspace
+#+NAME: common-thinspace
 #+begin_src yasnippet :tangle org-mode/thinspace
 # -*- mode: snippet -*-
 # name: thinspace
@@ -5680,7 +5670,7 @@ $0
 \,$0
 #+end_src
 
-#+NAME: medspace
+#+NAME: common-medspace
 #+begin_src yasnippet :tangle org-mode/medspace
 # -*- mode: snippet -*-
 # name: medspace
@@ -5689,7 +5679,7 @@ $0
 \:$0
 #+end_src
 
-#+NAME: thickspace
+#+NAME: common-thickspace
 #+begin_src yasnippet :tangle org-mode/thickspace
 # -*- mode: snippet -*-
 # name: thickspace
@@ -5698,7 +5688,7 @@ $0
 \;$0
 #+end_src
 
-#+NAME: quad
+#+NAME: common-quad
 #+begin_src yasnippet :tangle org-mode/quad
 # -*- mode: snippet -*-
 # name: quad
@@ -5707,7 +5697,7 @@ $0
 \quad$0
 #+end_src
 
-#+NAME: qquad
+#+NAME: common-qquad
 #+begin_src yasnippet :tangle org-mode/qquad
 # -*- mode: snippet -*-
 # name: qquad
@@ -5749,7 +5739,7 @@ $0
 # name: mspace
 # key: ;mspace
 # --
-\mspace{$1}$0
+\mspace{$0}
 #+end_src
 
 #+NAME: phantom
@@ -5758,7 +5748,7 @@ $0
 # name: phantom
 # key: ;ph
 # --
-\phantom{$1}$0
+\phantom{$0}
 #+end_src
 
 #+NAME: hphantom
@@ -5767,7 +5757,7 @@ $0
 # name: hphantom
 # key: ;hph
 # --
-\hphantom{$1}$0
+\hphantom{$0}
 #+end_src
 
 #+NAME: vphantom
@@ -5776,43 +5766,43 @@ $0
 # name: vphantom
 # key: ;vph
 # --
-\vphantom{$1}$0
+\vphantom{$0}
 #+end_src
 
 *** Dots
 
-#+NAME: ldots
+#+NAME: common-ldots
 #+begin_src yasnippet :tangle org-mode/ldots
 # -*- mode: snippet -*-
 # name: ldots
-# key: ;ldots
+# key: ;l.
 # --
 \ldots$0
 #+end_src
 
-#+NAME: cdots
+#+NAME: common-cdots
 #+begin_src yasnippet :tangle org-mode/cdots
 # -*- mode: snippet -*-
 # name: cdots
-# key: ;cdots
+# key: ;c.
 # --
 \cdots$0
 #+end_src
 
-#+NAME: vdots
+#+NAME: common-vdots
 #+begin_src yasnippet :tangle org-mode/vdots
 # -*- mode: snippet -*-
 # name: vdots
-# key: ;vdots
+# key: ;v.
 # --
 \vdots$0
 #+end_src
 
-#+NAME: ddots
+#+NAME: common-ddots
 #+begin_src yasnippet :tangle org-mode/ddots
 # -*- mode: snippet -*-
 # name: ddots
-# key: ;ddots
+# key: ;d.
 # --
 \ddots$0
 #+end_src
@@ -5821,7 +5811,7 @@ $0
 #+begin_src yasnippet :tangle org-mode/dotsc
 # -*- mode: snippet -*-
 # name: dotsc (dots with commas)
-# key: ;dotsc
+# key: ;.sc
 # --
 \dotsc$0
 #+end_src
@@ -5830,7 +5820,7 @@ $0
 #+begin_src yasnippet :tangle org-mode/dotsb
 # -*- mode: snippet -*-
 # name: dotsb (dots with binary operators/relations)
-# key: ;dotsb
+# key: ;.sb
 # --
 \dotsb$0
 #+end_src
@@ -5839,7 +5829,7 @@ $0
 #+begin_src yasnippet :tangle org-mode/dotsm
 # -*- mode: snippet -*-
 # name: dotsm (multiplication dots)
-# key: ;dotsm
+# key: ;.sm
 # --
 \dotsm$0
 #+end_src
@@ -5848,7 +5838,7 @@ $0
 #+begin_src yasnippet :tangle org-mode/dotsi
 # -*- mode: snippet -*-
 # name: dotsi (dots with integrals)
-# key: ;dotsi
+# key: ;.si
 # --
 \dotsi$0
 #+end_src
@@ -5857,7 +5847,7 @@ $0
 #+begin_src yasnippet :tangle org-mode/dotso
 # -*- mode: snippet -*-
 # name: dotso (other dots)
-# key: ;dotso
+# key: ;.so
 # --
 \dotso$0
 #+end_src
