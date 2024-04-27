@@ -163,7 +163,7 @@
 #+BEGIN_SRC yasnippet :tangle org-mode/tag
 # -*- mode: snippet -*-
 # name: tag
-# key: ;tag
+# key: ;tg
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \tag{$1}$0
