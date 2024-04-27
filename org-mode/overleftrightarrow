@@ -2,4 +2,4 @@
 # name: overleftrightarrow
 # key: ;olrar
 # --
-\overleftrightarrow{$1}$0
+\overleftrightarrow{$0}

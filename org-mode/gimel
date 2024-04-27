@@ -3,4 +3,4 @@
 # key: ;gim
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\gimel $0
+\gimel$0

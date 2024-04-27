@@ -3,4 +3,4 @@
 # key: ;Re
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Re $0
+\Re$0

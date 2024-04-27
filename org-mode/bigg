@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bigg
+# key: ;bg
+# --
+\bigg $0

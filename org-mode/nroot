@@ -2,4 +2,4 @@
 # name: nroot (n-th root)
 # key: ;nroot
 # --
-\sqrt[$1]{$2}$0
+\sqrt[$1]{$0}

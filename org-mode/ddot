@@ -3,4 +3,4 @@
 # key: ;ddot
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\ddot{$1}$0
+\ddot{$0}

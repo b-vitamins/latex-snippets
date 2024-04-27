@@ -3,4 +3,4 @@
 # key: ;acute
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\acute{$1}$0
+\acute{$0}

@@ -2,4 +2,4 @@
 # name: overrightarrow
 # key: ;orar
 # --
-\overrightarrow{$1}$0
+\overrightarrow{$0}

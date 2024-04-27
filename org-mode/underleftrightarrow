@@ -2,4 +2,4 @@
 # name: underleftrightarrow
 # key: ;ulrar
 # --
-\underleftrightarrow{$1}$0
+\underleftrightarrow{$0}

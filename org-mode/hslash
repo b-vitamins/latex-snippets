@@ -3,4 +3,4 @@
 # key: ;hsl
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\hslash $0
+\hslash$0

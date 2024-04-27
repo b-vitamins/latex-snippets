@@ -2,4 +2,4 @@
 # name: overleftarrow
 # key: ;olar
 # --
-\overleftarrow{$1}$0
+\overleftarrow{$0}

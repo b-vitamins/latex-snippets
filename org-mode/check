@@ -3,4 +3,4 @@
 # key: ;check
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\check{$1}$0
+\check{$0}

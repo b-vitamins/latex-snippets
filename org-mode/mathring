@@ -3,4 +3,4 @@
 # key: ;mathring
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\mathring{$1}$0
+\mathring{$0}

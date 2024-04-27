@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: underbrace
-# key: ;ubrc
+# key: ;u{}
 # --
-\underbrace{$1}$0
+\underbrace{$0}

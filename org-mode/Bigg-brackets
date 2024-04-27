@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Bigg-brackets
+# key: ;[]Bg
+# --
+\Biggl[ $0 \Biggr]

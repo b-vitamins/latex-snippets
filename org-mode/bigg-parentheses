@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bigg-parentheses
+# key: ;()bg
+# --
+\biggl( $0 \biggr)

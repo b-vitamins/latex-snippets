@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Text in Math as Superscript
+# key: ;^txt
+# --
+^{\text{$1}}$0

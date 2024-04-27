@@ -2,4 +2,4 @@
 # name: boxed
 # key: ;boxed
 # --
-\boxed{$1}$0
+\boxed{$0}

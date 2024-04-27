@@ -9,4 +9,4 @@
 # key: ;hat
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\hat{$1}$0
+\hat{$0}

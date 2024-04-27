@@ -3,4 +3,4 @@
 # key: ;vec
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\vec{$1}$0
+\vec{$0}

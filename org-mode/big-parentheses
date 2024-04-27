@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: big-parentheses
+# key: ;()b
+# --
+\bigl( $0 \bigr)

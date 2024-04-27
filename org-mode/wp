@@ -3,4 +3,4 @@
 # key: ;wp
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\wp $0
+\wp$0

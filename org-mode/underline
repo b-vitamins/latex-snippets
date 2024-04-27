@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: underline
-# key: ;ulin
+# key: ;uline
 # --
-\underline{$1}$0
+\underline{$0}

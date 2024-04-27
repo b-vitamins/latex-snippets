@@ -2,4 +2,4 @@
 # name: phantom
 # key: ;ph
 # --
-\phantom{$1}$0
+\phantom{$0}

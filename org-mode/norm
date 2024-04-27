@@ -2,4 +2,4 @@
 # name: Norm
 # key: ;norm
 # --
-\lVert $1 \rVert$0
+\lVert $0 \rVert

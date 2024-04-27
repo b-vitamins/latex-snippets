@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: Text in Math
-# key: ;mtxt
+# key: ;txt
 # --
 \text{$1}$0

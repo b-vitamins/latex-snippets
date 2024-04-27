@@ -3,9 +3,9 @@
 # key: ;widetilde
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\widetilde{$1}$0
+\widetilde{$0}
 # -*- mode: snippet -*-
 # name: widetilde
 # key: ;wtild
 # --
-\widetilde{$1}$0
+\widetilde{$0}

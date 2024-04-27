@@ -3,5 +3,5 @@
 # key: ;bmat
 # --
 \begin{bmatrix}
-  $1
-\end{bmatrix}$0
+  $0
+\end{bmatrix}

@@ -2,4 +2,4 @@
 # name: mspace
 # key: ;mspace
 # --
-\mspace{$1}$0
+\mspace{$0}

@@ -3,4 +3,4 @@
 # key: ;hb
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\hbar $0
+\hbar$0

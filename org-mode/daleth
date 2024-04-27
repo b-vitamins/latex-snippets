@@ -3,4 +3,4 @@
 # key: ;dal
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\daleth $0
+\daleth$0

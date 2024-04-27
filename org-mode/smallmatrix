@@ -2,6 +2,6 @@
 # name: smallmatrix
 # key: ;smat
 # --
-\left(\begin{smallmatrix}
-  $1
-\end{smallmatrix}\right)$0
+\begin{smallmatrix}
+  $0
+\end{smallmatrix}

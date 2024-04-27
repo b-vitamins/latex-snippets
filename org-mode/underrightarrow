@@ -2,4 +2,4 @@
 # name: underrightarrow
 # key: ;urar
 # --
-\underrightarrow{$1}$0
+\underrightarrow{$0}

@@ -2,4 +2,4 @@
 # name: underleftarrow
 # key: ;ular
 # --
-\underleftarrow{$1}$0
+\underleftarrow{$0}

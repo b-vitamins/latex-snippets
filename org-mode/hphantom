@@ -2,4 +2,4 @@
 # name: hphantom
 # key: ;hph
 # --
-\hphantom{$1}$0
+\hphantom{$0}

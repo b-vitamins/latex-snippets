@@ -3,4 +3,4 @@
 # key: ;Fin
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Finv $0
+\Finv$0

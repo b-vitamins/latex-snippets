@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: big-braces
+# key: ;{}b
+# --
+\bigl\{ $0 \bigr\}

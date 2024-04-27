@@ -3,5 +3,5 @@
 # key: ;case
 # --
 \begin{cases}
-  $1
-\end{cases}$0
+$0
+\end{cases}

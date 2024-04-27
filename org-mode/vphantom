@@ -2,4 +2,4 @@
 # name: vphantom
 # key: ;vph
 # --
-\vphantom{$1}$0
+\vphantom{$0}

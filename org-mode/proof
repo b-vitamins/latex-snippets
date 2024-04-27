@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: proof
+# key: ;proof
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+NAME: $1
+#+begin_proof latex
+$0
+#+end_proof

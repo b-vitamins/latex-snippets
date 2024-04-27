@@ -3,4 +3,4 @@
 # key: ;breve
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\breve{$1}$0
+\breve{$0}

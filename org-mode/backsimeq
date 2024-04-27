@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Backsimeq
-# key: ;bkseq
+# key: ;b~=
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \backsimeq$0

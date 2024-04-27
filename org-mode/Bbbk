@@ -3,4 +3,4 @@
 # key: ;bk
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Bbbk $0
+\Bbbk$0
