@@ -3,4 +3,4 @@
 # key: ;f
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\phi $0
+\phi$0

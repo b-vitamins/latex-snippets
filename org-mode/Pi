@@ -3,4 +3,4 @@
 # key: ;P
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Pi $0
+\Pi$0

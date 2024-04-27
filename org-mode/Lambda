@@ -3,4 +3,4 @@
 # key: ;L
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Lambda $0
+\Lambda$0

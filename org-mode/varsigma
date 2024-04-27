@@ -3,4 +3,4 @@
 # key: ;vs
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\varsigma $0
+\varsigma$0

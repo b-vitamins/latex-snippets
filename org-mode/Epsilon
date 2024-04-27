@@ -3,4 +3,4 @@
 # key: ;E
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Epsilon $0
+\Epsilon$0

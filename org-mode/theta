@@ -3,4 +3,4 @@
 # key: ;t
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\theta $0
+\theta$0

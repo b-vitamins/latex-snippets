@@ -3,4 +3,4 @@
 # key: ;i
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\iota $0
+\iota$0

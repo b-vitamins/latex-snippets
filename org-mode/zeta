@@ -3,4 +3,4 @@
 # key: ;z
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\zeta $0
+\zeta$0

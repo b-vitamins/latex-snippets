@@ -3,4 +3,4 @@
 # key: ;vp
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\varpi $0
+\varpi$0

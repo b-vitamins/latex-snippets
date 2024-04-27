@@ -3,4 +3,4 @@
 # key: ;vph
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\varphi $0
+\varphi$0

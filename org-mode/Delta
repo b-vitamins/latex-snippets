@@ -3,4 +3,4 @@
 # key: ;D
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\Delta $0
+\Delta$0

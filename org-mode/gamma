@@ -3,4 +3,4 @@
 # key: ;g
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-\gamma $0
+\gamma$0
