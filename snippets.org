@@ -5552,7 +5552,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \xleftarrow[${1:subscript}]{$2:superscript}$0
 #+end_src
 
-#+NAME: xrightarrow
+#+NAME: common-xrightarrow
 #+begin_src yasnippet :tangle org-mode/xrightarrow
 # -*- mode: snippet -*-
 # name: xrightarrow
@@ -5583,59 +5583,59 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 *** Matrices
 
-#+NAME: pmatrix
+#+NAME: common-pmatrix
 #+begin_src yasnippet :tangle org-mode/pmatrix
 # -*- mode: snippet -*-
 # name: pmatrix
 # key: ;pmat
 # --
 \begin{pmatrix}
-  $1
-\end{pmatrix}$0
+  $0
+\end{pmatrix}
 #+end_src
 
-#+NAME: bmatrix
+#+NAME: common-bmatrix
 #+begin_src yasnippet :tangle org-mode/bmatrix
 # -*- mode: snippet -*-
 # name: bmatrix
 # key: ;bmat
 # --
 \begin{bmatrix}
-  $1
-\end{bmatrix}$0
+  $0
+\end{bmatrix}
 #+end_src
 
-#+NAME: Bmatrix
+#+NAME: common-Bmatrix
 #+begin_src yasnippet :tangle org-mode/Bmatrix
 # -*- mode: snippet -*-
 # name: Bmatrix
 # key: ;Bmat
 # --
 \begin{Bmatrix}
-  $1
-\end{Bmatrix}$0
+  $0
+\end{Bmatrix}
 #+end_src
 
-#+NAME: vmatrix
+#+NAME: common-vmatrix
 #+begin_src yasnippet :tangle org-mode/vmatrix
 # -*- mode: snippet -*-
 # name: vmatrix
 # key: ;vmat
 # --
 \begin{vmatrix}
-  $1
-\end{vmatrix}$0
+  $0
+\end{vmatrix}
 #+end_src
 
-#+NAME: Vmatrix
+#+NAME: common-Vmatrix
 #+begin_src yasnippet :tangle org-mode/Vmatrix
 # -*- mode: snippet -*-
 # name: Vmatrix
 # key: ;Vmat
 # --
 \begin{Vmatrix}
-  $1
-\end{Vmatrix}$0
+  $0
+\end{Vmatrix}
 #+end_src
 
 #+NAME: smallmatrix
@@ -5644,9 +5644,9 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: smallmatrix
 # key: ;smat
 # --
-\left(\begin{smallmatrix}
-  $1
-\end{smallmatrix}\right)$0
+\begin{smallmatrix}
+  $0
+\end{smallmatrix}
 #+end_src
 
 #+NAME: hdotsfor
@@ -5655,18 +5655,18 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 # name: hdotsfor (dots across columns in a matrix)
 # key: ;hdots
 # --
-\hdotsfor{$1}$0
+\hdotsfor{$0}
 #+end_src
 
-#+NAME: cases
+#+NAME: common-cases
 #+begin_src yasnippet :tangle org-mode/cases
 # -*- mode: snippet -*-
 # name: cases
 # key: ;case
 # --
 \begin{cases}
-  $1
-\end{cases}$0
+$0
+\end{cases}
 #+end_src
 
 *** Math spacing commands
