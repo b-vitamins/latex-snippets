@@ -1045,7 +1045,7 @@
 
 *** Blackboard Bold letters (msbm; no lowercase)
 
-#+NAME: mathbb
+#+NAME: common-mathbb
 #+BEGIN_SRC yasnippet :tangle org-mode/mathbb
 # -*- mode: snippet -*-
 # name: mathbb
@@ -1059,7 +1059,7 @@
 
 *** Calligraphic letters (cmsy; no lowercase)
 
-#+NAME: mathcal
+#+NAME: common-mathcal
 #+BEGIN_SRC yasnippet :tangle org-mode/mathcal
 # -*- mode: snippet -*-
 # name: mathcal
@@ -1071,7 +1071,7 @@
 
 *** Non-CM calligraphic and script letters
 
-#+NAME: mathscr
+#+NAME: common-mathscr
 #+BEGIN_SRC yasnippet :tangle org-mode/mathscr
 # -*- mode: snippet -*-
 # name: mathscr
@@ -1085,7 +1085,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 *** Fraktur letters (eufm)
 
-#+NAME: mathfrak
+#+NAME: common-mathfrak
 #+BEGIN_SRC yasnippet :tangle org-mode/mathfrak
 # -*- mode: snippet -*-
 # name: mathfrak
@@ -1163,7 +1163,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \blacklozenge$0
 #+END_SRC
 
-#+NAME: blacksquare
+#+NAME: common-blacksquare
 #+BEGIN_SRC yasnippet :tangle org-mode/blksqr
 # -*- mode: snippet -*-
 # name: Blacksquare
@@ -1385,7 +1385,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 
 =\nexists= requires font =msam= from ~amssymb~
 
-#+NAME: prime
+#+NAME: common-prime
 #+BEGIN_SRC yasnippet :tangle org-mode/prim
 # -*- mode: snippet -*-
 # name: Prime
