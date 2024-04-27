@@ -5897,20 +5897,20 @@ $0
 ** Fractions and related constructions
 *** The \frac, \dfrac, and \tfrac commands
 
-#+NAME: frac
+#+NAME: common-frac
 #+begin_src yasnippet :tangle org-mode/frac
 # -*- mode: snippet -*-
 # name: frac
-# key: ;frac
+# key: ;fr
 # --
 \frac{$1}{$2}$0
 #+end_src
 
-#+NAME: dfrac
+#+NAME: common-dfrac
 #+begin_src yasnippet :tangle org-mode/dfrac
 # -*- mode: snippet -*-
 # name: dfrac
-# key: ;dfrac
+# key: ;dfr
 # --
 \dfrac{$1}{$2}$0
 #+end_src
@@ -5919,14 +5919,14 @@ $0
 #+begin_src yasnippet :tangle org-mode/tfrac
 # -*- mode: snippet -*-
 # name: tfrac
-# key: ;tfrac
+# key: ;tfr
 # --
 \tfrac{$1}{$2}$0
 #+end_src
 
 *** The \binom, \dbinom, and \tbinom commands
 
-#+NAME: binom
+#+NAME: common-binom
 #+begin_src yasnippet :tangle org-mode/binom
 # -*- mode: snippet -*-
 # name: binom
@@ -5935,7 +5935,7 @@ $0
 \binom{$1}{$2}$0
 #+end_src
 
-#+NAME: dbinom
+#+NAME: common-dbinom
 #+begin_src yasnippet :tangle org-mode/dbinom
 # -*- mode: snippet -*-
 # name: dbinom
@@ -5974,6 +5974,7 @@ $0
 # --
 \cfrac{${1:1}}{\sqrt{${2:2}}\cfrac{${3:1}}{\sqrt{${2:2}}+\dotsb}}
 #+end_src
+
 ** Delimiters
 *** Delimiter sizes
 
