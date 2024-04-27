@@ -2166,7 +2166,7 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \>$0
 #+END_SRC
 
-#+NAME: approx
+#+NAME: common-approx
 #+BEGIN_SRC yasnippet :tangle org-mode/approx
 # -*- mode: snippet -*-
 # name: Approx
@@ -2176,11 +2176,11 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \approx$0
 #+END_SRC
 
-#+NAME: approxeq
+#+NAME: common-approxeq
 #+BEGIN_SRC yasnippet :tangle org-mode/approxeq
 # -*- mode: snippet -*-
 # name: Approxeq
-# key: ;apeq
+# key: ;apx=
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \approxeq$0
@@ -2197,29 +2197,29 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \asymp$0
 #+END_SRC
 
-#+NAME: backsim
+#+NAME: common-backsim
 #+BEGIN_SRC yasnippet :tangle org-mode/backsim
 # -*- mode: snippet -*-
 # name: Backsim
-# key: ;bks
+# key: ;b~
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \backsim$0
 #+END_SRC
 =\backsim= requires font =msam= from ~amssymb~
 
-#+NAME: backsimeq
+#+NAME: common-backsimeq
 #+BEGIN_SRC yasnippet :tangle org-mode/backsimeq
 # -*- mode: snippet -*-
 # name: Backsimeq
-# key: ;bkseq
+# key: ;b~=
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 \backsimeq$0
 #+END_SRC
 =\backsimeq= requires font =msam= from ~amssymb~
 
-#+NAME: bumpeq
+#+NAME: common-bumpeq
 #+BEGIN_SRC yasnippet :tangle org-mode/bumpeq
 # -*- mode: snippet -*-
 # name: Bumpeq
