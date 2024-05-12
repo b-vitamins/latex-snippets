@@ -3772,6 +3772,16 @@ Different switches depending on: (=rsfs=; no lowercase) ~mathrsfs~ or (=eusm=; n
 \models$0
 #+end_src
 
+#+NAME: cond
+#+begin_src yasnippet :tangle org-mode/cond
+# -*- mode: snippet -*-
+# name: Conditional Independence
+# key: ;cond
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+\perp\!\!\!\perp$0
+#+end_src
+
 #+NAME: ni
 #+begin_src yasnippet :tangle org-mode/ni
 # -*- mode: snippet -*-
