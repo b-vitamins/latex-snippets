@@ -1,0 +1,5 @@
+,# -*- mode: snippet -*-
+,# name: derivative
+,# key: ;D_
+,# --
+\mathrm{D}_{$1}~$0

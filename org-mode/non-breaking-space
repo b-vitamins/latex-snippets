@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: non-breaking-space
+# key: ;;
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+~$0

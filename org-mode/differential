@@ -1,0 +1,5 @@
+,# -*- mode: snippet -*-
+,# name: differential
+,# key: ;dd
+,# --
+\mathrm{~d} $0

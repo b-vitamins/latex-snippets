@@ -1,0 +1,5 @@
+,# -*- mode: snippet -*-
+,# name: double-derivative
+,# key: ;DD_
+,# --
+\mathrm{D}^{2}_{$1}~$0

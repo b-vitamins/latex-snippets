@@ -1,0 +1,5 @@
+,# -*- mode: snippet -*-
+,# name: mixed-derivative
+,# key: ;D_D_
+,# --
+\mathrm{D}_{$2} \mathrm{D}_{$1}~$0
