@@ -1,9 +1,10 @@
 # -*- mode: snippet -*-
 # name: corollary
-# key: ;corollary
+# key: ;cor
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment corollary
 #+begin_corollary latex
 $0
 #+end_corollary

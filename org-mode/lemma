@@ -1,9 +1,10 @@
 # -*- mode: snippet -*-
 # name: lemma
-# key: ;lemma
+# key: ;lem
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment lemma
 #+begin_lemma latex
 $0
 #+end_lemma

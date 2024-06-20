@@ -1,9 +1,10 @@
 # -*- mode: snippet -*-
 # name: definition
-# key: ;define
+# key: ;def
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment definition
 #+begin_definition latex
 $0
 #+end_definition

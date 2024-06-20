@@ -1,8 +1,10 @@
 # -*- mode: snippet -*-
 # name: abstract
-# key: ;abstract
+# key: ;abs
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-#+begin_abstract
+#+NAME: $1
+#+ATTR_LATEX: :environment abstract
+#+begin_abstract latex
 $0
 #+end_abstract

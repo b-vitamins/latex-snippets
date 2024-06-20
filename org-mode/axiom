@@ -1,9 +1,10 @@
 # -*- mode: snippet -*-
 # name: axiom
-# key: ;axiom
+# key: ;ax
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment axiom
 #+begin_axiom latex
 $0
 #+end_axiom

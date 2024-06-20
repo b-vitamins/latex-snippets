@@ -1,9 +1,10 @@
 # -*- mode: snippet -*-
 # name: theorem
-# key: ;theorem
+# key: ;thm
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment theorem
 #+begin_theorem latex
 $0
 #+end_theorem
