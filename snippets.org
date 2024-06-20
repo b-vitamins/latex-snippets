@@ -6641,120 +6641,147 @@ _{\text{$1}}$0
 # --
 \sideset{${1:_{pre-subscript}^{pre-superscript}}}{${2:_{post-subscript}^{post-superscript}}}$0
 #+end_src
-* Abstract, definition, lemma, theorem, proof, corollary and friends
+* Definition, abstract, definition, lemma, theorem, proof, corollary and friends
 
-#+NAME: common-abstract
 #+begin_src yasnippet :tangle org-mode/abstract
 # -*- mode: snippet -*-
 # name: abstract
-# key: ;abstract
+# key: ;abs
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-,#+begin_abstract
+#+NAME: $1
+#+ATTR_LATEX: :environment abstract
+,#+begin_abstract latex
 $0
 ,#+end_abstract
 #+end_src
 
-#+NAME:common-definition
 #+begin_src yasnippet :tangle org-mode/definition
 # -*- mode: snippet -*-
 # name: definition
-# key: ;define
+# key: ;def
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment definition
 ,#+begin_definition latex
 $0
 ,#+end_definition
 #+end_src
 
-#+NAME:common-lemma
-#+begin_src yasnippet :tangle org-mode/lemma
-# -*- mode: snippet -*-
-# name: lemma
-# key: ;lemma
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-#+NAME: $1
-,#+begin_lemma latex
-$0
-,#+end_lemma
-#+end_src
-
-#+NAME:common-theorem
 #+begin_src yasnippet :tangle org-mode/theorem
 # -*- mode: snippet -*-
 # name: theorem
-# key: ;theorem
+# key: ;thm
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment theorem
 ,#+begin_theorem latex
 $0
 ,#+end_theorem
 #+end_src
 
-#+NAME:common-proof
-#+begin_src yasnippet :tangle org-mode/proof
+#+begin_src yasnippet :tangle org-mode/proposition
 # -*- mode: snippet -*-
-# name: proof
-# key: ;proof
+# name: proposition
+# key: ;prop
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
-,#+begin_proof latex
+#+ATTR_LATEX: :environment proposition
+,#+begin_proposition latex
 $0
-,#+end_proof
+,#+end_proposition
 #+end_src
 
-#+NAME:common-corollary
+#+begin_src yasnippet :tangle org-mode/lemma
+# -*- mode: snippet -*-
+# name: lemma
+# key: ;lem
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+NAME: $1
+#+ATTR_LATEX: :environment lemma
+,#+begin_lemma latex
+$0
+,#+end_lemma
+#+end_src
+
 #+begin_src yasnippet :tangle org-mode/corollary
 # -*- mode: snippet -*-
 # name: corollary
-# key: ;corollary
+# key: ;cor
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment corollary
 ,#+begin_corollary latex
 $0
 ,#+end_corollary
 #+end_src
 
-#+NAME:common-axiom
-#+begin_src yasnippet :tangle org-mode/axiom
+#+begin_src yasnippet :tangle org-mode/proof
 # -*- mode: snippet -*-
-# name: axiom
-# key: ;axiom
+# name: proof
+# key: ;prf
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment proof
+,#+begin_proof latex
+$0
+,#+end_proof
+#+end_src
+
+#+begin_src yasnippet :tangle org-mode/conjecture
+# -*- mode: snippet -*-
+# name: conjecture
+# key: ;conj
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+NAME: $1
+#+ATTR_LATEX: :environment conjecture
+,#+begin_conjecture latex
+$0
+,#+end_conjecture
+#+end_src
+
+#+begin_src yasnippet :tangle org-mode/axiom
+# -*- mode: snippet -*-
+# name: axiom
+# key: ;ax
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+NAME: $1
+#+ATTR_LATEX: :environment axiom
 ,#+begin_axiom latex
 $0
 ,#+end_axiom
 #+end_src
 
-#+NAME:common-postulate
-#+begin_src yasnippet :tangle org-mode/postulate
-# -*- mode: snippet -*-
-# name: postulate
-# key: ;postulate
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
-# --
-#+NAME: $1
-,#+begin_postulate latex
-$0
-,#+end_postulate
-#+end_src
-
-#+NAME:common-example
 #+begin_src yasnippet :tangle org-mode/example
 # -*- mode: snippet -*-
 # name: example
-# key: ;example
+# key: ;ex
 # expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
 #+NAME: $1
+#+ATTR_LATEX: :environment example
 ,#+begin_example latex
 $0
 ,#+end_example
+#+end_src
+
+#+begin_src yasnippet :tangle org-mode/remark
+# -*- mode: snippet -*-
+# name: remark
+# key: ;rmk
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+NAME: $1
+#+ATTR_LATEX: :environment remark
+,#+begin_remark latex
+$0
+,#+end_remark
 #+end_src
