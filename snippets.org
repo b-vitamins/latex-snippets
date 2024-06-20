@@ -6785,3 +6785,58 @@ $0
 $0
 ,#+end_remark
 #+end_src
+* Miscellaneous
+#+NAME: non-breaking-space
+#+begin_src yasnippet :tangle org-mode/non-breaking-space
+# -*- mode: snippet -*-
+# name: non-breaking-space
+# key: ;;
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+~$0
+#+end_src
+
+#+NAME: comma-then-non-breaking-space
+#+begin_src yasnippet :tangle org-mode/comma-then-non-breaking-space
+,# -*- mode: snippet -*-
+,# name: non-breaking-space
+,# key: ;,
+,# --
+, ~
+#+end_src
+
+#+NAME: derivative
+#+begin_src yasnippet :tangle org-mode/derivative
+,# -*- mode: snippet -*-
+,# name: derivative
+,# key: ;D_
+,# --
+\mathrm{D}_{$1}~$0
+#+end_src
+
+#+NAME: double-derivative
+#+begin_src yasnippet :tangle org-mode/double-derivative
+,# -*- mode: snippet -*-
+,# name: double-derivative
+,# key: ;DD_
+,# --
+\mathrm{D}^{2}_{$1}~$0
+#+end_src
+
+#+NAME: mixed-derivative
+#+begin_src yasnippet :tangle org-mode/mixed-derivative
+,# -*- mode: snippet -*-
+,# name: mixed-derivative
+,# key: ;D_D_
+,# --
+\mathrm{D}_{$2} \mathrm{D}_{$1}~$0
+#+end_src
+
+#+NAME: differential
+#+begin_src yasnippet :tangle org-mode/differential
+,# -*- mode: snippet -*-
+,# name: differential
+,# key: ;dd
+,# --
+\mathrm{~d} $0
+#+end_src
