@@ -13,7 +13,10 @@
 (require 'yasnippet)
 
 (defvar latex-snippets-dir
-  (expand-file-name "org-mode" (file-name-directory (or load-file-name buffer-file-name)))
+  (expand-file-name "org-mode"
+                    (or (file-name-directory (or load-file-name buffer-file-name))
+                        ;; The Guix installed path
+                        (expand-file-name "latex-snippets" data-directory)))
   "Directory where the LaTeX snippets are stored.")
 
 ;;;###autoload
@@ -29,3 +32,4 @@
 (provide 'latex-snippets)
 
 ;;; latex-snippets.el ends here
+
