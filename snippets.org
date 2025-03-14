@@ -6785,6 +6785,19 @@ $0
 $0
 ,#+end_remark
 #+end_src
+
+#+begin_src yasnippet :tangle org-mode/integral
+# -*- mode: snippet -*-
+# name: integral
+# key: ;intr
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+NAME: $1
+#+ATTR_LATEX: :environment integral
+,#+begin_integral latex
+$0
+,#+end_integral
+#+end_src
 * Miscellaneous
 #+NAME: non-breaking-space
 #+begin_src yasnippet :tangle org-mode/non-breaking-space
